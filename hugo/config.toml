@@ -28,5 +28,3 @@ BookSection = 'AYA-cancer-data-schema'
 
 # Used for 'Last Modified' and 'Edit this page' links.
 BookRepo = 'https://github.com/STRONGAYA/AYA-cancer-data-schema'
-
-customCSS = ["css/custom.css"]
