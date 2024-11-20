@@ -1,6 +1,6 @@
 baseURL = "https://strongaya.github.io/AYA-cancer-data-schema/"
 theme = "hugo-book"
-title = "STRONG AYA Cancer Codebook"
+enableGitInfo = true
 
 [menu]
 [[menu.after]]
