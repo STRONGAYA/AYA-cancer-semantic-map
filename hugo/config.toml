@@ -5,6 +5,11 @@ enableGitInfo = true
 
 [menu]
 [[menu.after]]
+name = ""
+url = ""
+weight = 20
+
+[[menu.after]]
 name = "STRONG AYA website"
 url = "https://strongaya.eu"
 weight = 20
