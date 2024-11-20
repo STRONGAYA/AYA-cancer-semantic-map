@@ -1,0 +1,27 @@
+theme = "hugo-book"
+title = "STRONG AYA Cancer Codebook"
+
+[menu]
+[[menu.after]]
+name = "STRONG AYA website"
+url = "https://strongaya.eu"
+weight = 20
+
+[[menu.after]]
+name = "Github"
+url = "https://github.com/STRONGAYA/AYA-cancer-data-schema"
+weight = 10
+
+[[menu.after]]
+name = "Associated scientific publication (in preparation)"
+url = ""
+weight = 20
+
+[params]
+BookToC = false
+BookFavicon = 'favicon.ico'
+BookLogo = 'STRONG-AYA-web-logo.svg'
+BookSection = 'docs'
+
+# Used for 'Last Modified' and 'Edit this page' links.
+BookRepo = 'https://github.com/STRONGAYA/AYA-cancer-data-schema'
