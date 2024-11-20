@@ -1,7 +1,0 @@
-.menu-bar::before {
-    content: url('/STRONG-AYA-web-logo.svg'); /* Adjust the path to your logo */
-    display: inline-block;
-    width: 50px;
-    height: auto;
-    margin-right: 20px;
-}

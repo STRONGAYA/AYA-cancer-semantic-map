@@ -24,6 +24,7 @@ weight = 20
 BookTheme = 'auto'
 BookToC = false
 BookFavicon = 'favicon.ico'
+BookLogo = 'STRONG-AYA-web-logo.svg'
 BookSection = 'AYA-cancer-data-schema'
 
 # Used for 'Last Modified' and 'Edit this page' links.
