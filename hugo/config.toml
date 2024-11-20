@@ -1,13 +1,9 @@
 baseURL = "https://strongaya.github.io/AYA-cancer-data-schema/"
 theme = "hugo-book"
-title = "STRONG AYA Cancer Codebook"
+title = "STRONG AYA Codebook"
 enableGitInfo = true
 
 [menu]
-[[menu.after]]
-name = ""
-url = ""
-weight = 20
 
 [[menu.after]]
 name = "STRONG AYA website"
@@ -33,3 +29,5 @@ BookSection = 'AYA-cancer-data-schema'
 
 # Used for 'Last Modified' and 'Edit this page' links.
 BookRepo = 'https://github.com/STRONGAYA/AYA-cancer-data-schema'
+
+customCSS = ["css/custom.css"]
