@@ -28,7 +28,7 @@ Object.keys(variableInfo).forEach(variable => {
 
     // Process schema_reconstruction field
     const schemaReconstruction = variableInfo[variable].schema_reconstruction || [];
-    let lastClassDir = null;
+    let classDirs = [];
 
     schemaReconstruction.forEach(reconstruction => {
         if (reconstruction.type === 'class') {
@@ -36,18 +36,20 @@ Object.keys(variableInfo).forEach(variable => {
                 .filter(rec => rec.type === 'class')
                 .map(rec => rec.aesthetic_label);
 
-            const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'codebook', ...classLabels);
+            classLabels.forEach((label, index) => {
+                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'codebook', ...classLabels.slice(0, index + 1));
 
-            // Create the directory if it does not exist
-            if (!fs.existsSync(classDir)) {
-                fs.mkdirSync(classDir, {recursive: true});
-            }
+                // Create the directory if it does not exist
+                if (!fs.existsSync(classDir)) {
+                    fs.mkdirSync(classDir, {recursive: true});
+                }
 
-            // Create the _index.md file in the directory
-            const indexContent = `---  bookCollapseSection: true\nweight: 20\n---\n# ${classLabels[classLabels.length - 1]}\nClass shortcode: ${reconstruction.class}\n`;
-            fs.writeFileSync(path.join(classDir, '_index.md'), indexContent);
+                // Create the _index.md file in the directory
+                const indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\nClass shortcode: ${schemaReconstruction[index].class}\n`;
+                fs.writeFileSync(path.join(classDir, '_index.md'), indexContent);
 
-            lastClassDir = classDir;
+                classDirs.push(classDir);
+            });
         }
     });
 
@@ -60,8 +62,9 @@ Object.keys(variableInfo).forEach(variable => {
         }
     });
 
-    // Write the variable's info to a Markdown file in the directory of the last 'class' reconstruction type
-    if (lastClassDir) {
+    // Write the variable's info to a Markdown file in the last class directory
+    if (classDirs.length > 0) {
+        const lastClassDir = classDirs[classDirs.length - 1];
         const variableFilePath = path.join(lastClassDir, `${variable}.md`);
         fs.writeFileSync(variableFilePath, content);
     }
