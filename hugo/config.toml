@@ -1,5 +1,6 @@
 baseURL = "https://strongaya.github.io/AYA-cancer-data-schema/"
 theme = "hugo-book"
+title = "STRONG AYA Cancer Codebook"
 enableGitInfo = true
 
 [menu]
@@ -19,6 +20,7 @@ url = ""
 weight = 20
 
 [params]
+BookTheme = 'auto'
 BookToC = false
 BookFavicon = 'favicon.ico'
 BookLogo = 'STRONG-AYA-web-logo.svg'
