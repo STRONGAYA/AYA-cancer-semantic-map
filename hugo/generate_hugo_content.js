@@ -34,7 +34,7 @@ Object.keys(variableInfo).forEach(variable => {
                 .filter(rec => rec.type === 'class')
                 .map(rec => rec.aesthetic_label);
 
-            const classDir = path.join(__dirname, 'content', 'docs', 'codebook', ...classLabels);
+            const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'codebook', ...classLabels);
 
             // Create the directory if it does not exist
             if (!fs.existsSync(classDir)) {
