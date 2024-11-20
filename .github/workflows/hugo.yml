@@ -45,8 +45,11 @@ jobs:
         with:
           node-version: '16'
 
+      - name: Change directory to Hugo site
+        run: cd hugo
+
       - name: Generate Hugo content
-        run: node hugo/generate_hugo_content.js
+        run: node generate_hugo_content.js
 
       - name: Build with Hugo
         env:
