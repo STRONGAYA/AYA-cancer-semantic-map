@@ -49,7 +49,7 @@ jobs:
         run: cd hugo
 
       - name: Generate Hugo content
-        run: node generate_hugo_content.js
+        run: node ./generate_hugo_content.js
 
       - name: Build with Hugo
         env:
