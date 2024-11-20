@@ -45,22 +45,22 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Change directory to Hugo site
-        run: cd hugo
-
       - name: Generate Hugo content
-        run: node ./generate_hugo_content.js
+        run: node generate_hugo_content.js
+        working-directory: hugo
 
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        working-directory: hugo
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+        working-directory: hugo
 
   deploy:
     environment:
