@@ -61,15 +61,15 @@ Object.keys(variableInfo).forEach(async (variable) => {
 
     // Fetch the class details
     const classDetails = await getClassDetails(variableData.class, apiKey);
-    content += `**Class shortcode**: ${variableData.class}\n`;
-    content += `**Vocabulary information**:\n`;
-    content += `**Preferred name**: ${classDetails.preferredName}\n`;
-    content += `**Definition**: ${classDetails.definition}\n\n`;
+    content += `## Vocabulary information:\n\n`;
+    content += `    - Class shortcode: ${variableData.class}\n`;
+    content += `    - Preferred name: ${classDetails.preferredName}\n`;
+    content += `    - Definition**: ${classDetails.definition}\n\n`;
 
     // Add value mapping information
     if (variableData.value_mapping) {
         const valueMapping = variableData.value_mapping.terms;
-        content += `**Allowed values**:\n`;
+        content += `## Allowed values**:\n`;
         for (const term in valueMapping) {
             const termDetails = await getClassDetails(valueMapping[term].target_class, apiKey);
             content += `  - ${term.charAt(0).toUpperCase() + term.slice(1)}\n`;

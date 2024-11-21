@@ -6,19 +6,27 @@ enableGitInfo = true
 [menu]
 
 [[menu.after]]
-name = "STRONG AYA website"
+name = ""
+weight = 1
+
+[[menu.after]]
+name = "Quick Links"
+weight = 5
+
+[[menu.after]]
+name = "About STRONG AYA"
 url = "https://strongaya.eu"
-weight = 20
+weight = 10
 
 [[menu.after]]
 name = "Github"
 url = "https://github.com/STRONGAYA/AYA-cancer-data-schema"
-weight = 10
+weight = 20
 
 [[menu.after]]
 name = "Associated scientific publication (in preparation)"
 url = ""
-weight = 20
+weight = 30
 
 [params]
 BookTheme = 'auto'
