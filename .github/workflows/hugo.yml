@@ -47,7 +47,8 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
-        run: npm install fetch
+        run: npm install
+        working-directory: hugo
 
       - name: Generate Hugo content
         run: node generate_hugo_content.js "${{ secrets.BIOPORTAL_API_KEY }}"
