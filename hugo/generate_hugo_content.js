@@ -61,21 +61,21 @@ Object.keys(variableInfo).forEach(async (variable) => {
 
     // Fetch the class details
     const classDetails = await getClassDetails(variableData.class, apiKey);
-    content += `## Vocabulary information:\n\n`;
-    content += `    - Class shortcode: ${variableData.class}\n`;
-    content += `    - Preferred name: ${classDetails.preferredName}\n`;
-    content += `    - Definition**: ${classDetails.definition}\n\n`;
+    content += `## Vocabulary information:\n`;
+    content += `    - Class shortcode:\n       - ${variableData.class}\n`;
+    content += `    - Preferred name:\n       - ${classDetails.preferredName}\n`;
+    content += `    - Definition:\n       - ${classDetails.definition}\n\n`;
 
     // Add value mapping information
     if (variableData.value_mapping) {
         const valueMapping = variableData.value_mapping.terms;
-        content += `## Allowed values**:\n`;
+        content += `## Allowed values:\n`;
         for (const term in valueMapping) {
             const termDetails = await getClassDetails(valueMapping[term].target_class, apiKey);
             content += `  - ${term.charAt(0).toUpperCase() + term.slice(1)}\n`;
-            content += `    - Class: ${valueMapping[term].target_class}\n`;
-            content += `    - Preferred name: ${termDetails.preferredName}\n`;
-            content += `    - Definition: ${termDetails.definition}\n`;
+            content += `    - Class shortcode:\n       - ${valueMapping[term].target_class}\n`;
+            content += `    - Preferred name:\n       - ${termDetails.preferredName}\n`;
+            content += `    - Definition:\n       - ${termDetails.definition}\n`;
         }
     }
 
@@ -101,7 +101,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 const classDetails = await getClassDetails(reconstruction.class, apiKey);
 
                 // Create the _index.md file in the directory
-                const indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\nClass shortcode: ${reconstruction.class}\nPreferred name: ${classDetails.preferredName}\nDefinition: ${classDetails.definition}\n`;
+                const indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n ## Vocabulary information:\n    - Class shortcode:\n       - ${reconstruction.class}\n    - Preferred name:\n       - ${classDetails.preferredName}\n    - Definition:\n       - ${classDetails.definition}\n`;
                 fs.writeFileSync(path.join(classDir, '_index.md'), indexContent);
 
                 classDirs.push(classDir);
