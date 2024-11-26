@@ -11,7 +11,7 @@ if (!apiKey) {
 const uppercaseFolders = ['EORTC', 'HADS'];
 
 // Load the JSON data
-const data = require('../strong_aya_test_schema.json');
+const data = require('../AYA_cancer_schema.json');
 
 const variableInfo = data.variable_info;
 
