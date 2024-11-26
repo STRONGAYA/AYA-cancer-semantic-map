@@ -72,7 +72,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
 
     // Fetch the class details
     const classDetails = await getClassDetails(variableData.class, apiKey);
-    content += `The concept we in STRONG AYA refer to as "_${variable}_" is identifiable through shortcode *${variableData.class}*.\n`;
+    content += `The concept we in STRONG AYA refer to as "_${variable}_" is identifiable through shortcode *${variableData.class}*.  \n`;
 
     if (classDetails.preferredName === 'No preferred name available' && classDetails.definition === 'No definition available') {
         content += `This shortcode is custom and does not appear in standard vocabularies.\n\n`;
@@ -90,7 +90,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
         for (const term in valueMapping) {
             const termDetails = await getClassDetails(valueMapping[term].target_class, apiKey);
             content += `The value we in STRONG AYA refer to as "_${term.charAt(0) + term.slice(1)}_" `;
-            content += `is identifiable through shortcode *${valueMapping[term].target_class}*.\n`;
+            content += `is identifiable through shortcode *${valueMapping[term].target_class}*.  \n`;
             if (termDetails.preferredName === 'No preferred name available' && termDetails.definition === 'No definition available') {
                 content += `This shortcode is custom and does not appear in standard vocabularies.\n\n`;
             } else {
@@ -125,7 +125,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 const classDetails = await getClassDetails(reconstruction.class, apiKey);
 
                 // Create the _index.md file in the directory
-                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*\n and is used to cluster various concepts which are an attribute of _${label}_. `;
+                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*\n and is used to cluster various concepts which are an attribute of _${label}_.  \n`;
                 if (classDetails.preferredName === 'No preferred name available' && classDetails.definition === 'No definition available') {
                     indexContent += `This shortcode is custom and does not appear in standard vocabularies.\n`;
                 } else {
@@ -142,7 +142,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
     await Promise.all(schemaReconstruction.map(async (reconstruction) => {
         if (reconstruction.type === 'node') {
             content += `## ${variable} unit\n\n`;
-            content += `In STRONG AYA, "_${variable}_" is recorded in "*${reconstruction.aesthetic_label}*" and this is associated with shortcode *${reconstruction.class}*.\n`;
+            content += `In STRONG AYA, "_${variable}_" is recorded in "*${reconstruction.aesthetic_label}*" and this is associated with shortcode *${reconstruction.class}*.  \n`;
 
             // Fetch the class details
             const nodeClassDetails = await getClassDetails(reconstruction.class, apiKey);

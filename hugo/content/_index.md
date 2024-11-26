@@ -17,10 +17,10 @@ THE STRONG AYA knowledge graphs are separated into three main -non-exhaustive- g
         That is for example, a patient reported outcome measure, doctor reported outcome measure, et cetera)_.
 
 #### Data graph
-![STRONG AYA Data Graph](static/STRONG-AYA-Data-Graph.svg)
+![STRONG AYA Data Graph](../static/STRONG-AYA-Data-Graph.svg)
 
 #### Measurement instrument graph
-![STRONG AYA Measurement Instrument Graph](static/STRONG-AYA-EORTC-QLQ-AYA-Graph.svg.svg)
+![STRONG AYA Measurement Instrument Graph](../static/STRONG-AYA-EORTC-QLQ-AYA-Graph.svg)
 
 #### Instrument graph
-![STRONG AYA Instrument Graph](static/STRONG-AYA-Instrument-Graph.svg)
+![STRONG AYA Instrument Graph](../static/STRONG-AYA-Instrument-Graph.svg)
