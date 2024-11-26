@@ -1,0 +1,757 @@
+{
+  "endpoint": "http://localhost:7200/repositories/userRepo/statements",
+  "database_name": null,
+  "variable_info": {
+    "romantic_partner": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C119265",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "mesh:D000091569",
+          "class_label": "sociodemographicClass",
+          "aesthetic_label": "Sociodemographic_info"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "children": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C42709",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "mesh:D000091569",
+          "class_label": "sociodemographicClass",
+          "aesthetic_label": "Sociodemographic_info"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "age_at_diagnosis": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C156420",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "mesh:D000091569",
+          "class_label": "sociodemographicClass",
+          "aesthetic_label": "Sociodemographic_info"
+        },
+        {
+          "type": "node",
+          "predicate": "roo:P100027",
+          "class": "ncit:C29848",
+          "node_label": "years",
+          "aesthetic_label": "Years"
+        }
+      ]
+    },
+    "tumour_type": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C3263",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "roo:P100029",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        }
+      ]
+    },
+    "tnm_stage": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C157232",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "roo:P100029",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        }
+      ]
+    },
+    "chemotherapy": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C15632",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "radiotherapy": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C15313",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "surgery": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C15329",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "hormone_therapy": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C15445",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "targeted_therapy": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C93352",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "stem_cell_therapy": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C165194",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "clinicalClass",
+          "aesthetic_label": "Clinical_info"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "drom_survival_prognosis": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:survival_prognosis",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:doctor_reported_outcome",
+          "class_label": "DROMClass",
+          "aesthetic_label": "DROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "poor": {
+            "local_term": null,
+            "target_class": "ncit:C77959"
+          },
+          "good": {
+            "local_term": null,
+            "target_class": "ncit:C64975"
+          }
+        }
+      }
+    },
+    "drom_cancer_progression": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:cancer_progression",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:doctor_reported_outcome",
+          "class_label": "DROMClass",
+          "aesthetic_label": "DROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "drom_fertility_preservation_treatment": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:fertility_preservation_treatment",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:doctor_reported_outcome",
+          "class_label": "DROMClass",
+          "aesthetic_label": "DROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "mental_health_support_access": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:mental_health_support_access",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C95401",
+          "class_label": "PROMClass",
+          "aesthetic_label": "PROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:mental_health_support",
+          "class_label": "mental_healthcareClass",
+          "aesthetic_label": "Mental Healthcare"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "clinical_trial_access": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:clinical_trial_access",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C95401",
+          "class_label": "PROMClass",
+          "aesthetic_label": "PROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C71104",
+          "class_label": "clinicaltrialClass",
+          "aesthetic_label": "Clinical Trial"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "clinical_trial_participation": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:clinical_trial_participation",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C95401",
+          "class_label": "PROMClass",
+          "aesthetic_label": "PROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C71104",
+          "class_label": "clinicaltrialClass",
+          "aesthetic_label": "Clinical Trial"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          }
+        }
+      }
+    },
+    "survivorship_support_have_got_info": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:survivorship_have_got_info",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C95401",
+          "class_label": "PROMClass",
+          "aesthetic_label": "PROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:survivorship_support",
+          "class_label": "survivorsupportClass",
+          "aesthetic_label": "Survivorship Support"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "not_at_all": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "a_little_bit": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "somewhat": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "quite_a_bit": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "very_much": {
+            "local_term": null,
+            "target_class": "TODO"
+          }
+        }
+      }
+    },
+    "survivorship_support_able_to_find_info": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:survivorship_able_to_find_info",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C95401",
+          "class_label": "PROMClass",
+          "aesthetic_label": "PROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:survivorship_support",
+          "class_label": "survivorsupportClass",
+          "aesthetic_label": "Survivorship Support"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "not_at_all": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "a_little_bit": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "somewhat": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "quite_a_bit": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "very_much": {
+            "local_term": null,
+            "target_class": "TODO"
+          }
+        }
+      }
+    },
+    "survivorship_support_rate_received_info": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:survivorship_able_to_find_info",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C95401",
+          "class_label": "PROMClass",
+          "aesthetic_label": "PROMs"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C91102",
+          "class_label": "bespokeClass",
+          "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "strongaya:survivorship_support",
+          "class_label": "survivorsupportClass",
+          "aesthetic_label": "Survivorship Support"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "poor": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "fair": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "good": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "very_good": {
+            "local_term": null,
+            "target_class": "TODO"
+          },
+          "excellent": {
+            "local_term": null,
+            "target_class": "TODO"
+          }
+        }
+      }
+    }
+  }
+}

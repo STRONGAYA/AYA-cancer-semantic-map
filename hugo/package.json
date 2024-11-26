@@ -1,0 +1,12 @@
+{
+  "name": "hugo-content-generator",
+  "version": "1.0.0",
+  "description": "A script to generate Hugo content",
+  "main": "generate_hugo_content.js",
+  "scripts": {
+    "start": "node generate_hugo_content.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
