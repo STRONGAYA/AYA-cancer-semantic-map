@@ -11,11 +11,6 @@ unsafe = true
 startLevel = 1
 
 [menu]
-
-[[menu.after]]
-name = " "
-weight = 0
-
 [[menu.after]]
 name = "About STRONG AYA"
 url = "https://strongaya.eu"
@@ -25,11 +20,6 @@ weight = 10
 name = "STRONG AYA GitHub"
 url = "https://github.com/STRONGAYA"
 weight = 20
-
-[[menu.after]]
-name = "STRONG AYA Codebook GitHub"
-url = "https://github.com/STRONGAYA/AYA-cancer-data-schema"
-weight = 30
 
 [[menu.after]]
 name = "Associated scientific publication (in preparation)"
