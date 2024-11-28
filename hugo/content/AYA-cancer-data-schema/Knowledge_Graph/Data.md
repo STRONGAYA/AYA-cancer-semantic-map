@@ -1,5 +1,5 @@
 ---
-title: "STRONG AYA Data Graph"
+title: "Data Graph"
 ---
 
 # Data Graph

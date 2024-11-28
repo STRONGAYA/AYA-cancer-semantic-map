@@ -1,5 +1,5 @@
 ---
-title: "STRONG AYA Instrument Graph"
+title: "Instrument Graph"
 ---
 
 # Instrument Graph

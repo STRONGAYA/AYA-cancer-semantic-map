@@ -1,5 +1,7 @@
 ---
-title: "STRONG AYA Semantic Mapping"
+weight: 2
+title: "Semantic Mapping"
+bookFlatSection: true
 ---
 
 # The STRONG AYA Semantic Mapping

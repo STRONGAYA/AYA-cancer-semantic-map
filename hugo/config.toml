@@ -2,6 +2,7 @@ baseURL = "https://strongaya.github.io/AYA-cancer-data-schema/"
 theme = "hugo-book"
 title = "STRONG AYA Knowledge Representation"
 enableGitInfo = true
+disablePathToLower = true
 
 [markup]
 [markup.goldmark.renderer]

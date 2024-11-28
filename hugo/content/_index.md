@@ -17,10 +17,10 @@ data to be changed.
 This resource is organised into two different segments that are closely intertwined,
 and each provide a crucial aspect of the knowledge representation in STRONG AYA.
 
-- **[The STRONG AYA Knowledge Graph](./aya-cancer-data-schema/Knowledge Graph/_index.md)**: This segment provides an
+- **[The STRONG AYA Knowledge Graph](./aya-cancer-data-schema/knowledge_graph/_index.md)**: This segment provides an
   overview of the STRONG AYA Knowledge Graph, which is used to organise and represent the complex relationships between
   different concepts, measurement instruments, and data collected in the STRONG AYA project.
-- **[The STRONG AYA Semantic Mapping](./aya-cancer-data-schema/_index.md)**: This segment provides detailed information
+- **[The STRONG AYA Semantic Mapping](./aya-cancer-data-schema/semantic_mapping/_index.md)**: This segment provides detailed information
   about various concepts and their mappings within the STRONG AYA infrastructure.
 
 ## Other resources
