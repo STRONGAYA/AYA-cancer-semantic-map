@@ -114,7 +114,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 if (uppercaseFolders.some(str => dirName.includes(str))) {
                     dirName = dirName.toUpperCase();
                 }
-                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'codebook', ...classLabels.slice(0, index).concat(dirName));
+                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
 
                 // Create the directory if it does not exist
                 if (!fs.existsSync(classDir)) {

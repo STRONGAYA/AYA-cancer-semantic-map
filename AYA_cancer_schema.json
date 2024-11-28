@@ -132,7 +132,7 @@
         }
       }
     },
-    "occupational_status_education_active": {
+    "os_education_active": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -162,7 +162,7 @@
         }
       }
     },
-    "occupational_status_education_break": {
+    "os_education_break": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -192,7 +192,7 @@
         }
       }
     },
-    "occupational_status_internship_paid": {
+    "os_internship_paid": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -222,7 +222,7 @@
         }
       }
     },
-    "occupational_status_internship_unpaid": {
+    "os_internship_unpaid": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -252,7 +252,7 @@
         }
       }
     },
-    "occupational_status_working_full_time": {
+    "os_working_full_time": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -282,7 +282,7 @@
         }
       }
     },
-    "occupational_status_working_part_time": {
+    "os_working_part_time": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -312,7 +312,7 @@
         }
       }
     },
-    "occupational_status_working_self_employed": {
+    "os_working_self_employed": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -342,7 +342,7 @@
         }
       }
     },
-    "occupational_status_working_zero_hour": {
+    "os_working_zero_hour": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -372,7 +372,7 @@
         }
       }
     },
-    "occupational_status_working_full_parental_leave": {
+    "os_working_full_parental_leave": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -402,7 +402,7 @@
         }
       }
     },
-    "occupational_status_working_partial_parental_leave": {
+    "os_working_partial_parental_leave": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -432,7 +432,7 @@
         }
       }
     },
-    "occupational_status_unemployed": {
+    "os_unemployed": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -462,7 +462,7 @@
         }
       }
     },
-    "occupational_status_unemployed_registered": {
+    "os_unemployed_registered": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -492,7 +492,7 @@
         }
       }
     },
-    "occupational_status_unemployed_unregistered": {
+    "os_unemployed_unregistered": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -522,7 +522,7 @@
         }
       }
     },
-    "occupational_status_unemployed_not_seeking": {
+    "os_unemployed_not_seeking": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -552,7 +552,7 @@
         }
       }
     },
-    "occupational_status_unable_to_work": {
+    "os_unable_to_work": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -582,7 +582,7 @@
         }
       }
     },
-    "occupational_status_voluntary_work": {
+    "os_voluntary_work": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -612,7 +612,7 @@
         }
       }
     },
-    "occupational_status_other": {
+    "os_other": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,
@@ -642,7 +642,7 @@
         }
       }
     },
-    "occupational_status_prefer_not_to_say": {
+    "os_prefer_not_to_say": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
       "local_definition": null,

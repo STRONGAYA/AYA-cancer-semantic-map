@@ -1,30 +1,34 @@
-This will be the landing page of the STRONG AYA knowledge representation and codebook.
-The page will include
+---
+title: "STRONG AYA Knowledge Representation"
+---
 
-- A brief description of this knowledge representation and its purpose
-- Explanation of semantic mapping
-- Relation with the knowledge graph
+# The STRONG AYA Knowledge Representation
 
-### Knowledge graph
+Welcome to the STRONG AYA Knowledge Representation.
+This resource is intended to provide an overview of the knowledge representation used in the STRONG AYA project.  
+The knowledge representation is based on the [Resource Description Framework (RDF)](https://www.w3.org/RDF/),
+which is a standard model for data interchange.  
+RDF has features that facilitate data interoperability even if the underlying schemas differ,
+and it specifically supports the evolution of schemas over time without requiring all the
+data to be changed.
 
-The STRONG AYA knowledge graphs are separated into three main -non-exhaustive- graphs for clarity, consisting of:
+## How to explore this resource
 
-- a data graph
-    - _representing a graph of all the different concepts collected for STRONG AYA_.
-- a measurement instrument graph
-    - _representing a graph for the different measurement instruments used for STRONG AYA.   
-      In this case, exemplified through the EORTC QLQ-AYA_.
-- an instrument graph
-    - _representing a graph for the different instruments used for STRONG AYA.  
-      That is for example, a patient reported outcome measure, doctor reported outcome measure, et cetera)_.
+This resource is organised into two different segments that are closely intertwined,
+and each provide a crucial aspect of the knowledge representation in STRONG AYA.
 
-#### Data graph
-![STRONG AYA Data Graph](/AYA-cancer-data-schema/STRONG-AYA-Data-Graph.svg)
+- **[The STRONG AYA Knowledge Graph](./aya-cancer-data-schema/Knowledge Graph/_index.md)**: This segment provides an
+  overview of the STRONG AYA Knowledge Graph, which is used to organise and represent the complex relationships between
+  different concepts, measurement instruments, and data collected in the STRONG AYA project.
+- **[The STRONG AYA Semantic Mapping](./aya-cancer-data-schema/_index.md)**: This segment provides detailed information
+  about various concepts and their mappings within the STRONG AYA infrastructure.
 
-#### Measurement instrument graph
+## Other resources
 
-![STRONG AYA Measurement Instrument Graph](/AYA-cancer-data-schema/STRONG-AYA-EORTC-QLQ-AYA-Graph.svg)
+To learn more about STRONG AYA, please visit the [STRONG AYA website](https://strongaya.eu/).  
+To gain insight in our various open-source repositories -including our repository on this AYA cancer schema,
+please visit the [STRONG AYA GitHub](https://github.com/STRONGAYA).  
+For more context and detail about the knowledge representation, please have a look at the associated scientific
+publication (currently in preparation).
 
-#### Instrument graph
-
-![STRONG AYA Instrument Graph](/AYA-cancer-data-schema/STRONG-AYA-Instrument-Graph.svg)
+![STRONG AYA logo](/AYA-cancer-data-schema/STRONG-AYA-web-logo.svg)
