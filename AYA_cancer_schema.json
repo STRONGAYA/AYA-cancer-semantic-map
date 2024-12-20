@@ -674,7 +674,7 @@
     },
     "romantic_partnership_status": {
       "predicate": "sio:SIO_000008",
-      "class": "ncit:C119265",
+      "class": "GSSO:GSSO_004690",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -689,31 +689,31 @@
         "terms": {
           "single": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "GSSO:GSSO_007823"
           },
           "in_relationship": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "GSSO:GSSO_005488"
           },
           "married": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C51773"
           },
           "civil_partner_by_law": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "GSSO:GSSO_005491"
           },
           "divorced": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C51776"
           },
           "widowed": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C51775"
           },
           "other": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C17649"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -1418,17 +1418,17 @@
       ],
       "value_mapping": {
         "terms": {
-          "none": {
+          "no": {
             "local_term": null,
-            "target_class": "todo"
+            "target_class": "ncit:C49487"
           },
-          "localised": {
+          "yes_localised": {
             "local_term": null,
-            "target_class": "todo"
+            "target_class": "ncit:C190685"
           },
-          "metastatic": {
+          "yes_metastatic": {
             "local_term": null,
-            "target_class": "todo"
+            "target_class": "ncit:C106388"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -1525,7 +1525,7 @@
         },
         {
           "type": "class",
-          "predicate": "TODO",
+          "predicate": "sio:SIO_000235",
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
@@ -1561,7 +1561,7 @@
         },
         {
           "type": "class",
-          "predicate": "TODO",
+          "predicate": "sio:SIO_000235",
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
@@ -1569,17 +1569,21 @@
       ],
       "value_mapping": {
         "terms": {
+          "x": {
+            "local_term": null,
+            "target_class": "ncit:C48737"
+          },
           "0": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48719"
           },
           "1": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48720"
           },
           "2": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48724"
           },
           "3": {
             "local_term": null,
@@ -1610,7 +1614,7 @@
         },
         {
           "type": "class",
-          "predicate": "TODO",
+          "predicate": "sio:SIO_000235",
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
@@ -1618,25 +1622,25 @@
       ],
       "value_mapping": {
         "terms": {
+          "x": {
+            "local_term": null,
+            "target_class": "ncit:C48718"
+          },
           "0": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48705"
           },
           "1": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48706"
           },
           "2": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48786"
           },
           "3": {
             "local_term": null,
-            "target_class": "ncit:C48728"
-          },
-          "4": {
-            "local_term": null,
-            "target_class": "ncit:C48732"
+            "target_class": "ncit:C48714"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -1659,7 +1663,7 @@
         },
         {
           "type": "class",
-          "predicate": "TODO",
+          "predicate": "sio:SIO_000235",
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
@@ -1669,11 +1673,11 @@
         "terms": {
           "0": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48699"
           },
           "1": {
             "local_term": null,
-            "target_class": "ncit:TODO"
+            "target_class": "ncit:C48700"
           },
           "missing_or_unspecified": {
             "local_term": null,
