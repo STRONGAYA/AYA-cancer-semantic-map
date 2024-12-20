@@ -961,7 +961,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -998,7 +998,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1035,7 +1035,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1072,7 +1072,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1109,7 +1109,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1146,7 +1146,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1183,7 +1183,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1220,7 +1220,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1257,7 +1257,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1298,7 +1298,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1339,7 +1339,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1376,7 +1376,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1413,7 +1413,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1454,7 +1454,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
@@ -1491,7 +1491,7 @@
           "predicate": "sio:SIO_000008",
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
-          "aesthetic_label": "Charlson_Comorbidity_Index"
+          "aesthetic_label": "Comorbidity_Index"
         }
       ],
       "value_mapping": {
