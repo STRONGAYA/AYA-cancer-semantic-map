@@ -1,7 +1,6 @@
 ---
 weight: 1
 title: "Knowledge Graph"
-bookFlatSection: true
 ---
 
 # The STRONG AYA Knowledge Graph

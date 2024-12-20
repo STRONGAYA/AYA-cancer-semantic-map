@@ -26,7 +26,7 @@
     },
     "gender": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C158277",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -41,23 +41,23 @@
         "terms": {
           "male": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C46109"
           },
           "female": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C46110"
           },
           "transgender": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C154421"
           },
           "non-binary": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C160941"
           },
           "other": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C154420"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -68,7 +68,7 @@
     },
     "ethnicity": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C16564",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -83,47 +83,47 @@
         "terms": {
           "african": {
             "local_term": null,
-            "target_class": "strongaya:african"
+            "target_class": "ncit:C42331"
           },
           "arab": {
             "local_term": null,
-            "target_class": "strongaya:arab"
+            "target_class": "ncit:C43876"
           },
           "asian": {
             "local_term": null,
-            "target_class": "strongaya:asian"
+            "target_class": "ncit:C41260"
           },
           "black": {
             "local_term": null,
-            "target_class": "strongaya:black"
+            "target_class": "ncit:C16352"
           },
           "black_or_caribbean_other": {
             "local_term": null,
-            "target_class": "strongaya:black_americas"
+            "target_class": "TODO"
           },
           "caribbean": {
             "local_term": null,
-            "target_class": "strongaya:black_americas"
+            "target_class": "ncit:C77810"
           },
           "mixed_race": {
             "local_term": null,
-            "target_class": "strongaya:mixed"
+            "target_class": "ncit:C67109"
           },
           "roma_or_nomadic": {
             "local_term": null,
-            "target_class": "strongaya:roma_nomadic"
+            "target_class": "strongaya:roma_or_nomadic"
           },
           "white": {
             "local_term": null,
-            "target_class": "strongaya:white"
+            "target_class": "ncit:C41261"
           },
           "other": {
             "local_term": null,
-            "target_class": "strongaya:ethnicity_other"
+            "target_class": "ncit:C104495"
           },
           "prefer_not_to_say": {
             "local_term": null,
-            "target_class": "strongaya:prefer_not_to_say"
+            "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -134,7 +134,7 @@
     },
     "os_education_active": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:education_active",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -164,7 +164,7 @@
     },
     "os_education_break": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:education_break",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -194,7 +194,7 @@
     },
     "os_internship_paid": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:internship_paid",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -224,7 +224,7 @@
     },
     "os_internship_unpaid": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:internship_unpaid",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -254,7 +254,7 @@
     },
     "os_working_full_time": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C52658",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -284,7 +284,7 @@
     },
     "os_working_part_time": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C75562",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -314,7 +314,7 @@
     },
     "os_working_self_employed": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C116000",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -344,7 +344,7 @@
     },
     "os_working_zero_hour": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:working_zero_hour",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -374,7 +374,7 @@
     },
     "os_working_full_parental_leave": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:full_parental_leave",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -404,7 +404,7 @@
     },
     "os_working_partial_parental_leave": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:partial_parental_leave",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -434,7 +434,7 @@
     },
     "os_unemployed": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C75563",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -464,7 +464,7 @@
     },
     "os_unemployed_registered": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:unemployed_registered",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -494,7 +494,7 @@
     },
     "os_unemployed_unregistered": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:unemployed_unregistered",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -524,7 +524,7 @@
     },
     "os_unemployed_not_seeking": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:unemployed_not_seeking",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -554,7 +554,7 @@
     },
     "os_unable_to_work": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:unable_to_work",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -584,7 +584,7 @@
     },
     "os_voluntary_work": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C171228",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -614,7 +614,7 @@
     },
     "os_other": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:occupation_other",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -644,7 +644,7 @@
     },
     "os_prefer_not_to_say": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:occupation_prefer_not_to_say",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -724,7 +724,7 @@
     },
     "identify_disabled": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:identify_disabled",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -747,7 +747,7 @@
           },
           "prefer_not_to_say": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -758,7 +758,7 @@
     },
     "registered_disabled": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "sct:161048004",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -781,41 +781,11 @@
           },
           "not_known": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C67142"
           },
           "prefer_not_to_say": {
             "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "children": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C42709",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -839,17 +809,41 @@
       ],
       "value_mapping": {
         "terms": {
-          "primary": {
+          "ISCED-0": {
             "local_term": null,
-            "target_class": "strongaya:education_primary"
+            "target_class": "strongaya:isced_0"
           },
-          "secondary": {
+          "ISCED-1": {
             "local_term": null,
-            "target_class": "strongaya:education_secondary"
+            "target_class": "strongaya:isced_1"
           },
-          "tertiary": {
+          "ISCED-2": {
             "local_term": null,
-            "target_class": "strongaya:education_tertiary"
+            "target_class": "strongaya:isced_2"
+          },
+          "ISCED-3": {
+            "local_term": null,
+            "target_class": "strongaya:isced_3"
+          },
+          "ISCED-4": {
+            "local_term": null,
+            "target_class": "strongaya:isced_4"
+          },
+          "ISCED-5": {
+            "local_term": null,
+            "target_class": "strongaya:isced_5"
+          },
+          "ISCED-6": {
+            "local_term": null,
+            "target_class": "strongaya:isced_6"
+          },
+          "ISCED-7": {
+            "local_term": null,
+            "target_class": "strongaya:isced_7"
+          },
+          "ISCED-8": {
+            "local_term": null,
+            "target_class": "strongaya:isced_8"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -872,7 +866,36 @@
         },
         {
           "type": "node",
-          "predicate": "TODO",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C29848",
+          "node_label": "years",
+          "aesthetic_label": "Years"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "year_of_initial_diagnosis": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C164339",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000221",
           "class": "ncit:C29848",
           "node_label": "years",
           "aesthetic_label": "Years"
@@ -915,15 +938,15 @@
             "target_class": "ncit:C45908"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
       }
     },
-    "comorbidity": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C16457",
+    "comorb_mi": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106375",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -932,11 +955,564 @@
           "class": "ncit:C326200",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
         }
-      ]
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_chf": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C3080",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_pad": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106377",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_cva_tia": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106378",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_dementia": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106389",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_lung": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106380",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_ctd": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106390",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_pud": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106386",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_liver": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C113609",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes_mild": {
+            "local_term": null,
+            "target_class": "ncit:C106384"
+          },
+          "yes_moderate_to_severe": {
+            "local_term": null,
+            "target_class": "ncit:C106385"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_dm": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C2985",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no_or_diet_controlled": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes_uncomplicated": {
+            "local_term": null,
+            "target_class": "ncit:C106381"
+          },
+          "yes_end_organ_damage": {
+            "local_term": null,
+            "target_class": "ncit:C106382"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_hemiplegia": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106379",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_kidney": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106383",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_solid_tumour": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C9292",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "none": {
+            "local_term": null,
+            "target_class": "todo"
+          },
+          "localised": {
+            "local_term": null,
+            "target_class": "todo"
+          },
+          "metastatic": {
+            "local_term": null,
+            "target_class": "todo"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_leukemia": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C3161",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "comorb_aids": {
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C106391",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C326200",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "ncit:C106374",
+          "class_label": "charlsonClass",
+          "aesthetic_label": "Charlson_Comorbidity_Index"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
     },
     "tumour_type": {
-      "predicate": "sio:SIO_000008",
+      "predicate": "sio:SIO_000059",
       "class": "ncit:C3263",
       "local_definition": null,
       "schema_reconstruction": [
@@ -953,6 +1529,13 @@
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C185253",
+          "node_label": "icd10codes",
+          "aesthetic_label": "ICD"
         }
       ],
       "value_mapping": {
@@ -966,7 +1549,7 @@
     },
     "t_stage": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C25728",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -1015,7 +1598,7 @@
     },
     "n_stage": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C25580",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -1064,7 +1647,7 @@
     },
     "m_stage": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C25727",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -1092,18 +1675,6 @@
             "local_term": null,
             "target_class": "ncit:TODO"
           },
-          "2": {
-            "local_term": null,
-            "target_class": "ncit:TODO"
-          },
-          "3": {
-            "local_term": null,
-            "target_class": "ncit:C48728"
-          },
-          "4": {
-            "local_term": null,
-            "target_class": "ncit:C48732"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -1126,7 +1697,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C12345678906",
+          "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
         }
@@ -1163,7 +1734,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C12345678906",
+          "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
         }
@@ -1200,7 +1771,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C12345678906",
+          "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
         }
@@ -1237,7 +1808,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C12345678906",
+          "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
         }
@@ -1274,7 +1845,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C12345678906",
+          "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
         }
@@ -1311,7 +1882,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C12345678906",
+          "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
         }
