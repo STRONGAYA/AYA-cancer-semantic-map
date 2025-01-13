@@ -70,7 +70,7 @@
     "ethnicity": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C16564",
-      "local_definition": null,
+      "local_definition": "alg_v7",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -83,19 +83,39 @@
       "value_mapping": {
         "terms": {
           "african": {
-            "local_term": null,
+            "local_term": "14",
             "target_class": "ncit:C42331"
           },
           "arab": {
-            "local_term": null,
+            "local_term": "13",
             "target_class": "ncit:C43876"
           },
-          "asian": {
-            "local_term": null,
+          "arab_moroccan": {
+            "local_term": "11",
+            "target_class": "ncit:C43876"
+          },
+          "asian_india": {
+            "local_term": "6",
+            "target_class": "ncit:C41260"
+          },
+          "asian_pakistani": {
+            "local_term": "7",
+            "target_class": "ncit:C41260"
+          },
+          "asian_bangladeshi": {
+            "local_term": "8",
+            "target_class": "ncit:C41260"
+          },
+          "asian_chinese": {
+            "local_term": "9",
+            "target_class": "ncit:C41260"
+          },
+          "asian_japanese": {
+            "local_term": "10",
             "target_class": "ncit:C41260"
           },
           "black": {
-            "local_term": null,
+            "local_term": "12",
             "target_class": "ncit:C16352"
           },
           "black_or_caribbean_other": {
@@ -103,7 +123,11 @@
             "target_class": "TODO"
           },
           "caribbean": {
-            "local_term": null,
+            "local_term": "3",
+            "target_class": "ncit:C77810"
+          },
+          "caribbean_surinamese": {
+            "local_term": "5",
             "target_class": "ncit:C77810"
           },
           "mixed_race": {
@@ -115,11 +139,19 @@
             "target_class": "strongaya:roma_or_nomadic"
           },
           "white": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C41261"
           },
           "other": {
-            "local_term": null,
+            "local_term": "15",
+            "target_class": "ncit:C104495"
+          },
+          "other_latinx": {
+            "local_term": "2",
+            "target_class": "ncit:C104495"
+          },
+          "other_turkish": {
+            "local_term": "4",
             "target_class": "ncit:C104495"
           },
           "prefer_not_to_say": {
@@ -127,7 +159,7 @@
             "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -676,7 +708,7 @@
     "romantic_partnership_status": {
       "predicate": "sio:SIO_000008",
       "class": "gsso:GSSO_004690",
-      "local_definition": null,
+      "local_definition": "alg_v3",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -689,15 +721,15 @@
       "value_mapping": {
         "terms": {
           "single": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "gsso:GSSO_007823"
           },
           "in_relationship": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "gsso:GSSO_005488"
           },
           "married": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C51773"
           },
           "civil_partner_by_law": {
@@ -705,19 +737,19 @@
             "target_class": "gsso:GSSO_005491"
           },
           "divorced": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "ncit:C51776"
           },
           "widowed": {
-            "local_term": null,
+            "local_term": "5",
             "target_class": "ncit:C51775"
           },
           "other": {
-            "local_term": null,
+            "local_term": "6",
             "target_class": "ncit:C17649"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -798,7 +830,7 @@
     "educational_level": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C17953",
-      "local_definition": null,
+      "local_definition": "alg_v5",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -815,15 +847,15 @@
             "target_class": "strongaya:isced_0"
           },
           "ISCED-1": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "strongaya:isced_1"
           },
           "ISCED-2": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "strongaya:isced_2"
           },
           "ISCED-3": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "strongaya:isced_3"
           },
           "ISCED-4": {
@@ -835,11 +867,11 @@
             "target_class": "strongaya:isced_5"
           },
           "ISCED-6": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "strongaya:isced_6"
           },
           "ISCED-7": {
-            "local_term": null,
+            "local_term": "5",
             "target_class": "strongaya:isced_7"
           },
           "ISCED-8": {
@@ -847,7 +879,7 @@
             "target_class": "strongaya:isced_8"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -856,7 +888,7 @@
     "age_at_initial_diagnosis": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C156420",
-      "local_definition": null,
+      "local_definition": "leeft",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -876,7 +908,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -914,7 +946,7 @@
     "biological_sex": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C28421",
-      "local_definition": null,
+      "local_definition": "alg_v1b",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -927,11 +959,11 @@
       "value_mapping": {
         "terms": {
           "male": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C20197"
           },
           "female": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C16576"
           },
           "intersex": {
@@ -939,7 +971,7 @@
             "target_class": "ncit:C45908"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1515,7 +1547,7 @@
     "tumour_type": {
       "predicate": "sio:SIO_000059",
       "class": "ncit:C3263",
-      "local_definition": null,
+      "local_definition": "tumsoort",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1542,7 +1574,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1579,23 +1611,27 @@
             "target_class": "ncit:C48719"
           },
           "1": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C48720"
           },
           "2": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "ncit:C48724"
           },
           "3": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "ncit:C48728"
           },
           "4": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "ncit:C48732"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
+            "target_class": "ncit:C54031"
+          },
+          "missing_or_unspecified_99": {
+            "local_term": "99",
             "target_class": "ncit:C54031"
           }
         }
@@ -1690,7 +1726,7 @@
     "chemotherapy": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C15632",
-      "local_definition": null,
+      "local_definition": "ther_chemo",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1710,15 +1746,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C49488"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1727,7 +1763,7 @@
     "hormone_therapy": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C15445",
-      "local_definition": null,
+      "local_definition": "ther_ht",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1747,15 +1783,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C49488"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1764,7 +1800,7 @@
     "radiotherapy": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C15313",
-      "local_definition": null,
+      "local_definition": "ther_rt",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1784,15 +1820,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C49488"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1801,7 +1837,7 @@
     "stem_cell_therapy": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C165194",
-      "local_definition": null,
+      "local_definition": "ther_sct",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1821,15 +1857,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C49488"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1838,7 +1874,7 @@
     "surgery": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C15329",
-      "local_definition": null,
+      "local_definition": "ther_ch",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1858,15 +1894,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C49488"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1875,7 +1911,7 @@
     "targeted_therapy": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C93352",
-      "local_definition": null,
+      "local_definition": "ther_target",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1895,15 +1931,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "0",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "ncit:C49488"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4224,7 +4260,7 @@
     "eortc_qlq_c30_q1": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q1",
-      "local_definition": null,
+      "local_definition": "surv1",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4244,23 +4280,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4269,7 +4305,7 @@
     "eortc_qlq_c30_q2": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q2",
-      "local_definition": null,
+      "local_definition": "surv2",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4289,23 +4325,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4314,7 +4350,7 @@
     "eortc_qlq_c30_q3": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q3",
-      "local_definition": null,
+      "local_definition": "surv3",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4334,23 +4370,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4359,7 +4395,7 @@
     "eortc_qlq_c30_q4": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q4",
-      "local_definition": null,
+      "local_definition": "surv4",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4379,23 +4415,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4404,7 +4440,7 @@
     "eortc_qlq_c30_q5": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q5",
-      "local_definition": null,
+      "local_definition": "surv5",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4424,23 +4460,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4449,7 +4485,7 @@
     "eortc_qlq_c30_q6": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q6",
-      "local_definition": null,
+      "local_definition": "surv70",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4469,23 +4505,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4494,7 +4530,7 @@
     "eortc_qlq_c30_q7": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q7",
-      "local_definition": null,
+      "local_definition": "surv71",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4514,23 +4550,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4539,7 +4575,7 @@
     "eortc_qlq_c30_q8": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q8",
-      "local_definition": null,
+      "local_definition": "surv38",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4559,23 +4595,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4584,7 +4620,7 @@
     "eortc_qlq_c30_q9": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q9",
-      "local_definition": null,
+      "local_definition": "surv22",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4604,23 +4640,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4629,7 +4665,7 @@
     "eortc_qlq_c30_q10": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q10",
-      "local_definition": null,
+      "local_definition": "surv9",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4649,23 +4685,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4674,7 +4710,7 @@
     "eortc_qlq_c30_q11": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q11",
-      "local_definition": null,
+      "local_definition": "surv17",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4694,23 +4730,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4719,7 +4755,7 @@
     "eortc_qlq_c30_q12": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q12",
-      "local_definition": null,
+      "local_definition": "surv8",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4739,23 +4775,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4764,7 +4800,7 @@
     "eortc_qlq_c30_q13": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q13",
-      "local_definition": null,
+      "local_definition": "surv11",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4784,23 +4820,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4809,7 +4845,7 @@
     "eortc_qlq_c30_q14": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q14",
-      "local_definition": null,
+      "local_definition": "surv12",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4829,23 +4865,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4854,7 +4890,7 @@
     "eortc_qlq_c30_q15": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q15",
-      "local_definition": null,
+      "local_definition": "surv13",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4874,23 +4910,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4899,7 +4935,7 @@
     "eortc_qlq_c30_q16": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q16",
-      "local_definition": null,
+      "local_definition": "surv14",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4919,23 +4955,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4944,7 +4980,7 @@
     "eortc_qlq_c30_q17": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q17",
-      "local_definition": null,
+      "local_definition": "surv15",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -4964,23 +5000,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -4989,7 +5025,7 @@
     "eortc_qlq_c30_q18": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q18",
-      "local_definition": null,
+      "local_definition": "surv7",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5009,23 +5045,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5034,7 +5070,7 @@
     "eortc_qlq_c30_q19": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q19",
-      "local_definition": null,
+      "local_definition": "surv72",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5054,23 +5090,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5079,7 +5115,7 @@
     "eortc_qlq_c30_q20": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q20",
-      "local_definition": null,
+      "local_definition": "surv47",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5099,23 +5135,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5124,7 +5160,7 @@
     "eortc_qlq_c30_q21": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q21",
-      "local_definition": null,
+      "local_definition": "surv53",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5144,23 +5180,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5169,7 +5205,7 @@
     "eortc_qlq_c30_q22": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q22",
-      "local_definition": null,
+      "local_definition": "surv52",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5189,23 +5225,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5214,7 +5250,7 @@
     "eortc_qlq_c30_q23": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q23",
-      "local_definition": null,
+      "local_definition": "surv57",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5234,23 +5270,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5259,7 +5295,7 @@
     "eortc_qlq_c30_q24": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q24",
-      "local_definition": null,
+      "local_definition": "surv54",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5279,23 +5315,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5304,7 +5340,7 @@
     "eortc_qlq_c30_q25": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q25",
-      "local_definition": null,
+      "local_definition": "surv48",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5324,23 +5360,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5349,7 +5385,7 @@
     "eortc_qlq_c30_q26": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q26",
-      "local_definition": null,
+      "local_definition": "surv73",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5369,23 +5405,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5394,7 +5430,7 @@
     "eortc_qlq_c30_q27": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q27",
-      "local_definition": null,
+      "local_definition": "surv74",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5414,23 +5450,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5439,7 +5475,7 @@
     "eortc_qlq_c30_q28": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q28",
-      "local_definition": null,
+      "local_definition": "surv68",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5459,23 +5495,23 @@
       "value_mapping": {
         "terms": {
           "score_1_not_at_all": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3_quite_a_bit": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4_very_much": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5484,7 +5520,7 @@
     "eortc_qlq_c30_q29": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q29",
-      "local_definition": null,
+      "local_definition": "surv120",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5504,35 +5540,35 @@
       "value_mapping": {
         "terms": {
           "score_1_very_poor": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "score_5": {
-            "local_term": null,
+            "local_term": "5",
             "target_class": "TODO"
           },
           "score_6": {
-            "local_term": null,
+            "local_term": "6",
             "target_class": "TODO"
           },
           "score_7_excellent": {
-            "local_term": null,
+            "local_term": "7",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -5541,7 +5577,7 @@
     "eortc_qlq_c30_q30": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:eortc_qlq_c30_q30",
-      "local_definition": null,
+      "local_definition": "surv121",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -5561,35 +5597,35 @@
       "value_mapping": {
         "terms": {
           "score_1_very_poor": {
-            "local_term": null,
+            "local_term": "1",
             "target_class": "TODO"
           },
           "score_2": {
-            "local_term": null,
+            "local_term": "2",
             "target_class": "TODO"
           },
           "score_3": {
-            "local_term": null,
+            "local_term": "3",
             "target_class": "TODO"
           },
           "score_4": {
-            "local_term": null,
+            "local_term": "4",
             "target_class": "TODO"
           },
           "score_5": {
-            "local_term": null,
+            "local_term": "5",
             "target_class": "TODO"
           },
           "score_6": {
-            "local_term": null,
+            "local_term": "6",
             "target_class": "TODO"
           },
           "score_7_excellent": {
-            "local_term": null,
+            "local_term": "7",
             "target_class": "TODO"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
