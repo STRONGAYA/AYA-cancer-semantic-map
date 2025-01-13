@@ -939,7 +939,7 @@
             "target_class": "ncit:C45908"
           },
           "missing_or_unspecified": {
-            "local_term": "",
+            "local_term": null,
             "target_class": "ncit:C54031"
           }
         }
