@@ -1,6 +1,7 @@
 {
   "endpoint": "http://localhost:7200/repositories/userRepo/statements",
   "database_name": null,
+  "prefixes": "PREFIX mesh: <http://id.nlm.nih.gov/mesh/>\nPREFIX sio: <http://semanticscience.org/resource/>\nPREFIX strongaya: <https://strongaya.eu/>\nPREFIX sct: <http://purl.bioontology.org/ontology/SNOMEDCT/>\nPREFIX gsso: <http://purl.obolibrary.org/obo/>\n",
   "variable_info": {
     "annual_income": {
       "predicate": "sio:SIO_000008",
@@ -674,7 +675,7 @@
     },
     "romantic_partnership_status": {
       "predicate": "sio:SIO_000008",
-      "class": "GSSO:GSSO_004690",
+      "class": "gsso:GSSO_004690",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -689,11 +690,11 @@
         "terms": {
           "single": {
             "local_term": null,
-            "target_class": "GSSO:GSSO_007823"
+            "target_class": "gsso:GSSO_007823"
           },
           "in_relationship": {
             "local_term": null,
-            "target_class": "GSSO:GSSO_005488"
+            "target_class": "gsso:GSSO_005488"
           },
           "married": {
             "local_term": null,
@@ -701,7 +702,7 @@
           },
           "civil_partner_by_law": {
             "local_term": null,
-            "target_class": "GSSO:GSSO_005491"
+            "target_class": "gsso:GSSO_005491"
           },
           "divorced": {
             "local_term": null,
