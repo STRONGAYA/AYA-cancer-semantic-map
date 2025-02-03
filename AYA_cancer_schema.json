@@ -4,7 +4,7 @@
   "variable_info": {
     "romantic_partner": {
       "predicate": "sio:SIO_000008",
-      "class": "ncit:C119265",
+      "class": "ncit:C119265000000000000000000000aaaaaaaaaaaaaaaaaa",
       "local_definition": null,
       "schema_reconstruction": [
         {
