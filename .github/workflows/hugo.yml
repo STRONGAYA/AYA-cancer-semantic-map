@@ -4,6 +4,8 @@ on:
   push:
     branches: [ "main", "dev/misc/hugo-codebook" ]
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 */3 *"
 
 permissions:
   contents: read
