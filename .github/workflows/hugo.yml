@@ -26,6 +26,10 @@ jobs:
     env:
       HUGO_VERSION: 0.128.0
 
+    outputs:
+      warnings-found: ${{ steps.generate.outputs.warnings-found }}
+      warnings: ${{ steps.generate.outputs.warnings }}
+
     steps:
       - name: Install Hugo CLI
         run: |
@@ -56,23 +60,19 @@ jobs:
       - name: Generate Hugo content (capture warnings)
         id: generate
         run: |
-          # Run the script and capture its logs
           node generate_hugo_content.js "${{ secrets.BIOPORTAL_API_KEY }}" 2>&1 | tee generate.log
-
-          # Extract any warnings from the logs (lines containing "::warning").
-          # Store them as a multi-line output for use in other jobs/steps.
+          
           WARNINGS=$(grep "::warning" generate.log || true)
 
-          # Save warnings as a multi-line step output
           echo "warnings<<EOF" >> $GITHUB_OUTPUT
           echo "$WARNINGS" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-          # Also set a boolean flag if we found any warnings
           if [ -n "$WARNINGS" ]; then
             echo "warnings-found=true" >> $GITHUB_OUTPUT
           else
             echo "warnings-found=false" >> $GITHUB_OUTPUT
+          fi
         working-directory: hugo
 
       - name: Build with Hugo
@@ -97,27 +97,25 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
 
-create-issue-on-warning:
+  create-issue-on-warning:
     runs-on: ubuntu-latest
     needs: build
-    if: needs.build.outputs['generate.warnings-found'] == 'true'
+    if: needs.build.outputs.warnings-found == 'true'
     steps:
       - name: Create GitHub Issue
         uses: actions/github-script@v6
         with:
           script: |
-            const warnings = process.env['WARNINGS'] || 'No warnings captured.';
+            const warnings = process.env.WARNINGS || 'No warnings captured.';
             
-            // Nicely format the warnings inside a code block
             const bodyContent = `The following warnings were found during the Hugo content generation step:
 
-                                 \`\`\`
-                                 ${warnings}
-                                 \`\`\`
+            \`\`\`
+            ${warnings}
+            \`\`\`
 
-                                  Please check the workflow logs for more details.
-                                `;
-            
+            Please check the workflow logs for more details.`;
+
             await github.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -125,4 +123,4 @@ create-issue-on-warning:
               body: bodyContent
             });
         env:
-          WARNINGS: ${{ needs.build.outputs['generate.warnings'] }}
+          WARNINGS: ${{ needs.build.outputs.warnings }}
