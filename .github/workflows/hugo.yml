@@ -101,10 +101,13 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     if: needs.build.outputs.warnings-found == 'true'
+    permissions:
+      issues: write
     steps:
       - name: Create GitHub Issue
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const warnings = process.env.WARNINGS || 'No warnings captured.';
             
