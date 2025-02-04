@@ -17,8 +17,9 @@ const data = require('../AYA_cancer_schema.json');
 const variableInfo = data.variable_info;
 
 async function getClassDetails(classShortcode, apiKey, retries = 10) {
-    // Prevent unnecessary fetching of class details for classes that are known to not exist; to adapt in code re-use
-    if (classShortcode.includes('TODO', 'strongaya')) {
+    // Prevent unnecessary fetching of class details for classes that are known to not exist
+    const skipShortcodes = ['TODO', 'strongaya'];
+    if (skipShortcodes.some(code => classShortcode.includes(code))) {
         return {
             definition: 'No definition available',
             preferredName: 'No preferred name available'

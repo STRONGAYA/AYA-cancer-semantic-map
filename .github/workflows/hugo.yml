@@ -115,8 +115,8 @@ jobs:
             \`\`\`
 
             Please check the workflow logs for more details.`;
-
-            await github.issues.create({
+            
+            await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: "Attention: Missing Ontology Codes Detected",
