@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 // Get the API key from the command-line arguments
 const apiKey = process.argv[2];
@@ -16,8 +17,9 @@ const data = require('../AYA_cancer_schema.json');
 const variableInfo = data.variable_info;
 
 async function getClassDetails(classShortcode, apiKey, retries = 10) {
-    // Prevent unnecessary fetching of class details for classes that are known to not exist; to adapt in code re-use
-    if (classShortcode.includes('TODO', 'strongaya')) {
+    // Prevent unnecessary fetching of class details for classes that are known to not exist
+    const skipShortcodes = ['TODO', 'strongaya'];
+    if (skipShortcodes.some(code => classShortcode.includes(code))) {
         return {
             definition: 'No definition available',
             preferredName: 'No preferred name available'
@@ -47,6 +49,7 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
                     preferredName: classDetails.prefLabel || 'No preferred name available'
                 };
             } else {
+                console.warn(`::warning:: Whilst trying to fetch class details, the shortcode **${classShortcode}** couldn't be found.`);
                 return {
                     definition: 'No definition available',
                     preferredName: 'No preferred name available'
@@ -55,6 +58,7 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
         } catch (error) {
             if (attempt === retries - 1) {
                 console.error(error);
+                console.warn(`::warning:: Error fetching class details for shortcode **${classShortcode}**: ${error.message}`);
                 return {
                     definition: 'Error fetching definition',
                     preferredName: 'Error fetching preferred name'
