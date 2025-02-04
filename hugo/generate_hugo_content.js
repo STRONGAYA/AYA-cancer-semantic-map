@@ -49,7 +49,7 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
                     preferredName: classDetails.prefLabel || 'No preferred name available'
                 };
             } else {
-                console.warn(`::warning file=generate_hugo_content.js::No results found for shortcode ${classShortcode}`);
+                console.warn(`Whilst trying to fetch class details, the shortcode **${classShortcode}** couldn't be found.`);
                 return {
                     definition: 'No definition available',
                     preferredName: 'No preferred name available'
@@ -58,7 +58,7 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
         } catch (error) {
             if (attempt === retries - 1) {
                 console.error(error);
-                console.warn(`::warning file=generate_hugo_content.js::Error fetching class details for shortcode ${classShortcode}: ${error.message}`);
+                console.warn(`Error fetching class details for shortcode **${classShortcode}**: ${error.message}`);
                 return {
                     definition: 'Error fetching definition',
                     preferredName: 'Error fetching preferred name'
