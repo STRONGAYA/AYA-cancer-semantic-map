@@ -133,9 +133,9 @@
         }
       }
     },
-    "os_education_active": {
+    "occupational": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:education_active",
+      "class": "ncit:C25193",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -148,523 +148,77 @@
       ],
       "value_mapping": {
         "terms": {
-          "no": {
+          "education_active": {
             "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "strongaya:education_active"
           },
-          "yes": {
+          "education_break": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "strongaya:education_break"
           },
-          "missing_or_unspecified": {
+          "intership_paid": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_education_break": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:education_break",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "strongaya:internship_paid"
           },
-          "yes": {
+          "intership_unpaid": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "strongaya:internship_unpaid"
           },
-          "missing_or_unspecified": {
+          "working_full_time": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_internship_paid": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:internship_paid",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C52658"
           },
-          "yes": {
+          "working_part_time": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C75562"
           },
-          "missing_or_unspecified": {
+          "working_self_employed": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_internship_unpaid": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:internship_unpaid",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C116000"
           },
-          "yes": {
+          "working_zero_hour": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "strongaya:working_zero_hour"
           },
-          "missing_or_unspecified": {
+          "working_full_parental_leave": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_working_full_time": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C52658",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "strongaya:full_parental_leave"
           },
-          "yes": {
+          "working_partial_parental_leave": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "strongaya:partial_parental_leave"
           },
-          "missing_or_unspecified": {
+          "unemployed": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_working_part_time": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C75562",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C75563"
           },
-          "yes": {
+          "unemployed_registered": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "strongaya:unemployed_registered"
           },
-          "missing_or_unspecified": {
+          "unemployed_unregistered": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_working_self_employed": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C116000",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "strongaya:unemployed_unregistered"
           },
-          "yes": {
+          "unemployed_not_seeking": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "strongaya:unemployed_not_seeking"
           },
-          "missing_or_unspecified": {
+          "unable_to_work": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_working_zero_hour": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:working_zero_hour",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "strongaya:unable_to_work"
           },
-          "yes": {
+          "voluntary_work": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C171228"
           },
-          "missing_or_unspecified": {
+          "other": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_working_full_parental_leave": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:full_parental_leave",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C17649"
           },
-          "yes": {
+          "prefer_not_to_say": {
             "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_working_partial_parental_leave": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:partial_parental_leave",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_unemployed": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C75563",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_unemployed_registered": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:unemployed_registered",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_unemployed_unregistered": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:unemployed_unregistered",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_unemployed_not_seeking": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:unemployed_not_seeking",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_unable_to_work": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:unable_to_work",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_voluntary_work": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C171228",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_other": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:occupation_other",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "os_prefer_not_to_say": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:occupation_prefer_not_to_say",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -1941,7 +1495,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -1974,15 +1528,15 @@
         "terms": {
           "good": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C64975"
           },
           "poor": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C77959"
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2023,7 +1577,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2064,7 +1618,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2105,11 +1659,11 @@
           },
           "i_do_not_remember": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C67142"
           },
-          "not required": {
+          "not_required": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2118,9 +1672,9 @@
         }
       }
     },
-    "bespoke_q7a_affected_brain": {
+    "bespoke_q7_organ_problem": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q7a",
+      "class": "strongaya:bespoke_q7",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -2140,58 +1694,21 @@
       ],
       "value_mapping": {
         "terms": {
-          "no": {
+          "brain": {
             "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C12439"
           },
-          "yes": {
+          "heart": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C12727"
           },
-          "unable_to_answer": {
+          "breathing": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C12779"
           },
-          "missing_or_unspecified": {
+          "kidneys": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q7b_affected_heart": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q7b",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C12415"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2200,89 +1717,7 @@
         }
       }
     },
-    "bespoke_q7c_affected_breathing": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q7c",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q7d_affected_kidneys": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q7d",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q8a_treated_oestrogen_progesterone": {
+    "bespoke_q8_hormone_treatment": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:bespoke_q8a",
       "local_definition": null,
@@ -2304,222 +1739,29 @@
       ],
       "value_mapping": {
         "terms": {
-          "no": {
+          "oestrogen_progesterone": {
             "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "strongaya:oestrogen_or_progrestone"
           },
-          "yes": {
+          "testosterone": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C2299"
           },
-          "unable_to_answer": {
+          "thyroid_gland": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C12400"
           },
-          "missing_or_unspecified": {
+          "growth_hormone": {
             "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q8b_treated_testosterone": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q8b",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C2288"
           },
-          "yes": {
+          "cortisol": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C2290"
           },
-          "unable_to_answer": {
+          "other": {
             "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q8c_treated_thyroid": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q8c",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q8d_treated_growth_hormone": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q8d",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q8e_treated_cortisol_levels": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q8e",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "bespoke_q8f_treated_other_hormone": {
-      "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q8f",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C91102",
-          "class_label": "bespokeClass",
-          "aesthetic_label": "Bespoke Questions"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
-          "unable_to_answer": {
-            "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C104495"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2560,7 +1802,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2601,7 +1843,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2642,7 +1884,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2653,7 +1895,7 @@
     },
     "bespoke_q86_clinical_trial_participated": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:bespoke_q86",
+      "class": "ncit:C192341",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -2683,7 +1925,7 @@
           },
           "unable_to_answer": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110959"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2716,23 +1958,23 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91214"
           },
           "score_2_somewhat": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91215"
           },
           "score_3_a_lot": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_a_great_deal": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2765,23 +2007,23 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_a_little_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91214"
           },
           "score_2_somewhat": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91215"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_a_great_deal": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2814,23 +2056,23 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_a_little_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91214"
           },
           "score_2_somewhat": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91215"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_a_great_deal": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2863,23 +2105,23 @@
         "terms": {
           "score_0_poor": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C77959"
           },
           "score_1_fair": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C82489"
           },
           "score_2_good": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C64975"
           },
           "score_3_very_good": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C103342"
           },
           "score_4_excellent": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C82488"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2903,7 +2145,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -2912,19 +2154,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2948,7 +2190,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -2957,19 +2199,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -2993,7 +2235,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3002,19 +2244,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3038,7 +2280,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3047,19 +2289,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3083,7 +2325,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3092,23 +2334,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3132,7 +2374,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3141,23 +2383,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3181,7 +2423,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3190,19 +2432,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3226,7 +2468,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3235,23 +2477,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3275,7 +2517,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3284,19 +2526,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3320,7 +2562,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3329,19 +2571,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3365,7 +2607,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3374,19 +2616,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3410,7 +2652,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3419,19 +2661,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3455,7 +2697,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3464,19 +2706,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3500,7 +2742,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3509,19 +2751,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3545,7 +2787,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3554,19 +2796,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3590,7 +2832,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3599,19 +2841,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3635,7 +2877,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3644,19 +2886,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3680,7 +2922,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3689,19 +2931,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3725,7 +2967,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3734,19 +2976,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3770,7 +3012,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3779,19 +3021,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3815,7 +3057,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3824,19 +3066,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3860,7 +3102,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3869,19 +3111,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3905,7 +3147,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3914,19 +3156,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3950,7 +3192,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -3959,19 +3201,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -3995,7 +3237,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -4004,19 +3246,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4040,7 +3282,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -4049,23 +3291,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4089,7 +3331,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -4098,23 +3340,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4138,7 +3380,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -4147,23 +3389,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4187,7 +3429,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "stongaya:qlqaya",
+          "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
         }
@@ -4196,23 +3438,23 @@
         "terms": {
           "not_applicable": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C48660"
           },
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4223,7 +3465,7 @@
     },
     "eortc_qlq_c30_q1": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q1",
+      "class": "ncit:C104279",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4245,19 +3487,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4268,7 +3510,7 @@
     },
     "eortc_qlq_c30_q2": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q2",
+      "class": "ncit:C104281",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4290,19 +3532,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4313,7 +3555,7 @@
     },
     "eortc_qlq_c30_q3": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q3",
+      "class": "ncit:C104282",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4335,19 +3577,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4358,7 +3600,7 @@
     },
     "eortc_qlq_c30_q4": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q4",
+      "class": "ncit:C104283",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4380,19 +3622,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4403,7 +3645,7 @@
     },
     "eortc_qlq_c30_q5": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q5",
+      "class": "ncit:C104284",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4425,19 +3667,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4448,7 +3690,7 @@
     },
     "eortc_qlq_c30_q6": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q6",
+      "class": "ncit:C104285",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4470,19 +3712,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4493,7 +3735,7 @@
     },
     "eortc_qlq_c30_q7": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q7",
+      "class": "ncit:C104286",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4515,19 +3757,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4538,7 +3780,7 @@
     },
     "eortc_qlq_c30_q8": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q8",
+      "class": "ncit:C99773",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4560,19 +3802,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4583,7 +3825,7 @@
     },
     "eortc_qlq_c30_q9": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q9",
+      "class": "ncit:C91126",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4605,19 +3847,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4628,7 +3870,7 @@
     },
     "eortc_qlq_c30_q10": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q10",
+      "class": "ncit:C104293",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4650,19 +3892,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4673,7 +3915,7 @@
     },
     "eortc_qlq_c30_q11": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q11",
+      "class": "ncit:C104294",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4695,19 +3937,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4718,7 +3960,7 @@
     },
     "eortc_qlq_c30_q12": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q12",
+      "class": "ncit:C104295",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4740,19 +3982,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4763,7 +4005,7 @@
     },
     "eortc_qlq_c30_q13": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q13",
+      "class": "ncit:C104296",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4785,19 +4027,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4808,7 +4050,7 @@
     },
     "eortc_qlq_c30_q14": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q14",
+      "class": "ncit:C91124",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4830,19 +4072,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4853,7 +4095,7 @@
     },
     "eortc_qlq_c30_q15": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q15",
+      "class": "ncit:C104298",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4875,19 +4117,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4898,7 +4140,7 @@
     },
     "eortc_qlq_c30_q16": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q16",
+      "class": "ncit:C104299",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4920,19 +4162,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4943,7 +4185,7 @@
     },
     "eortc_qlq_c30_q17": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q17",
+      "class": "ncit:C104300",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -4965,19 +4207,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -4988,7 +4230,7 @@
     },
     "eortc_qlq_c30_q18": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q18",
+      "class": "ncit:C104301",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5010,19 +4252,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5033,7 +4275,7 @@
     },
     "eortc_qlq_c30_q19": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q19",
+      "class": "ncit:C99785",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5055,19 +4297,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5078,7 +4320,7 @@
     },
     "eortc_qlq_c30_q20": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q20",
+      "class": "ncit:C104307",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5100,19 +4342,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5123,7 +4365,7 @@
     },
     "eortc_qlq_c30_q21": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q21",
+      "class": "ncit:C104302",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5145,19 +4387,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5168,7 +4410,7 @@
     },
     "eortc_qlq_c30_q22": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q22",
+      "class": "ncit:C104304",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5190,19 +4432,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5213,7 +4455,7 @@
     },
     "eortc_qlq_c30_q23": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q23",
+      "class": "ncit:C104308",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5235,19 +4477,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5258,7 +4500,7 @@
     },
     "eortc_qlq_c30_q24": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q24",
+      "class": "ncit:C104309",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5280,19 +4522,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5303,7 +4545,7 @@
     },
     "eortc_qlq_c30_q25": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q25",
+      "class": "ncit:C99795",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5325,19 +4567,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5348,7 +4590,7 @@
     },
     "eortc_qlq_c30_q26": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q26",
+      "class": "ncit:C104310",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5370,19 +4612,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5393,7 +4635,7 @@
     },
     "eortc_qlq_c30_q27": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q27",
+      "class": "ncit:C104311",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5415,19 +4657,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5438,7 +4680,7 @@
     },
     "eortc_qlq_c30_q28": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q28",
+      "class": "ncit:C104312",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5460,19 +4702,19 @@
         "terms": {
           "score_1_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_quite_a_bit": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_4_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5483,7 +4725,7 @@
     },
     "eortc_qlq_c30_q29": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q29",
+      "class": "ncit:C104313",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5505,31 +4747,31 @@
         "terms": {
           "score_1_very_poor": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120498"
           },
           "score_2": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120499"
           },
           "score_3": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120500"
           },
           "score_4": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120501"
           },
           "score_5": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120502"
           },
           "score_6": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120503"
           },
           "score_7_excellent": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120504"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5540,7 +4782,7 @@
     },
     "eortc_qlq_c30_q30": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:eortc_qlq_c30_q30",
+      "class": "ncit:C104314",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5562,31 +4804,31 @@
         "terms": {
           "score_1_very_poor": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120498"
           },
           "score_2": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120499"
           },
           "score_3": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120500"
           },
           "score_4": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120501"
           },
           "score_5": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120502"
           },
           "score_6": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120503"
           },
           "score_7_excellent": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C120504"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5597,7 +4839,7 @@
     },
     "hads_anxiety_q1": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q1",
+      "class": "ncit:C104302",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5619,19 +4861,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_time_to_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C90025"
           },
           "score_2_a_lot_of_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114678"
           },
           "score_3_most_of_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110991"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5642,7 +4884,7 @@
     },
     "hads_anxiety_q2": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q2",
+      "class": "ncit:C114636",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5664,19 +4906,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_2_yes_not_badly": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114692"
           },
           "score_3_very_and_badly": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114686"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5687,7 +4929,7 @@
     },
     "hads_anxiety_q3": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q3",
+      "class": "ncit:C114638",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5709,19 +4951,19 @@
         "terms": {
           "score_0_only_occasionally": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C151974"
           },
           "score_1_time_to_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C90025"
           },
           "score_2_a_lot_of_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114678"
           },
           "score_3_great_deal_of_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114706"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5732,7 +4974,7 @@
     },
     "hads_anxiety_q4": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q4",
+      "class": "ncit:C114640",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5754,19 +4996,19 @@
         "terms": {
           "score_0_definitely": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114710"
           },
           "score_1_usually": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114711"
           },
           "score_2_not_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114709"
           },
           "score_3_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5777,7 +5019,7 @@
     },
     "hads_anxiety_q5": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q5",
+      "class": "ncit:C114669",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5799,19 +5041,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_occasionally": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C151974"
           },
           "score_2_quite_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114713"
           },
           "score_3_very_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91245"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5822,7 +5064,7 @@
     },
     "hads_anxiety_q6": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q6",
+      "class": "ncit:C114671",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5844,19 +5086,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_not_very_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114719"
           },
           "score_2_quite_a_lot": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91216"
           },
           "score_3_very_much_indeed": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5867,7 +5109,7 @@
     },
     "hads_anxiety_q7": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_a_q7",
+      "class": "ncit:C114676",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5889,19 +5131,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_not_very_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114709"
           },
           "score_2_quite_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114713"
           },
           "score_3_very_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91245"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5912,7 +5154,7 @@
     },
     "hads_depression_q1": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q1",
+      "class": "ncit:C114635",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5934,19 +5176,19 @@
         "terms": {
           "score_0_definitely": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114710"
           },
           "score_1_not_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114680"
           },
           "score_2_a_little": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114684"
           },
           "score_3_hardly": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114685"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -5957,7 +5199,7 @@
     },
     "hads_depression_q2": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q2",
+      "class": "ncit:C114637",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -5979,19 +5221,19 @@
         "terms": {
           "score_0_not_as_i_could": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114680"
           },
           "score_1_not_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114719"
           },
           "score_2_definitely_not_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114704"
           },
           "score_3_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -6002,7 +5244,7 @@
     },
     "hads_depression_q3": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q3",
+      "class": "ncit:C114639",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -6024,19 +5266,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_not_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114709"
           },
           "score_2_sometimes": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C90025"
           },
           "score_3_most_times": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C110991"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -6047,7 +5289,7 @@
     },
     "hads_depression_q4": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q4",
+      "class": "ncit:C114668",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -6069,19 +5311,19 @@
         "terms": {
           "score_0_not_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91213"
           },
           "score_1_somtimes": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C90025"
           },
           "score_2_very_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91245"
           },
           "score_3_nearly_all_time": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114712"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -6092,7 +5334,7 @@
     },
     "hads_depression_q5": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q5",
+      "class": "ncit:C114670",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -6114,19 +5356,19 @@
         "terms": {
           "score_0_as_much_as_ever": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114695"
           },
           "score_1_not_as_much": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114680"
           },
           "score_2_not_as_much_as_should": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114720"
           },
           "score_3_definitely": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114721"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -6137,7 +5379,7 @@
     },
     "hads_depression_q6": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q6",
+      "class": "ncit:C114674",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -6159,19 +5401,19 @@
         "terms": {
           "score_0_as_much_as_ever": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114718"
           },
           "score_1_rather_less": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114720"
           },
           "score_2_definitely_less": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114721"
           },
           "score_3_hardly_at_all": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114685"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -6182,7 +5424,7 @@
     },
     "hads_depression_q7": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:hads_d_q7",
+      "class": "ncit:C114677",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -6204,19 +5446,19 @@
         "terms": {
           "score_0_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C91247"
           },
           "score_1_sometimes": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C90025"
           },
           "score_2_not_often": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C114709"
           },
           "score_3_very_seldom": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C73116"
           },
           "missing_or_unspecified": {
             "local_term": null,
