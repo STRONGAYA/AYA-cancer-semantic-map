@@ -5219,13 +5219,13 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_0_not_as_i_could": {
+          "score_0_as_much_as_i_could": {
             "local_term": null,
-            "target_class": "ncit:C114680"
+            "target_class": "ncit:C114695"
           },
           "score_1_not_much": {
             "local_term": null,
-            "target_class": "ncit:C114719"
+            "target_class": "ncit:C114680"
           },
           "score_2_definitely_not_much": {
             "local_term": null,
@@ -5356,15 +5356,15 @@
         "terms": {
           "score_0_as_much_as_ever": {
             "local_term": null,
-            "target_class": "ncit:C114695"
+            "target_class": "ncit:C114718"
           },
           "score_1_not_as_much": {
             "local_term": null,
-            "target_class": "ncit:C114680"
+            "target_class": "ncit:C114716"
           },
           "score_2_not_as_much_as_should": {
             "local_term": null,
-            "target_class": "ncit:C114720"
+            "target_class": "ncit:C114715"
           },
           "score_3_definitely": {
             "local_term": null,
@@ -5401,7 +5401,7 @@
         "terms": {
           "score_0_as_much_as_ever": {
             "local_term": null,
-            "target_class": "ncit:C114718"
+            "target_class": "ncit:C114695"
           },
           "score_1_rather_less": {
             "local_term": null,
