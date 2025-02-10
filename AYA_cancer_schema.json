@@ -229,7 +229,7 @@
     },
     "romantic_partnership_status": {
       "predicate": "sio:SIO_000008",
-      "class": "gsso:GSSO_004690",
+      "class": "gsso:004690",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -244,11 +244,11 @@
         "terms": {
           "single": {
             "local_term": null,
-            "target_class": "gsso:GSSO_007823"
+            "target_class": "gsso:007823"
           },
           "in_relationship": {
             "local_term": null,
-            "target_class": "gsso:GSSO_005488"
+            "target_class": "gsso:005488"
           },
           "married": {
             "local_term": null,
@@ -256,7 +256,7 @@
           },
           "civil_partner_by_law": {
             "local_term": null,
-            "target_class": "gsso:GSSO_005491"
+            "target_class": "gsso:005491"
           },
           "divorced": {
             "local_term": null,
@@ -415,7 +415,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -444,7 +444,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -473,7 +473,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         }
@@ -507,7 +507,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -544,7 +544,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -581,7 +581,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -618,7 +618,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -655,7 +655,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -692,7 +692,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -729,7 +729,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -766,7 +766,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -803,7 +803,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -844,7 +844,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -885,7 +885,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -922,7 +922,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -959,7 +959,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1000,7 +1000,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1037,7 +1037,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1074,7 +1074,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1110,7 +1110,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1163,7 +1163,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1212,7 +1212,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1249,7 +1249,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1286,7 +1286,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1323,7 +1323,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1360,7 +1360,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1397,7 +1397,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1434,7 +1434,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
         },
@@ -1471,7 +1471,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1512,7 +1512,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1553,7 +1553,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1594,7 +1594,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1635,7 +1635,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1680,7 +1680,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1725,7 +1725,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1778,7 +1778,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1819,7 +1819,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1860,7 +1860,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1901,7 +1901,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1942,7 +1942,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -1991,7 +1991,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2040,7 +2040,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2089,7 +2089,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2138,7 +2138,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2183,7 +2183,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2228,7 +2228,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2273,7 +2273,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2318,7 +2318,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2367,7 +2367,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2416,7 +2416,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2461,7 +2461,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2510,7 +2510,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2555,7 +2555,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2600,7 +2600,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2645,7 +2645,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2690,7 +2690,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2735,7 +2735,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2780,7 +2780,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2825,7 +2825,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2870,7 +2870,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2915,7 +2915,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -2960,7 +2960,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3005,7 +3005,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3050,7 +3050,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3095,7 +3095,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3140,7 +3140,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3185,7 +3185,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3230,7 +3230,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3275,7 +3275,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3324,7 +3324,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3373,7 +3373,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3422,7 +3422,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3471,7 +3471,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3516,7 +3516,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3561,7 +3561,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3606,7 +3606,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3651,7 +3651,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3696,7 +3696,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3741,7 +3741,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3786,7 +3786,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3831,7 +3831,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3876,7 +3876,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3921,7 +3921,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -3966,7 +3966,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4011,7 +4011,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4056,7 +4056,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4101,7 +4101,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4146,7 +4146,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4191,7 +4191,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4236,7 +4236,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4281,7 +4281,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4326,7 +4326,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4371,7 +4371,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4416,7 +4416,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4461,7 +4461,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4506,7 +4506,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4551,7 +4551,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4596,7 +4596,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4641,7 +4641,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4686,7 +4686,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4731,7 +4731,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4788,7 +4788,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4845,7 +4845,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4890,7 +4890,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4935,7 +4935,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -4980,7 +4980,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5025,7 +5025,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5070,7 +5070,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5115,7 +5115,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5160,7 +5160,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5205,7 +5205,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5250,7 +5250,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5295,7 +5295,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5340,7 +5340,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5385,7 +5385,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5430,7 +5430,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5475,7 +5475,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5505,7 +5505,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -5534,7 +5534,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5572,7 +5572,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5610,7 +5610,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5640,7 +5640,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5670,7 +5670,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5700,7 +5700,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5730,7 +5730,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5760,7 +5760,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5790,7 +5790,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5820,7 +5820,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5850,7 +5850,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5880,7 +5880,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5910,7 +5910,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5940,7 +5940,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -5970,7 +5970,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6000,7 +6000,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6030,7 +6030,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6060,7 +6060,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6090,7 +6090,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6120,7 +6120,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6150,7 +6150,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6180,7 +6180,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6210,7 +6210,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6240,7 +6240,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6270,7 +6270,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6300,7 +6300,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6330,7 +6330,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -6367,7 +6367,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
@@ -6397,7 +6397,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         },
@@ -6434,7 +6434,7 @@
         {
           "type": "class",
           "predicate": "sio:SIO_000235",
-          "class": "ncit:C326200",
+          "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
         }
