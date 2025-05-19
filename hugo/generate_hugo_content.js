@@ -17,12 +17,12 @@ const data = require('../AYA_cancer_schema.json');
 const variableInfo = data.variable_info;
 
 // Initialize the base semantic mapping directory and content
-const baseDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'Semantic Mapping');
+const baseDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping');
 if (!fs.existsSync(baseDir)) {
     fs.mkdirSync(baseDir, { recursive: true });
 
     // Copy the existing _index.md content
-    const sourceIndexPath = path.join(__dirname, 'content', 'AYA-cancer-data-schema', '_index.md');
+    const sourceIndexPath = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', '_index.md');
     if (fs.existsSync(sourceIndexPath)) {
         const indexContent = fs.readFileSync(sourceIndexPath, 'utf8');
         fs.writeFileSync(path.join(baseDir, '_index.md'), indexContent);
@@ -131,7 +131,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 if (uppercaseFolders.some(str => dirName.includes(str))) {
                     dirName = dirName.toUpperCase();
                 }
-                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
+                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
 
                 // Create the directory if it does not exist
                 if (!fs.existsSync(classDir)) {
