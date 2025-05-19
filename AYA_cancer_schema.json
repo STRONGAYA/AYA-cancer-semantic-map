@@ -3,6 +3,40 @@
   "database_name": null,
   "prefixes": "PREFIX mesh: <http://id.nlm.nih.gov/mesh/>\nPREFIX sio: <http://semanticscience.org/resource/>\nPREFIX strongaya: <https://strongaya.eu/>\nPREFIX sct: <http://purl.bioontology.org/ontology/SNOMEDCT/>\nPREFIX gsso: <http://purl.obolibrary.org/obo/>\n",
   "variable_info": {
+    "administered_prom_language": {
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:identify_disabled",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "mesh:D000091569",
+          "class_label": "sociodemographicClass",
+          "aesthetic_label": "Sociodemographic_Characteristics"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "prefer_not_to_say": {
+            "local_term": null,
+            "target_class": "ncit:C132222"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
     "annual_income": {
       "predicate": "sio:SIO_000008",
       "class": "TODO",
