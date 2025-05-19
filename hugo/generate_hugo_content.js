@@ -16,6 +16,19 @@ const data = require('../AYA_cancer_schema.json');
 
 const variableInfo = data.variable_info;
 
+// Initialize the base semantic mapping directory and content
+const baseDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'Semantic Mapping');
+if (!fs.existsSync(baseDir)) {
+    fs.mkdirSync(baseDir, { recursive: true });
+
+    // Copy the existing _index.md content
+    const sourceIndexPath = path.join(__dirname, 'content', 'AYA-cancer-data-schema', '_index.md');
+    if (fs.existsSync(sourceIndexPath)) {
+        const indexContent = fs.readFileSync(sourceIndexPath, 'utf8');
+        fs.writeFileSync(path.join(baseDir, '_index.md'), indexContent);
+    }
+}
+
 async function getClassDetails(classShortcode, apiKey, retries = 10) {
     // Prevent unnecessary fetching of class details for classes that are known to not exist
     const skipShortcodes = ['TODO', 'strongaya'];
@@ -43,7 +56,7 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
             }
             const data = await response.json();
             if (data.collection && data.collection.length > 0) {
-                const classDetails = data.collection[0]; // Assuming the first result is the correct one
+                const classDetails = data.collection[0];
                 return {
                     definition: classDetails.definition ? classDetails.definition[0] : 'No definition available',
                     preferredName: classDetails.prefLabel || 'No preferred name available'
@@ -128,8 +141,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 // Fetch the class details
                 const classDetails = await getClassDetails(reconstruction.class, apiKey);
 
-                // Create the _index.md file in the directory
-                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*\n and is used to cluster various concepts which are an attribute of _${label}_.  \n`;
+                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*.  \n`;
                 if (classDetails.preferredName === 'No preferred name available' && classDetails.definition === 'No definition available') {
                     indexContent += `This shortcode is custom and does not appear in standard vocabularies.\n`;
                 } else {
