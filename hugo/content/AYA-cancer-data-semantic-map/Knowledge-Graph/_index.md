@@ -15,6 +15,6 @@ facilitating better analysis and decision-making.
 
 The STRONG AYA knowledge graphs are separated into three main -non-exhaustive- graphs for clarity, consisting of:
 
-- [*a Data Graph*:](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge_Graph/Data/) _that is representing a graph of all the different concepts collected for STRONG AYA_.
-- [*a Data Source Graph*:](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge_Graph/Data-Source/): _that is representing a graph for the different data sources used for STRONG AYA. That is for example, a patient reported outcome measure, doctor reported outcome measure, et cetera)_.
-- [*an Instrument Graph*:](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge_Graph/Instrument/): _that is representing a graph for the different instruments used for STRONG AYA. In this case, exemplified through the EORTC QLQ-AYA_. 
+- [*a Data Graph*:](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge-Graph/Data/) _that is representing a graph of all the different concepts collected for STRONG AYA_.
+- [*a Data Source Graph*:](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge-Graph/Data-Source/): _that is representing a graph for the different data sources used for STRONG AYA. That is for example, a patient reported outcome measure, doctor reported outcome measure, et cetera)_.
+- [*an Instrument Graph*:](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge-Graph/Instrument/): _that is representing a graph for the different instruments used for STRONG AYA. In this case, exemplified through the EORTC QLQ-AYA_. 
