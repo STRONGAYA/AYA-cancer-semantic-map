@@ -8,6 +8,4 @@ The Data Source Graph is representing the underlying structure for the different
 These data sources consist of healthcare professional-reported outcome measures (HCPROMS),
 patient-reported outcome measures (PROMS) and electronic healthcare records (EHR).
 
-<a href="/STRONG-AYA-Data-Source-Graph.svg" data-lightbox="data-diagram" data-title="STRONG AYA Data Source Graph">
-  <img src="/STRONG-AYA-Data-Source-Graph.svg" alt="STRONG AYA Data Source Graph" class="svg-diagram">
-</a>
+{{< svg-viewer id="data-source-graph" src="/AYA-cancer-semantic-map/STRONG-AYA-Data-Source-Graph.svg" >}}
