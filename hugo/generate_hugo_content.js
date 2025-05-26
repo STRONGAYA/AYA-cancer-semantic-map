@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const {execSync} = require('child_process');
 
 // Get the API key from the command-line arguments
 const apiKey = process.argv[2];
@@ -19,7 +19,7 @@ const variableInfo = data.variable_info;
 // Initialize the base semantic mapping directory and content
 const baseDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping');
 if (!fs.existsSync(baseDir)) {
-    fs.mkdirSync(baseDir, { recursive: true });
+    fs.mkdirSync(baseDir, {recursive: true});
 
     // Copy the existing _index.md content
     const sourceIndexPath = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', '_index.md');
@@ -121,7 +121,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
     let classDirs = [];
 
     for (const reconstruction of schemaReconstruction) {
-        if (reconstruction.type === 'class') {
+        if (reconstruction.type === 'class' && reconstruction.placement?.toLowerCase() !== 'after') {
             const classLabels = schemaReconstruction
                 .filter(rec => rec.type === 'class')
                 .map(rec => rec.aesthetic_label);
