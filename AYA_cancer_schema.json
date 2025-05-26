@@ -10,30 +10,39 @@
     },
     "administered_prom_language": {
       "predicate": "sio:SIO_000008",
-      "class": "strongaya:identify_disabled",
+      "class": "ncit:C16779",
       "local_definition": null,
       "schema_reconstruction": [
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "mesh:D000091569",
-          "class_label": "sociodemographicClass",
-          "aesthetic_label": "Sociodemographic_Characteristics"
+          "placement": "after",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
         "terms": {
-          "no": {
+          "dutch": {
             "local_term": null,
-            "target_class": "ncit:C49487"
+            "target_class": "ncit:C154055"
           },
-          "yes": {
+          "english": {
             "local_term": null,
-            "target_class": "ncit:C49488"
+            "target_class": "ncit:C82847"
           },
-          "prefer_not_to_say": {
+          "french": {
             "local_term": null,
-            "target_class": "ncit:C132222"
+            "target_class": "ncit:C123785"
+          },
+          "italian": {
+            "local_term": null,
+            "target_class": "ncit:C123788"
+          },
+          "polish": {
+            "local_term": null,
+            "target_class": "ncit:C154079"
           },
           "missing_or_unspecified": {
             "local_term": null,
