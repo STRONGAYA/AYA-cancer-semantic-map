@@ -15,7 +15,7 @@
       "schema_reconstruction": [
         {
           "type": "class",
-          "placement": "after",
+          "placement": "before",
           "predicate": "sio:SIO_000233",
           "class": "ncit:C142529",
           "class_label": "promClass",
@@ -62,6 +62,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -84,6 +92,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -126,6 +142,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -192,6 +216,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -286,6 +318,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -336,6 +376,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -370,6 +418,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -408,6 +464,14 @@
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -468,6 +532,14 @@
           "aesthetic_label": "Medical_characteristics"
         },
         {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
+        },
+        {
           "type": "node",
           "predicate": "sio:SIO_000221",
           "class": "ncit:C29848",
@@ -497,6 +569,14 @@
           "aesthetic_label": "Medical_characteristics"
         },
         {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
+        },
+        {
           "type": "node",
           "predicate": "sio:SIO_000221",
           "class": "ncit:C29848",
@@ -524,6 +604,14 @@
           "class": "ncit:C18772",
           "class_label": "medicalClass",
           "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -565,6 +653,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -602,6 +698,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -639,6 +743,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -676,6 +788,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -713,6 +833,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -750,6 +878,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -787,6 +923,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -824,6 +968,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -861,6 +1013,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -902,6 +1062,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -943,6 +1111,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -980,6 +1156,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1017,6 +1201,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1058,6 +1250,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1095,6 +1295,14 @@
           "class": "ncit:C106374",
           "class_label": "charlsonClass",
           "aesthetic_label": "Comorbidity_Index"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1134,6 +1342,14 @@
           "aesthetic_label": "Neoplasm"
         },
         {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        },
+        {
           "type": "node",
           "predicate": "sio:SIO_000233",
           "class": "ncit:C185253",
@@ -1168,6 +1384,14 @@
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1221,6 +1445,14 @@
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1270,6 +1502,14 @@
           "class": "ncit:C3262",
           "class_label": "neoplasmClass",
           "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -1307,6 +1547,14 @@
           "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -1344,6 +1592,14 @@
           "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -1381,6 +1637,14 @@
           "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -1418,6 +1682,14 @@
           "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -1455,6 +1727,14 @@
           "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -1492,6 +1772,14 @@
           "class": "ncit:C25218",
           "class_label": "treatmentClass",
           "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -1529,6 +1817,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1570,6 +1866,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1611,6 +1915,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1652,6 +1964,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1693,6 +2013,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1738,6 +2066,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1783,6 +2119,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1836,6 +2180,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1877,6 +2229,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1918,6 +2278,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -1959,6 +2327,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2000,6 +2376,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2049,6 +2433,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2098,6 +2490,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2147,6 +2547,14 @@
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2196,6 +2604,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2241,6 +2657,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2286,6 +2710,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2331,6 +2763,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2376,6 +2816,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2425,6 +2873,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2474,6 +2930,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2519,6 +2983,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2568,6 +3040,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2613,6 +3093,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2658,6 +3146,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2703,6 +3199,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2748,6 +3252,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2793,6 +3305,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2838,6 +3358,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2883,6 +3411,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2928,6 +3464,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -2973,6 +3517,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3018,6 +3570,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3063,6 +3623,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3108,6 +3676,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3153,6 +3729,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3198,6 +3782,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3243,6 +3835,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3288,6 +3888,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3333,6 +3941,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3382,6 +3998,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3431,6 +4055,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3480,6 +4112,14 @@
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3529,6 +4169,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3574,6 +4222,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3619,6 +4275,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3664,6 +4328,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3709,6 +4381,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3754,6 +4434,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3799,6 +4487,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3844,6 +4540,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3889,6 +4593,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3934,6 +4646,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -3979,6 +4699,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4024,6 +4752,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4069,6 +4805,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4114,6 +4858,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4159,6 +4911,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4204,6 +4964,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4249,6 +5017,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4294,6 +5070,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4339,6 +5123,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4384,6 +5176,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4429,6 +5229,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4474,6 +5282,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4519,6 +5335,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4564,6 +5388,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4609,6 +5441,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4654,6 +5494,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4699,6 +5547,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4744,6 +5600,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4789,6 +5653,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4846,6 +5718,14 @@
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4903,6 +5783,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4948,6 +5836,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -4993,6 +5889,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5038,6 +5942,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5083,6 +5995,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5128,6 +6048,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5173,6 +6101,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5218,6 +6154,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5263,6 +6207,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5308,6 +6260,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5353,6 +6313,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5398,6 +6366,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5443,6 +6419,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5488,6 +6472,14 @@
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
         }
       ],
       "value_mapping": {
@@ -5526,6 +6518,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5585,6 +6585,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5623,6 +6631,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -5661,6 +6677,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5691,6 +6715,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5721,6 +6753,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5751,6 +6791,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5781,6 +6829,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5811,6 +6867,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5841,6 +6905,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5871,6 +6943,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5901,6 +6981,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5931,6 +7019,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5961,6 +7057,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -5991,6 +7095,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6021,6 +7133,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6051,6 +7171,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6081,6 +7209,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6111,6 +7247,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6141,6 +7285,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6171,6 +7323,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6201,6 +7361,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6231,6 +7399,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6261,6 +7437,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6291,6 +7475,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6321,6 +7513,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6351,6 +7551,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
@@ -6418,6 +7626,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         }
       ],
       "value_mapping": {
@@ -6448,6 +7664,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
         },
         {
           "type": "node",
@@ -6485,6 +7709,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         }
       ],
       "value_mapping": {
