@@ -9,7 +9,7 @@
       "local_definition": null
     },
     "administered_prom_language": {
-      "predicate": "sio:SIO_000008",
+      "predicate": "sio:SIO_000233",
       "class": "ncit:C16779",
       "local_definition": null,
       "schema_reconstruction": [
@@ -50,6 +50,72 @@
           }
         }
       }
+    },
+    "time_prom_recording": {
+      "predicate": "sio:SIO_000233",
+      "class": "ncit:C192402",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "placement": "before",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C25301",
+          "node_label": "days",
+          "aesthetic_label": "Days"
+        }
+      ]
+    },
+    "time_hcprom_recording": {
+      "predicate": "sio:SIO_000233",
+      "class": "strongaya:hcpromtime",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "placement": "before",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C25301",
+          "node_label": "days",
+          "aesthetic_label": "Days"
+        }
+      ]
+    },
+    "time_ehrprom_recording": {
+      "predicate": "sio:SIO_000233",
+      "class": "strongaya:ehrtime",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "placement": "before",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C25301",
+          "node_label": "days",
+          "aesthetic_label": "Days"
+        }
+      ]
     },
     "annual_income": {
       "predicate": "sio:SIO_000008",
@@ -6611,8 +6677,8 @@
         },
         {
           "type": "node",
-          "predicate": "TODO",
-          "class": "TODO",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C25301",
           "node_label": "days",
           "aesthetic_label": "Days"
         }
@@ -7644,8 +7710,8 @@
         },
         {
           "type": "node",
-          "predicate": "TODO",
-          "class": "TODO",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C25301",
           "node_label": "days",
           "aesthetic_label": "Days"
         }
@@ -7727,8 +7793,8 @@
         },
         {
           "type": "node",
-          "predicate": "TODO",
-          "class": "TODO",
+          "predicate": "sio:SIO_000221",
+          "class": "ncit:C25301",
           "node_label": "days",
           "aesthetic_label": "Days"
         }
