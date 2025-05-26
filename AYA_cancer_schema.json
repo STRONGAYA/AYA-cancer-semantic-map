@@ -3,6 +3,11 @@
   "database_name": null,
   "prefixes": "PREFIX mesh: <http://id.nlm.nih.gov/mesh/>\nPREFIX sio: <http://semanticscience.org/resource/>\nPREFIX strongaya: <https://strongaya.eu/>\nPREFIX sct: <http://purl.bioontology.org/ontology/SNOMEDCT/>\nPREFIX gsso: <http://purl.obolibrary.org/obo/>\n",
   "variable_info": {
+    "identifier": {
+      "predicate": "sio:SIO_000673",
+      "class": "ncit:C25364",
+      "local_definition": null
+    },
     "administered_prom_language": {
       "predicate": "sio:SIO_000008",
       "class": "strongaya:identify_disabled",
