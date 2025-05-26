@@ -53,7 +53,7 @@
     },
     "annual_income": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C154890",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -70,6 +70,13 @@
           "class": "ncit:C142529",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000221",
+          "class": "strongaya:incomedeviation",
+          "node_label": "deviationofaverage",
+          "aesthetic_label": "DeviationOfAverage"
         }
       ],
       "value_mapping": {
@@ -1577,6 +1584,51 @@
     "hormone_therapy": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C15445",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "immunotherapy": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C15262",
       "local_definition": null,
       "schema_reconstruction": [
         {
