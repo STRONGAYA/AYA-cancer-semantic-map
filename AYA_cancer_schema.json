@@ -7755,7 +7755,7 @@
     },
     "cancer_progression_event_time": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C93153",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -7764,6 +7764,14 @@
           "class": "ncit:C20200",
           "class_label": "outcomeClass",
           "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
         },
         {
           "type": "node",
@@ -7775,14 +7783,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -7792,7 +7792,7 @@
     },
     "cancer_progression_follow_ups": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "strongaya:n_follow_ups",
       "local_definition": null,
       "schema_reconstruction": [
         {
