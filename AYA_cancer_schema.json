@@ -5940,7 +5940,7 @@
         }
       }
     },
-    "hads_anxiety_q1": {
+    "hads_q1": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C104302",
       "local_definition": null,
@@ -5993,325 +5993,7 @@
         }
       }
     },
-    "hads_anxiety_q2": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C114636",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C20200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C103520",
-          "class_label": "hadsClass",
-          "aesthetic_label": "HADS"
-        },
-        {
-          "type": "class",
-          "placement": "after",
-          "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
-          "class_label": "promClass",
-          "aesthetic_label": "PROM"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "score_0_not_at_all": {
-            "local_term": null,
-            "target_class": "ncit:C91213"
-          },
-          "score_1_a_little": {
-            "local_term": null,
-            "target_class": "ncit:C114684"
-          },
-          "score_2_yes_not_badly": {
-            "local_term": null,
-            "target_class": "ncit:C114692"
-          },
-          "score_3_very_and_badly": {
-            "local_term": null,
-            "target_class": "ncit:C114686"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "hads_anxiety_q3": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C114638",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C20200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C103520",
-          "class_label": "hadsClass",
-          "aesthetic_label": "HADS"
-        },
-        {
-          "type": "class",
-          "placement": "after",
-          "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
-          "class_label": "promClass",
-          "aesthetic_label": "PROM"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "score_0_only_occasionally": {
-            "local_term": null,
-            "target_class": "ncit:C151974"
-          },
-          "score_1_time_to_time": {
-            "local_term": null,
-            "target_class": "ncit:C90025"
-          },
-          "score_2_a_lot_of_time": {
-            "local_term": null,
-            "target_class": "ncit:C114678"
-          },
-          "score_3_great_deal_of_time": {
-            "local_term": null,
-            "target_class": "ncit:C114706"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "hads_anxiety_q4": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C114640",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C20200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C103520",
-          "class_label": "hadsClass",
-          "aesthetic_label": "HADS"
-        },
-        {
-          "type": "class",
-          "placement": "after",
-          "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
-          "class_label": "promClass",
-          "aesthetic_label": "PROM"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "score_0_definitely": {
-            "local_term": null,
-            "target_class": "ncit:C114710"
-          },
-          "score_1_usually": {
-            "local_term": null,
-            "target_class": "ncit:C114711"
-          },
-          "score_2_not_often": {
-            "local_term": null,
-            "target_class": "ncit:C114709"
-          },
-          "score_3_not_at_all": {
-            "local_term": null,
-            "target_class": "ncit:C91213"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "hads_anxiety_q5": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C114669",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C20200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C103520",
-          "class_label": "hadsClass",
-          "aesthetic_label": "HADS"
-        },
-        {
-          "type": "class",
-          "placement": "after",
-          "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
-          "class_label": "promClass",
-          "aesthetic_label": "PROM"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "score_0_not_at_all": {
-            "local_term": null,
-            "target_class": "ncit:C91213"
-          },
-          "score_1_occasionally": {
-            "local_term": null,
-            "target_class": "ncit:C151974"
-          },
-          "score_2_quite_often": {
-            "local_term": null,
-            "target_class": "ncit:C114713"
-          },
-          "score_3_very_often": {
-            "local_term": null,
-            "target_class": "ncit:C91245"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "hads_anxiety_q6": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C114671",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C20200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C103520",
-          "class_label": "hadsClass",
-          "aesthetic_label": "HADS"
-        },
-        {
-          "type": "class",
-          "placement": "after",
-          "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
-          "class_label": "promClass",
-          "aesthetic_label": "PROM"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "score_0_not_at_all": {
-            "local_term": null,
-            "target_class": "ncit:C91213"
-          },
-          "score_1_not_very_much": {
-            "local_term": null,
-            "target_class": "ncit:C114719"
-          },
-          "score_2_quite_a_lot": {
-            "local_term": null,
-            "target_class": "ncit:C91216"
-          },
-          "score_3_very_much_indeed": {
-            "local_term": null,
-            "target_class": "ncit:C91217"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "hads_anxiety_q7": {
-      "predicate": "sio:SIO_000008",
-      "class": "ncit:C114676",
-      "local_definition": null,
-      "schema_reconstruction": [
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C20200",
-          "class_label": "outcomeClass",
-          "aesthetic_label": "Outcome"
-        },
-        {
-          "type": "class",
-          "predicate": "sio:SIO_000235",
-          "class": "ncit:C103520",
-          "class_label": "hadsClass",
-          "aesthetic_label": "HADS"
-        },
-        {
-          "type": "class",
-          "placement": "after",
-          "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
-          "class_label": "promClass",
-          "aesthetic_label": "PROM"
-        }
-      ],
-      "value_mapping": {
-        "terms": {
-          "score_0_not_at_all": {
-            "local_term": null,
-            "target_class": "ncit:C91213"
-          },
-          "score_1_not_very_often": {
-            "local_term": null,
-            "target_class": "ncit:C114709"
-          },
-          "score_2_quite_often": {
-            "local_term": null,
-            "target_class": "ncit:C114713"
-          },
-          "score_3_very_often": {
-            "local_term": null,
-            "target_class": "ncit:C91245"
-          },
-          "missing_or_unspecified": {
-            "local_term": null,
-            "target_class": "ncit:C54031"
-          }
-        }
-      }
-    },
-    "hads_depression_q1": {
+    "hads_q2": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114635",
       "local_definition": null,
@@ -6364,7 +6046,60 @@
         }
       }
     },
-    "hads_depression_q2": {
+    "hads_q3": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C114636",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C103520",
+          "class_label": "hadsClass",
+          "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "score_0_not_at_all": {
+            "local_term": null,
+            "target_class": "ncit:C91213"
+          },
+          "score_1_a_little": {
+            "local_term": null,
+            "target_class": "ncit:C114684"
+          },
+          "score_2_yes_not_badly": {
+            "local_term": null,
+            "target_class": "ncit:C114692"
+          },
+          "score_3_very_and_badly": {
+            "local_term": null,
+            "target_class": "ncit:C114686"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "hads_q4": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114637",
       "local_definition": null,
@@ -6417,7 +6152,60 @@
         }
       }
     },
-    "hads_depression_q3": {
+    "hads_q5": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C114638",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C103520",
+          "class_label": "hadsClass",
+          "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "score_0_only_occasionally": {
+            "local_term": null,
+            "target_class": "ncit:C151974"
+          },
+          "score_1_time_to_time": {
+            "local_term": null,
+            "target_class": "ncit:C90025"
+          },
+          "score_2_a_lot_of_time": {
+            "local_term": null,
+            "target_class": "ncit:C114678"
+          },
+          "score_3_great_deal_of_time": {
+            "local_term": null,
+            "target_class": "ncit:C114706"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "hads_q6": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114639",
       "local_definition": null,
@@ -6470,7 +6258,60 @@
         }
       }
     },
-    "hads_depression_q4": {
+    "hads_q7": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C114640",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C103520",
+          "class_label": "hadsClass",
+          "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "score_0_definitely": {
+            "local_term": null,
+            "target_class": "ncit:C114710"
+          },
+          "score_1_usually": {
+            "local_term": null,
+            "target_class": "ncit:C114711"
+          },
+          "score_2_not_often": {
+            "local_term": null,
+            "target_class": "ncit:C114709"
+          },
+          "score_3_not_at_all": {
+            "local_term": null,
+            "target_class": "ncit:C91213"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "hads_q8": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114668",
       "local_definition": null,
@@ -6523,7 +6364,60 @@
         }
       }
     },
-    "hads_depression_q5": {
+    "hads_q9": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C114669",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C103520",
+          "class_label": "hadsClass",
+          "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "score_0_not_at_all": {
+            "local_term": null,
+            "target_class": "ncit:C91213"
+          },
+          "score_1_occasionally": {
+            "local_term": null,
+            "target_class": "ncit:C151974"
+          },
+          "score_2_quite_often": {
+            "local_term": null,
+            "target_class": "ncit:C114713"
+          },
+          "score_3_very_often": {
+            "local_term": null,
+            "target_class": "ncit:C91245"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "hads_q10": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114670",
       "local_definition": null,
@@ -6576,7 +6470,60 @@
         }
       }
     },
-    "hads_depression_q6": {
+    "hads_q11": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C114671",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C103520",
+          "class_label": "hadsClass",
+          "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "score_0_not_at_all": {
+            "local_term": null,
+            "target_class": "ncit:C91213"
+          },
+          "score_1_not_very_much": {
+            "local_term": null,
+            "target_class": "ncit:C114719"
+          },
+          "score_2_quite_a_lot": {
+            "local_term": null,
+            "target_class": "ncit:C91216"
+          },
+          "score_3_very_much_indeed": {
+            "local_term": null,
+            "target_class": "ncit:C91217"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "hads_q12": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114674",
       "local_definition": null,
@@ -6629,7 +6576,60 @@
         }
       }
     },
-    "hads_depression_q7": {
+    "hads_q13": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C114676",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C103520",
+          "class_label": "hadsClass",
+          "aesthetic_label": "HADS"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "score_0_not_at_all": {
+            "local_term": null,
+            "target_class": "ncit:C91213"
+          },
+          "score_1_not_very_often": {
+            "local_term": null,
+            "target_class": "ncit:C114709"
+          },
+          "score_2_quite_often": {
+            "local_term": null,
+            "target_class": "ncit:C114713"
+          },
+          "score_3_very_often": {
+            "local_term": null,
+            "target_class": "ncit:C91245"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "hads_q14": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114677",
       "local_definition": null,
