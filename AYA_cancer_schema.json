@@ -6774,19 +6774,19 @@
         "terms": {
           "relocated": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C192586"
           },
           "discharged": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C25166"
           },
           "cancer_treatment": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C16212"
           },
           "death": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "ncit:C28554"
           },
           "missing_or_unspecified": {
             "local_term": null,
