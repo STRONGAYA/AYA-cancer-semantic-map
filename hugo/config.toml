@@ -1,4 +1,4 @@
-baseURL = "https://strongaya.github.io/AYA-cancer-data-schema/"
+baseURL = "https://strongaya.github.io/AYA-cancer-data-semantic-map/"
 theme = "hugo-book"
 title = "STRONG AYA Knowledge Representation"
 enableGitInfo = true
@@ -31,8 +31,8 @@ weight = 40
 BookTheme = 'auto'
 BookToC = false
 BookFavicon = 'favicon.ico'
-BookSection = 'AYA-cancer-data-schema'
+BookSection = 'AYA-cancer-data-semantic-map'
 BookDateFormat = 'January 2, 2006'
 
 # Used for 'Last Modified' and 'Edit this page' links.
-BookRepo = 'https://github.com/STRONGAYA/AYA-cancer-data-schema'
+BookRepo = 'https://github.com/STRONGAYA/AYA-cancer-data-semantic-map'

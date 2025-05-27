@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const {execSync} = require('child_process');
 
 // Get the API key from the command-line arguments
 const apiKey = process.argv[2];
@@ -15,9 +16,23 @@ const data = require('../AYA_cancer_schema.json');
 
 const variableInfo = data.variable_info;
 
+// Initialize the base semantic mapping directory and content
+const baseDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping');
+if (!fs.existsSync(baseDir)) {
+    fs.mkdirSync(baseDir, {recursive: true});
+
+    // Copy the existing _index.md content
+    const sourceIndexPath = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', '_index.md');
+    if (fs.existsSync(sourceIndexPath)) {
+        const indexContent = fs.readFileSync(sourceIndexPath, 'utf8');
+        fs.writeFileSync(path.join(baseDir, '_index.md'), indexContent);
+    }
+}
+
 async function getClassDetails(classShortcode, apiKey, retries = 10) {
-    // Prevent unnecessary fetching of class details for classes that are known to not exist; to adapt in code re-use
-    if (classShortcode.includes('TODO', 'strongaya')) {
+    // Prevent unnecessary fetching of class details for classes that are known to not exist
+    const skipShortcodes = ['TODO', 'strongaya'];
+    if (skipShortcodes.some(code => classShortcode.includes(code))) {
         return {
             definition: 'No definition available',
             preferredName: 'No preferred name available'
@@ -41,12 +56,13 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
             }
             const data = await response.json();
             if (data.collection && data.collection.length > 0) {
-                const classDetails = data.collection[0]; // Assuming the first result is the correct one
+                const classDetails = data.collection[0];
                 return {
                     definition: classDetails.definition ? classDetails.definition[0] : 'No definition available',
                     preferredName: classDetails.prefLabel || 'No preferred name available'
                 };
             } else {
+                console.warn(`::warning:: Whilst trying to fetch class details, the shortcode **${classShortcode}** couldn't be found.`);
                 return {
                     definition: 'No definition available',
                     preferredName: 'No preferred name available'
@@ -55,6 +71,7 @@ async function getClassDetails(classShortcode, apiKey, retries = 10) {
         } catch (error) {
             if (attempt === retries - 1) {
                 console.error(error);
+                console.warn(`::warning:: Error fetching class details for shortcode **${classShortcode}**: ${error.message}`);
                 return {
                     definition: 'Error fetching definition',
                     preferredName: 'Error fetching preferred name'
@@ -104,7 +121,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
     let classDirs = [];
 
     for (const reconstruction of schemaReconstruction) {
-        if (reconstruction.type === 'class') {
+        if (reconstruction.type === 'class' && reconstruction.placement?.toLowerCase() !== 'after') {
             const classLabels = schemaReconstruction
                 .filter(rec => rec.type === 'class')
                 .map(rec => rec.aesthetic_label);
@@ -114,7 +131,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 if (uppercaseFolders.some(str => dirName.includes(str))) {
                     dirName = dirName.toUpperCase();
                 }
-                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-schema', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
+                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
 
                 // Create the directory if it does not exist
                 if (!fs.existsSync(classDir)) {
@@ -124,8 +141,7 @@ Object.keys(variableInfo).forEach(async (variable) => {
                 // Fetch the class details
                 const classDetails = await getClassDetails(reconstruction.class, apiKey);
 
-                // Create the _index.md file in the directory
-                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*\n and is used to cluster various concepts which are an attribute of _${label}_.  \n`;
+                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*.  \n`;
                 if (classDetails.preferredName === 'No preferred name available' && classDetails.definition === 'No definition available') {
                     indexContent += `This shortcode is custom and does not appear in standard vocabularies.\n`;
                 } else {

@@ -9,7 +9,7 @@ This resource is intended to provide an overview of the knowledge representation
 The knowledge representation is based on the [Resource Description Framework (RDF)](https://www.w3.org/RDF/),
 which is a standard model for data interchange.  
 RDF has features that facilitate data interoperability even if the underlying schemas differ,
-and it specifically supports the evolution of schemas over time without requiring all the
+and it specifically supports the evolution of various practices over time without requiring all the
 data to be changed.
 
 ## How to explore this resource
@@ -17,18 +17,18 @@ data to be changed.
 This resource is organised into two different segments that are closely intertwined,
 and each provide a crucial aspect of the knowledge representation in STRONG AYA.
 
-- **[The STRONG AYA Knowledge Graph](./aya-cancer-data-schema/knowledge_graph/_index.md)**: This segment provides an
+- **[The STRONG AYA Knowledge Graph](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Knowledge-Graph/)**: This segment provides an
   overview of the STRONG AYA Knowledge Graph, which is used to organise and represent the complex relationships between
   different concepts, measurement instruments, and data collected in the STRONG AYA project.
-- **[The STRONG AYA Semantic Mapping](./aya-cancer-data-schema/semantic_mapping/_index.md)**: This segment provides detailed information
+- **[The STRONG AYA Semantic Mapping](/AYA-cancer-semantic-map/AYA-cancer-data-semantic-map/Semantic-Mapping/)**: This segment provides detailed information
   about various concepts and their mappings within the STRONG AYA infrastructure.
 
 ## Other resources
 
 To learn more about STRONG AYA, please visit the [STRONG AYA website](https://strongaya.eu/).  
-To gain insight in our various open-source repositories -including our repository on this AYA cancer schema,
+To gain insight in our various open-source repositories - including our repository on this AYA cancer semantic map,
 please visit the [STRONG AYA GitHub](https://github.com/STRONGAYA).  
 For more context and detail about the knowledge representation, please have a look at the associated scientific
 publication (currently in preparation).
 
-![STRONG AYA logo](/AYA-cancer-data-schema/STRONG-AYA-web-logo.svg)
+![STRONG AYA logo](/AYA-cancer-semantic-map/STRONG-AYA-web-logo.svg)
