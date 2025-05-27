@@ -7830,7 +7830,7 @@
     },
     "survival_event_time": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C125201",
       "local_definition": null,
       "schema_reconstruction": [
         {
@@ -7858,14 +7858,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "no": {
-            "local_term": null,
-            "target_class": "ncit:C49487"
-          },
-          "yes": {
-            "local_term": null,
-            "target_class": "ncit:C49488"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -7875,7 +7867,7 @@
     },
     "survival_cause_of_event": {
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C81239",
       "local_definition": null,
       "schema_reconstruction": [
         {
