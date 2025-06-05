@@ -24,7 +24,7 @@ weight = 20
 
 [[menu.after]]
 name = "Associated scientific publication"
-url = ""
+url = "https://doi.org/10.1101/2025.06.03.25328788"
 weight = 40
 
 [params]
