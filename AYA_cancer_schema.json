@@ -7828,6 +7828,52 @@
         }
       }
     },
+    "survival_status": {
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C25717",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "alive": {
+            "local_term": null,
+            "target_class": "ncit:C37987"
+          },
+          "presumed_alive": {
+            "local_term": null,
+            "target_class": "ncit:C141463"
+          },
+          "declared_deceased": {
+            "local_term": null,
+            "target_class": "ncit:C99799"
+          },
+          "presumed_deceased": {
+            "local_term": null,
+            "target_class": "ncit:C99798"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
     "survival_event_time": {
       "predicate": "sio:SIO_000008",
       "class": "ncit:C125201",
