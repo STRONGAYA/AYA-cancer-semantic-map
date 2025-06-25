@@ -121,9 +121,9 @@ Object.keys(variableInfo).forEach(async (variable) => {
     let classDirs = [];
 
     for (const reconstruction of schemaReconstruction) {
-        if (reconstruction.type === 'class' && reconstruction.placement?.toLowerCase() !== 'after') {
+        if (reconstruction.type === 'class' && !reconstruction.placement) {
             const classLabels = schemaReconstruction
-                .filter(rec => rec.type === 'class')
+                .filter(rec => rec.type === 'class' && !rec.placement)
                 .map(rec => rec.aesthetic_label);
 
             for (const [index, label] of classLabels.entries()) {

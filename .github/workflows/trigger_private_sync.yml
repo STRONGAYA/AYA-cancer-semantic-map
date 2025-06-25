@@ -1,0 +1,20 @@
+name: Trigger Private Repo Sync
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger workflow in private repo via repository_dispatch
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            https://api.github.com/repos/STRONGAYA/AYA-cancer-semantic-mappings-private/dispatches \
+            -d '{"event_type":"sync-request"}'
