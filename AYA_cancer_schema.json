@@ -214,7 +214,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C16564",
-      "local_definition": null,
+      "local_definition": "patient_ethnic_origin",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -235,7 +235,7 @@
       "value_mapping": {
         "terms": {
           "african": {
-            "local_term": null,
+            "local_term": "N - Black African or Black British African",
             "target_class": "ncit:C42331"
           },
           "arab": {
@@ -243,15 +243,31 @@
             "target_class": "ncit:C43876"
           },
           "asian": {
-            "local_term": null,
+            "local_term": "K - Bangladeshi or British Bangladeshi",
+            "target_class": "ncit:C41260"
+          },
+          "asian_1": {
+            "local_term": "L  - Asian - other",
+            "target_class": "ncit:C41260"
+          },
+          "asian_2": {
+            "local_term": "H - Indian or British Indian",
+            "target_class": "ncit:C41260"
+          },
+          "asian_3": {
+            "local_term": "J - Pakistani or British Pakistani",
+            "target_class": "ncit:C41260"
+          },
+          "asian_4": {
+            "local_term": "R - Chinese",
             "target_class": "ncit:C41260"
           },
           "black": {
-            "local_term": null,
+            "local_term": "P - Any other Black background",
             "target_class": "ncit:C16352"
           },
           "black_or_caribbean_other": {
-            "local_term": null,
+            "local_term": "M - Black Caribbean or Black British Caribbean",
             "target_class": "TODO"
           },
           "caribbean": {
@@ -259,7 +275,19 @@
             "target_class": "ncit:C77810"
           },
           "mixed_race": {
-            "local_term": null,
+            "local_term": "D - Mixed White and Black Caribbean",
+            "target_class": "ncit:C67109"
+          },
+          "mixed_race_1": {
+            "local_term": "E - Mixed White and Black African",
+            "target_class": "ncit:C67109"
+          },
+          "mixed_race_2": {
+            "local_term": "G - Any other mixed background",
+            "target_class": "ncit:C67109"
+          },
+          "mixed_race_3": {
+            "local_term": "F - Mixed White and Asian",
             "target_class": "ncit:C67109"
           },
           "roma_or_nomadic": {
@@ -267,11 +295,19 @@
             "target_class": "strongaya:roma_or_nomadic"
           },
           "white": {
-            "local_term": null,
+            "local_term": "A - White British",
+            "target_class": "ncit:C41261"
+          },
+          "white_1": {
+            "local_term": "C - Any other White background",
+            "target_class": "ncit:C41261"
+          },
+          "white_2": {
+            "local_term": "B - White Irish",
             "target_class": "ncit:C41261"
           },
           "other": {
-            "local_term": null,
+            "local_term": "S - Any other ethnic group",
             "target_class": "ncit:C104495"
           },
           "prefer_not_to_say": {
@@ -279,7 +315,11 @@
             "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "Not Set",
+            "target_class": "ncit:C54031"
+          },
+          "missing_or_unspecified_1": {
+            "local_term": "Z - Not Stated",
             "target_class": "ncit:C54031"
           }
         }
@@ -608,7 +648,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C156420",
-      "local_definition": null,
+      "local_definition": "age_at_diagnosis",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -636,7 +676,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -646,7 +686,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C164339",
-      "local_definition": null,
+      "local_definition": "date_of_diagnosis",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -674,7 +714,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -705,11 +745,11 @@
       "value_mapping": {
         "terms": {
           "male": {
-            "local_term": null,
+            "local_term": "Male",
             "target_class": "ncit:C20197"
           },
           "female": {
-            "local_term": null,
+            "local_term": "Female",
             "target_class": "ncit:C16576"
           },
           "intersex": {
@@ -717,7 +757,7 @@
             "target_class": "ncit:C45908"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "Not Known (PERSON STATED GENDER CODE not recorded)",
             "target_class": "ncit:C54031"
           }
         }
@@ -1429,7 +1469,7 @@
       "data_type": "standardised",
       "predicate": "sio:SIO_000059",
       "class": "ncit:C3263",
-      "local_definition": null,
+      "local_definition": "icd10_code",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1474,7 +1514,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25728",
-      "local_definition": null,
+      "local_definition": "t",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1502,31 +1542,79 @@
       "value_mapping": {
         "terms": {
           "x": {
-            "local_term": null,
+            "local_term": "TX",
             "target_class": "ncit:C48737"
           },
           "0": {
-            "local_term": null,
+            "local_term": "T0",
             "target_class": "ncit:C48719"
           },
           "1": {
-            "local_term": null,
+            "local_term": "T1",
+            "target_class": "ncit:C48720"
+          },
+          "1_1": {
+            "local_term": "T1a",
+            "target_class": "ncit:C48720"
+          },
+          "1_2": {
+            "local_term": "T1b",
+            "target_class": "ncit:C48720"
+          },
+          "1_3": {
+            "local_term": "T1c",
+            "target_class": "ncit:C48720"
+          },
+          "1_4": {
+            "local_term": "T1mi",
             "target_class": "ncit:C48720"
           },
           "2": {
-            "local_term": null,
+            "local_term": "T2",
+            "target_class": "ncit:C48724"
+          },
+          "2_1": {
+            "local_term": "T2a",
+            "target_class": "ncit:C48724"
+          },
+          "2_2": {
+            "local_term": "T2b",
             "target_class": "ncit:C48724"
           },
           "3": {
-            "local_term": null,
+            "local_term": "T3",
+            "target_class": "ncit:C48728"
+          },
+          "3_1": {
+            "local_term": "T3a",
+            "target_class": "ncit:C48728"
+          },
+          "3_2": {
+            "local_term": "T3b",
+            "target_class": "ncit:C48728"
+          },
+          "3_3": {
+            "local_term": "T3c",
             "target_class": "ncit:C48728"
           },
           "4": {
-            "local_term": null,
+            "local_term": "T4",
+            "target_class": "ncit:C48732"
+          },
+          "4_1": {
+            "local_term": "T4a",
+            "target_class": "ncit:C48732"
+          },
+          "4_2": {
+            "local_term": "T4b",
+            "target_class": "ncit:C48732"
+          },
+          "4_3": {
+            "local_term": "T4d",
             "target_class": "ncit:C48732"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1536,7 +1624,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25580",
-      "local_definition": null,
+      "local_definition": "n",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1564,27 +1652,67 @@
       "value_mapping": {
         "terms": {
           "x": {
-            "local_term": null,
+            "local_term": "NX",
             "target_class": "ncit:C48718"
           },
           "0": {
-            "local_term": null,
+            "local_term": "N0",
             "target_class": "ncit:C48705"
           },
           "1": {
-            "local_term": null,
+            "local_term": "N1",
+            "target_class": "ncit:C48706"
+          },
+          "1_1": {
+            "local_term": "N1a",
+            "target_class": "ncit:C48706"
+          },
+          "1_2": {
+            "local_term": "N1b",
+            "target_class": "ncit:C48706"
+          },
+          "1_3": {
+            "local_term": "N1c",
+            "target_class": "ncit:C48706"
+          },
+          "1_4": {
+            "local_term": "N1mi",
             "target_class": "ncit:C48706"
           },
           "2": {
-            "local_term": null,
+            "local_term": "N2",
+            "target_class": "ncit:C48786"
+          },
+          "2_1": {
+            "local_term": "N2a",
+            "target_class": "ncit:C48786"
+          },
+          "2_2": {
+            "local_term": "N2b",
+            "target_class": "ncit:C48786"
+          },
+          "2_3": {
+            "local_term": "N2c",
             "target_class": "ncit:C48786"
           },
           "3": {
-            "local_term": null,
+            "local_term": "N3",
+            "target_class": "ncit:C48714"
+          },
+          "3_1": {
+            "local_term": "N3a",
+            "target_class": "ncit:C48714"
+          },
+          "3_2": {
+            "local_term": "N3b",
+            "target_class": "ncit:C48714"
+          },
+          "3_3": {
+            "local_term": "N3c",
             "target_class": "ncit:C48714"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -1594,7 +1722,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25727",
-      "local_definition": null,
+      "local_definition": "m",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -1622,15 +1750,31 @@
       "value_mapping": {
         "terms": {
           "0": {
-            "local_term": null,
+            "local_term": "M0",
             "target_class": "ncit:C48699"
           },
           "1": {
-            "local_term": null,
+            "local_term": "M1",
+            "target_class": "ncit:C48700"
+          },
+          "1_1": {
+            "local_term": "M1a",
+            "target_class": "ncit:C48700"
+          },
+          "1_2": {
+            "local_term": "M1b",
+            "target_class": "ncit:C48700"
+          },
+          "1_3": {
+            "local_term": "M1c",
+            "target_class": "ncit:C48700"
+          },
+          "1_4": {
+            "local_term": "M1d",
             "target_class": "ncit:C48700"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -7992,7 +8136,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25717",
-      "local_definition": null,
+      "local_definition": "patient_death_status",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -8017,11 +8161,27 @@
             "target_class": "ncit:C37987"
           },
           "presumed_alive": {
-            "local_term": null,
+            "local_term": "Not Set",
             "target_class": "ncit:C141463"
           },
           "declared_deceased": {
-            "local_term": null,
+            "local_term": "External - GP Letter",
+            "target_class": "ncit:C99799"
+          },
+          "declared_deceased_1": {
+            "local_term": "Died in Hospital",
+            "target_class": "ncit:C99799"
+          },
+          "declared_deceased_2": {
+            "local_term": "Died elsewhere",
+            "target_class": "ncit:C99799"
+          },
+          "declared_deceased_3": {
+            "local_term": "Died at home",
+            "target_class": "ncit:C99799"
+          },
+          "declared_deceased_4": {
+            "local_term": "Died in Outpatients",
             "target_class": "ncit:C99799"
           },
           "presumed_deceased": {
@@ -8039,7 +8199,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C125201",
-      "local_definition": null,
+      "local_definition": "survival_in_days",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -8067,7 +8227,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
