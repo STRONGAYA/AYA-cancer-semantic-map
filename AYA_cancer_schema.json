@@ -1973,7 +1973,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2023,7 +2023,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2073,7 +2073,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2123,7 +2123,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2173,7 +2173,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2227,7 +2227,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2281,7 +2281,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2343,7 +2343,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2393,7 +2393,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2443,7 +2443,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2493,7 +2493,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2543,7 +2543,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2601,7 +2601,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2659,7 +2659,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2717,7 +2717,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C91102",
           "class_label": "bespokeClass",
           "aesthetic_label": "Bespoke Questions"
@@ -2775,7 +2775,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -2829,7 +2829,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -2883,7 +2883,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -2937,7 +2937,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -2991,7 +2991,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3049,7 +3049,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3107,7 +3107,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3161,7 +3161,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3219,7 +3219,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3273,7 +3273,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3327,7 +3327,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3381,7 +3381,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3435,7 +3435,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3489,7 +3489,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3543,7 +3543,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3597,7 +3597,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3651,7 +3651,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3705,7 +3705,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3759,7 +3759,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3813,7 +3813,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3867,7 +3867,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3921,7 +3921,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -3975,7 +3975,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4029,7 +4029,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4083,7 +4083,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4137,7 +4137,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4195,7 +4195,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4253,7 +4253,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4311,7 +4311,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4369,7 +4369,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "strongaya:qlqaya",
           "class_label": "qlqayaClass",
           "aesthetic_label": "EORTC QLQ-AYA"
@@ -4427,7 +4427,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4481,7 +4481,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4535,7 +4535,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4589,7 +4589,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4643,7 +4643,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4697,7 +4697,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4751,7 +4751,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4805,7 +4805,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4859,7 +4859,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4913,7 +4913,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -4967,7 +4967,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5021,7 +5021,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5075,7 +5075,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5129,7 +5129,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5183,7 +5183,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5237,7 +5237,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5291,7 +5291,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5345,7 +5345,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5399,7 +5399,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5453,7 +5453,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5507,7 +5507,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5561,7 +5561,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5615,7 +5615,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5669,7 +5669,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5723,7 +5723,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5777,7 +5777,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5831,7 +5831,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5885,7 +5885,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -5939,7 +5939,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6005,7 +6005,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6071,7 +6071,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6137,7 +6137,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6203,7 +6203,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6269,7 +6269,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6335,7 +6335,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6401,7 +6401,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6467,7 +6467,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6533,7 +6533,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6599,7 +6599,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6665,7 +6665,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6731,7 +6731,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6797,7 +6797,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6863,7 +6863,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6929,7 +6929,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -6995,7 +6995,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C176836",
           "class_label": "qlqc30Class",
           "aesthetic_label": "EORTC QLQ-C30"
@@ -7061,7 +7061,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7115,7 +7115,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7169,7 +7169,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7223,7 +7223,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7277,7 +7277,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7331,7 +7331,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7385,7 +7385,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7439,7 +7439,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7493,7 +7493,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7547,7 +7547,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7601,7 +7601,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7655,7 +7655,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7709,7 +7709,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7763,7 +7763,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7817,7 +7817,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
@@ -7855,7 +7855,7 @@
         },
         {
           "type": "class",
-          "predicate": "sio:SIO_000235",
+          "predicate": "sio:SIO_000008",
           "class": "ncit:C103520",
           "class_label": "hadsClass",
           "aesthetic_label": "HADS"
