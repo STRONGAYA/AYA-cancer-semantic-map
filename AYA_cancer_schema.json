@@ -56,7 +56,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000233",
       "class": "ncit:C192402",
-      "local_definition": null,
+      "local_definition": "tijddiagn",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -125,7 +125,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C154890",
-      "local_definition": null,
+      "local_definition": "alg_v13_relatief",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -153,7 +153,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -321,11 +321,11 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25193",
-      "local_definition": null,
+      "local_definition": "fulltime",
       "schema_reconstruction": [
         {
           "type": "class",
-          "predicate": "sio:SIO_000255",
+          "predicate": "sio:SIO_000235",
           "class": "mesh:D000091569",
           "class_label": "sociodemographicClass",
           "aesthetic_label": "Sociodemographic_Characteristics"
@@ -358,7 +358,7 @@
             "target_class": "strongaya:internship_unpaid"
           },
           "working_full_time": {
-            "local_term": null,
+            "local_term": "ja",
             "target_class": "ncit:C52658"
           },
           "working_part_time": {
@@ -414,7 +414,213 @@
             "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
+            "local_term": "",
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "occupational_part_time": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C25193",
+      "local_definition": "parttime",
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "mesh:D000091569",
+          "class_label": "sociodemographicClass",
+          "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "education_active": {
             "local_term": null,
+            "target_class": "strongaya:education_active"
+          },
+          "education_break": {
+            "local_term": null,
+            "target_class": "strongaya:education_break"
+          },
+          "intership_paid": {
+            "local_term": null,
+            "target_class": "strongaya:internship_paid"
+          },
+          "intership_unpaid": {
+            "local_term": null,
+            "target_class": "strongaya:internship_unpaid"
+          },
+          "working_full_time": {
+            "local_term": null,
+            "target_class": "ncit:C52658"
+          },
+          "working_part_time": {
+            "local_term": "ja",
+            "target_class": "ncit:C75562"
+          },
+          "working_self_employed": {
+            "local_term": null,
+            "target_class": "ncit:C116000"
+          },
+          "working_zero_hour": {
+            "local_term": null,
+            "target_class": "strongaya:working_zero_hour"
+          },
+          "working_full_parental_leave": {
+            "local_term": null,
+            "target_class": "strongaya:full_parental_leave"
+          },
+          "working_partial_parental_leave": {
+            "local_term": null,
+            "target_class": "strongaya:partial_parental_leave"
+          },
+          "unemployed": {
+            "local_term": null,
+            "target_class": "ncit:C75563"
+          },
+          "unemployed_registered": {
+            "local_term": null,
+            "target_class": "strongaya:unemployed_registered"
+          },
+          "unemployed_unregistered": {
+            "local_term": null,
+            "target_class": "strongaya:unemployed_unregistered"
+          },
+          "unemployed_not_seeking": {
+            "local_term": null,
+            "target_class": "strongaya:unemployed_not_seeking"
+          },
+          "unable_to_work": {
+            "local_term": null,
+            "target_class": "strongaya:unable_to_work"
+          },
+          "voluntary_work": {
+            "local_term": null,
+            "target_class": "ncit:C171228"
+          },
+          "other": {
+            "local_term": null,
+            "target_class": "ncit:C17649"
+          },
+          "prefer_not_to_say": {
+            "local_term": null,
+            "target_class": "ncit:C132222"
+          },
+          "missing_or_unspecified": {
+            "local_term": "",
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "occupational_zzp": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C25193",
+      "local_definition": "zzp_status",
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "mesh:D000091569",
+          "class_label": "sociodemographicClass",
+          "aesthetic_label": "Sociodemographic_Characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "education_active": {
+            "local_term": null,
+            "target_class": "strongaya:education_active"
+          },
+          "education_break": {
+            "local_term": null,
+            "target_class": "strongaya:education_break"
+          },
+          "intership_paid": {
+            "local_term": null,
+            "target_class": "strongaya:internship_paid"
+          },
+          "intership_unpaid": {
+            "local_term": null,
+            "target_class": "strongaya:internship_unpaid"
+          },
+          "working_full_time": {
+            "local_term": null,
+            "target_class": "ncit:C52658"
+          },
+          "working_part_time": {
+            "local_term": null,
+            "target_class": "ncit:C75562"
+          },
+          "working_self_employed": {
+            "local_term": "ja",
+            "target_class": "ncit:C116000"
+          },
+          "working_zero_hour": {
+            "local_term": null,
+            "target_class": "strongaya:working_zero_hour"
+          },
+          "working_full_parental_leave": {
+            "local_term": null,
+            "target_class": "strongaya:full_parental_leave"
+          },
+          "working_partial_parental_leave": {
+            "local_term": null,
+            "target_class": "strongaya:partial_parental_leave"
+          },
+          "unemployed": {
+            "local_term": null,
+            "target_class": "ncit:C75563"
+          },
+          "unemployed_registered": {
+            "local_term": null,
+            "target_class": "strongaya:unemployed_registered"
+          },
+          "unemployed_unregistered": {
+            "local_term": null,
+            "target_class": "strongaya:unemployed_unregistered"
+          },
+          "unemployed_not_seeking": {
+            "local_term": null,
+            "target_class": "strongaya:unemployed_not_seeking"
+          },
+          "unable_to_work": {
+            "local_term": null,
+            "target_class": "strongaya:unable_to_work"
+          },
+          "voluntary_work": {
+            "local_term": null,
+            "target_class": "ncit:C171228"
+          },
+          "other": {
+            "local_term": null,
+            "target_class": "ncit:C17649"
+          },
+          "prefer_not_to_say": {
+            "local_term": null,
+            "target_class": "ncit:C132222"
+          },
+          "missing_or_unspecified": {
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
@@ -678,7 +884,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C164339",
-      "local_definition": null,
+      "local_definition": "jaar_van_diagnose",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -706,7 +912,7 @@
       "value_mapping": {
         "terms": {
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "",
             "target_class": "ncit:C54031"
           }
         }
