@@ -11,6 +11,7 @@
     },
     "administered_prom_language": {
       "data_type": "categorical",
+      "predicate": "sio:SIO_000233",
       "class": "ncit:C16779",
       "local_definition": null,
       "schema_reconstruction": [
