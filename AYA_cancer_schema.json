@@ -7988,7 +7988,7 @@
     "hads_depression": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
-      "class": "ncit:C118112 ",
+      "class": "ncit:C118112",
       "local_definition": null,
       "schema_reconstruction": [
         {
