@@ -8046,7 +8046,7 @@
       }
     },
     "hads_anxiety": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C118111",
       "local_definition": null,
@@ -8084,7 +8084,7 @@
       }
     },
     "hads_depression": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C118112",
       "local_definition": null,
@@ -9298,7 +9298,7 @@
       }
     },
     "survival_status": {
-      "data_type": "continuous",
+      "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25717",
       "local_definition": null,
