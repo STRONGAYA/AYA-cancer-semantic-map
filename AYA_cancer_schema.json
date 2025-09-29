@@ -6348,7 +6348,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181142",
-      "local_definition": null,
+      "local_definition": "ql",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6386,7 +6386,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181143",
-      "local_definition": null,
+      "local_definition": "pf",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6424,7 +6424,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181144",
-      "local_definition": null,
+      "local_definition": "rf",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6462,7 +6462,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181145",
-      "local_definition": null,
+      "local_definition": "ef",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6500,7 +6500,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181146",
-      "local_definition": null,
+      "local_definition": "cf",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6538,7 +6538,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181147",
-      "local_definition": null,
+      "local_definition": "sf",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6576,7 +6576,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181148",
-      "local_definition": null,
+      "local_definition": "fa",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6614,7 +6614,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181149",
-      "local_definition": null,
+      "local_definition": "nv",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6652,7 +6652,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181150",
-      "local_definition": null,
+      "local_definition": "pa",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6690,7 +6690,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181151",
-      "local_definition": null,
+      "local_definition": "dy",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6728,7 +6728,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181152",
-      "local_definition": null,
+      "local_definition": "sl",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6766,7 +6766,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181153",
-      "local_definition": null,
+      "local_definition": "ap",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6804,7 +6804,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181154",
-      "local_definition": null,
+      "local_definition": "co",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6842,7 +6842,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181155",
-      "local_definition": null,
+      "local_definition": "di",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6880,7 +6880,7 @@
       "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181156",
-      "local_definition": null,
+      "local_definition": "fi",
       "schema_reconstruction": [
         {
           "type": "class",
