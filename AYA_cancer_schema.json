@@ -6058,7 +6058,7 @@
       }
     },
     "eortc_qlq_c30_overall_qol_QL2": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181142",
       "local_definition": null,
@@ -6088,34 +6088,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6124,7 +6096,7 @@
       }
     },
     "eortc_qlq_c30_physical_functioning_PF2": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181143",
       "local_definition": null,
@@ -6154,34 +6126,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6190,7 +6134,7 @@
       }
     },
     "eortc_qlq_c30_role_functioning_RF2": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181144",
       "local_definition": null,
@@ -6220,34 +6164,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6256,7 +6172,7 @@
       }
     },
     "eortc_qlq_c30_emotional_functioning_EF": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181145",
       "local_definition": null,
@@ -6286,34 +6202,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6322,7 +6210,7 @@
       }
     },
     "eortc_qlq_c30_cognitive_functioning_CF": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181146",
       "local_definition": null,
@@ -6352,34 +6240,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6388,7 +6248,7 @@
       }
     },
     "eortc_qlq_c30_social_functioning_SF": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181147",
       "local_definition": null,
@@ -6418,34 +6278,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6454,7 +6286,7 @@
       }
     },
     "eortc_qlq_c30_fatigue_FA": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181148",
       "local_definition": null,
@@ -6484,34 +6316,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6520,7 +6324,7 @@
       }
     },
     "eortc_qlq_c30_nausea_vomiting_NV": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181149",
       "local_definition": null,
@@ -6550,34 +6354,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6586,7 +6362,7 @@
       }
     },
     "eortc_qlq_c30_pain_PA": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181150",
       "local_definition": null,
@@ -6616,34 +6392,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6652,7 +6400,7 @@
       }
     },
     "eortc_qlq_c30_dyspnoea_DY": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181151",
       "local_definition": null,
@@ -6682,34 +6430,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6718,7 +6438,7 @@
       }
     },
     "eortc_qlq_c30_insomnia_SL": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181152",
       "local_definition": null,
@@ -6748,34 +6468,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6784,7 +6476,7 @@
       }
     },
     "eortc_qlq_c30_appetite_loss_AP": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181153",
       "local_definition": null,
@@ -6814,34 +6506,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6850,7 +6514,7 @@
       }
     },
     "eortc_qlq_c30_constipation_CO": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181154",
       "local_definition": null,
@@ -6880,34 +6544,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6916,7 +6552,7 @@
       }
     },
     "eortc_qlq_c30_diarrhoea_DI": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181155",
       "local_definition": null,
@@ -6946,34 +6582,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
@@ -6982,7 +6590,7 @@
       }
     },
     "eortc_qlq_c30_financial_difficulties_FI": {
-      "data_type": "categorical",
+      "data_type": "continuous",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C181156",
       "local_definition": null,
@@ -7012,34 +6620,6 @@
       ],
       "value_mapping": {
         "terms": {
-          "score_1_very_poor": {
-            "local_term": null,
-            "target_class": "ncit:C120498"
-          },
-          "score_2": {
-            "local_term": null,
-            "target_class": "ncit:C120499"
-          },
-          "score_3": {
-            "local_term": null,
-            "target_class": "ncit:C120500"
-          },
-          "score_4": {
-            "local_term": null,
-            "target_class": "ncit:C120501"
-          },
-          "score_5": {
-            "local_term": null,
-            "target_class": "ncit:C120502"
-          },
-          "score_6": {
-            "local_term": null,
-            "target_class": "ncit:C120503"
-          },
-          "score_7_excellent": {
-            "local_term": null,
-            "target_class": "ncit:C120504"
-          },
           "missing_or_unspecified": {
             "local_term": null,
             "target_class": "ncit:C54031"
