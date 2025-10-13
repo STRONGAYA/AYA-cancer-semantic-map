@@ -164,7 +164,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C158277",
-      "local_definition": null,
+      "local_definition": "Gender",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -185,11 +185,11 @@
       "value_mapping": {
         "terms": {
           "male": {
-            "local_term": null,
+            "local_term": "Male",
             "target_class": "ncit:C46109"
           },
           "female": {
-            "local_term": null,
+            "local_term": "Female",
             "target_class": "ncit:C46110"
           },
           "transgender": {
@@ -205,7 +205,7 @@
             "target_class": "ncit:C154420"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -215,7 +215,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C16564",
-      "local_definition": null,
+      "local_definition": "Ethnicity",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -236,7 +236,7 @@
       "value_mapping": {
         "terms": {
           "african": {
-            "local_term": null,
+            "local_term": "African African British or any other African group",
             "target_class": "ncit:C42331"
           },
           "arab": {
@@ -244,11 +244,11 @@
             "target_class": "ncit:C43876"
           },
           "asian": {
-            "local_term": null,
+            "local_term": "Asian or Asian British (including Pakistani or Pakistani British Indian or Indian British Bangladesh",
             "target_class": "ncit:C41260"
           },
           "black": {
-            "local_term": null,
+            "local_term": "Black or Black British",
             "target_class": "ncit:C16352"
           },
           "black_or_caribbean_other": {
@@ -260,7 +260,7 @@
             "target_class": "ncit:C77810"
           },
           "mixed_race": {
-            "local_term": null,
+            "local_term": "Mixed or multiple ethnic group",
             "target_class": "ncit:C67109"
           },
           "roma_or_nomadic": {
@@ -268,19 +268,19 @@
             "target_class": "strongaya:roma_or_nomadic"
           },
           "white": {
-            "local_term": null,
+            "local_term": "White (including English Welsh Scottish Northern Irish Irish Gypsy/Traveller or any other White grou",
             "target_class": "ncit:C41261"
           },
           "other": {
-            "local_term": null,
+            "local_term": "Any Other Ethnic Group",
             "target_class": "ncit:C104495"
           },
           "prefer_not_to_say": {
-            "local_term": null,
+            "local_term": "Prefer not to say",
             "target_class": "ncit:C132222"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -290,7 +290,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25193",
-      "local_definition": null,
+      "local_definition": "CurrentEmployment",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -393,7 +393,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "gsso:004690",
-      "local_definition": null,
+      "local_definition": "RelationshipStatus",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -414,15 +414,15 @@
       "value_mapping": {
         "terms": {
           "single": {
-            "local_term": null,
+            "local_term": "Single/Never married or civil partnership",
             "target_class": "gsso:007823"
           },
           "in_relationship": {
-            "local_term": null,
+            "local_term": "In a serious relationship",
             "target_class": "gsso:005488"
           },
           "married": {
-            "local_term": null,
+            "local_term": "Married",
             "target_class": "ncit:C51773"
           },
           "civil_partner_by_law": {
@@ -430,7 +430,7 @@
             "target_class": "gsso:005491"
           },
           "divorced": {
-            "local_term": null,
+            "local_term": "Separated (Legally Married)",
             "target_class": "ncit:C51776"
           },
           "widowed": {
@@ -438,7 +438,11 @@
             "target_class": "ncit:C51775"
           },
           "other": {
-            "local_term": null,
+            "local_term": "Other",
+            "target_class": "ncit:C17649"
+          },
+          "other_1": {
+            "local_term": " Started seeing someone",
             "target_class": "ncit:C17649"
           },
           "missing_or_unspecified": {
@@ -452,7 +456,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "strongaya:identify_disabled",
-      "local_definition": null,
+      "local_definition": "IdentifyDisabled",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -473,11 +477,11 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "No",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "Yes",
             "target_class": "ncit:C49488"
           },
           "prefer_not_to_say": {
@@ -495,7 +499,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "sct:161048004",
-      "local_definition": null,
+      "local_definition": "RegisteredDisabled",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -516,15 +520,15 @@
       "value_mapping": {
         "terms": {
           "no": {
-            "local_term": null,
+            "local_term": "No",
             "target_class": "ncit:C49487"
           },
           "yes": {
-            "local_term": null,
+            "local_term": "Yes",
             "target_class": "ncit:C49488"
           },
           "not_known": {
-            "local_term": null,
+            "local_term": "Dont know",
             "target_class": "ncit:C67142"
           },
           "prefer_not_to_say": {
@@ -6676,7 +6680,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C104302",
-      "local_definition": null,
+      "local_definition": "HADSFeelTense",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6704,23 +6708,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "score_1_time_to_time": {
-            "local_term": null,
+            "local_term": "From time to time",
             "target_class": "ncit:C90025"
           },
           "score_2_a_lot_of_time": {
-            "local_term": null,
+            "local_term": "A lot of the time",
             "target_class": "ncit:C114678"
           },
           "score_3_most_of_time": {
-            "local_term": null,
+            "local_term": "Most of the time",
             "target_class": "ncit:C110991"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -6730,7 +6734,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114635",
-      "local_definition": null,
+      "local_definition": "HADSEnjoySameThings",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6758,23 +6762,23 @@
       "value_mapping": {
         "terms": {
           "score_0_definitely": {
-            "local_term": null,
+            "local_term": "Definitely as much",
             "target_class": "ncit:C114710"
           },
           "score_1_not_much": {
-            "local_term": null,
+            "local_term": "Not quite as much",
             "target_class": "ncit:C114680"
           },
           "score_2_a_little": {
-            "local_term": null,
+            "local_term": "Only a little",
             "target_class": "ncit:C114684"
           },
           "score_3_hardly": {
-            "local_term": null,
+            "local_term": "Hardly at all",
             "target_class": "ncit:C114685"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -6784,7 +6788,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114636",
-      "local_definition": null,
+      "local_definition": "HADSFrightenedFeeling",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6812,23 +6816,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all ",
             "target_class": "ncit:C91213"
           },
           "score_1_a_little": {
-            "local_term": null,
+            "local_term": "A little but it doesnt worry me",
             "target_class": "ncit:C114684"
           },
           "score_2_yes_not_badly": {
-            "local_term": null,
+            "local_term": "Yes but not too badly",
             "target_class": "ncit:C114692"
           },
           "score_3_very_and_badly": {
-            "local_term": null,
+            "local_term": "Very definitely and quite badly",
             "target_class": "ncit:C114686"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -6838,7 +6842,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114637",
-      "local_definition": null,
+      "local_definition": "HADSLaughingOften",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6866,23 +6870,23 @@
       "value_mapping": {
         "terms": {
           "score_0_as_much_as_i_could": {
-            "local_term": null,
+            "local_term": "As much as I always could ",
             "target_class": "ncit:C114695"
           },
           "score_1_not_much": {
-            "local_term": null,
+            "local_term": "Not quite so much now",
             "target_class": "ncit:C114680"
           },
           "score_2_definitely_not_much": {
-            "local_term": null,
+            "local_term": "Definitely not so much now",
             "target_class": "ncit:C114704"
           },
           "score_3_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -6892,7 +6896,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114638",
-      "local_definition": null,
+      "local_definition": "HADSWorryingThoughts",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6920,23 +6924,23 @@
       "value_mapping": {
         "terms": {
           "score_0_only_occasionally": {
-            "local_term": null,
+            "local_term": "Only occasionally",
             "target_class": "ncit:C151974"
           },
           "score_1_time_to_time": {
-            "local_term": null,
+            "local_term": "From time to time but not too often ",
             "target_class": "ncit:C90025"
           },
           "score_2_a_lot_of_time": {
-            "local_term": null,
+            "local_term": "A lot of the time",
             "target_class": "ncit:C114678"
           },
           "score_3_great_deal_of_time": {
-            "local_term": null,
+            "local_term": "A great deal of the time",
             "target_class": "ncit:C114706"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -6946,7 +6950,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114639",
-      "local_definition": null,
+      "local_definition": "HADSFeelCheerful",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -6974,23 +6978,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "score_1_not_often": {
-            "local_term": null,
+            "local_term": "Not often",
             "target_class": "ncit:C114709"
           },
           "score_2_sometimes": {
-            "local_term": null,
+            "local_term": "Sometimes",
             "target_class": "ncit:C90025"
           },
           "score_3_most_times": {
-            "local_term": null,
+            "local_term": "Most of the time",
             "target_class": "ncit:C110991"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7000,7 +7004,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114640",
-      "local_definition": null,
+      "local_definition": "HADSEaseRelaxed",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7028,23 +7032,23 @@
       "value_mapping": {
         "terms": {
           "score_0_definitely": {
-            "local_term": null,
+            "local_term": "Definitely",
             "target_class": "ncit:C114710"
           },
           "score_1_usually": {
-            "local_term": null,
+            "local_term": "Usually",
             "target_class": "ncit:C114711"
           },
           "score_2_not_often": {
-            "local_term": null,
+            "local_term": "Not often",
             "target_class": "ncit:C114709"
           },
           "score_3_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7054,7 +7058,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114668",
-      "local_definition": null,
+      "local_definition": "HADSFeelSlowedDown",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7082,23 +7086,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "score_1_somtimes": {
-            "local_term": null,
+            "local_term": "Sometimes",
             "target_class": "ncit:C90025"
           },
           "score_2_very_often": {
-            "local_term": null,
+            "local_term": "Very often",
             "target_class": "ncit:C91245"
           },
           "score_3_nearly_all_time": {
-            "local_term": null,
+            "local_term": "Nearly all the time",
             "target_class": "ncit:C114712"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7108,7 +7112,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114669",
-      "local_definition": null,
+      "local_definition": "HADSFrightenedFeelingInStomach",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7136,23 +7140,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "score_1_occasionally": {
-            "local_term": null,
+            "local_term": "Occasionally",
             "target_class": "ncit:C151974"
           },
           "score_2_quite_often": {
-            "local_term": null,
+            "local_term": "Quite often",
             "target_class": "ncit:C114713"
           },
           "score_3_very_often": {
-            "local_term": null,
+            "local_term": "Very often",
             "target_class": "ncit:C91245"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7162,7 +7166,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114670",
-      "local_definition": null,
+      "local_definition": "HADSInterestInAppearence",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7190,23 +7194,23 @@
       "value_mapping": {
         "terms": {
           "score_0_as_much_as_ever": {
-            "local_term": null,
+            "local_term": "I take as much care as ever",
             "target_class": "ncit:C114718"
           },
           "score_1_not_as_much": {
-            "local_term": null,
+            "local_term": "I may not take quite as much care",
             "target_class": "ncit:C114716"
           },
           "score_2_not_as_much_as_should": {
-            "local_term": null,
+            "local_term":  "I dont take as much care as I should",
             "target_class": "ncit:C114715"
           },
           "score_3_definitely": {
-            "local_term": null,
+            "local_term": "Definitely",
             "target_class": "ncit:C114721"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7216,7 +7220,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114671",
-      "local_definition": null,
+      "local_definition": "HADSFeelingRestless",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7244,23 +7248,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "score_1_not_very_much": {
-            "local_term": null,
+            "local_term": "Not very much",
             "target_class": "ncit:C114719"
           },
           "score_2_quite_a_lot": {
-            "local_term": null,
+            "local_term": "Quite a lot",
             "target_class": "ncit:C91216"
           },
           "score_3_very_much_indeed": {
-            "local_term": null,
+            "local_term": "Very much indeed",
             "target_class": "ncit:C91217"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7270,7 +7274,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114674",
-      "local_definition": null,
+      "local_definition": "HADSLookFwdWithEnjoymentThings",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7298,23 +7302,23 @@
       "value_mapping": {
         "terms": {
           "score_0_as_much_as_ever": {
-            "local_term": null,
+            "local_term": "As much as I ever did",
             "target_class": "ncit:C114695"
           },
           "score_1_rather_less": {
-            "local_term": null,
+            "local_term": "Rather less than I used to",
             "target_class": "ncit:C114720"
           },
           "score_2_definitely_less": {
-            "local_term": null,
+            "local_term": "Definitely less than I used to",
             "target_class": "ncit:C114721"
           },
           "score_3_hardly_at_all": {
-            "local_term": null,
+            "local_term": "Hardly at all ",
             "target_class": "ncit:C114685"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7324,7 +7328,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114676",
-      "local_definition": null,
+      "local_definition": "HADSPanicFeeling",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7352,23 +7356,23 @@
       "value_mapping": {
         "terms": {
           "score_0_not_at_all": {
-            "local_term": null,
+            "local_term": "Not at all",
             "target_class": "ncit:C91213"
           },
           "score_1_not_very_often": {
-            "local_term": null,
+            "local_term": "Not very often",
             "target_class": "ncit:C114709"
           },
           "score_2_quite_often": {
-            "local_term": null,
+            "local_term": "Quite often",
             "target_class": "ncit:C114713"
           },
           "score_3_very_often": {
-            "local_term": null,
+            "local_term": "Very often indeed",
             "target_class": "ncit:C91245"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
@@ -7378,7 +7382,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114677",
-      "local_definition": null,
+      "local_definition": "HADSPanicFeeling",
       "schema_reconstruction": [
         {
           "type": "class",
@@ -7406,23 +7410,23 @@
       "value_mapping": {
         "terms": {
           "score_0_often": {
-            "local_term": null,
+            "local_term": "Often",
             "target_class": "ncit:C91247"
           },
           "score_1_sometimes": {
-            "local_term": null,
+            "local_term": "Sometimes",
             "target_class": "ncit:C90025"
           },
           "score_2_not_often": {
-            "local_term": null,
+            "local_term": "Not often",
             "target_class": "ncit:C114709"
           },
           "score_3_very_seldom": {
-            "local_term": null,
+            "local_term": "Very seldom ",
             "target_class": "ncit:C73116"
           },
           "missing_or_unspecified": {
-            "local_term": null,
+            "local_term": "NULL",
             "target_class": "ncit:C54031"
           }
         }
