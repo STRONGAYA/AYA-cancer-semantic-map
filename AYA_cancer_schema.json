@@ -7382,7 +7382,7 @@
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C114677",
-      "local_definition": "HADSPanicFeeling",
+      "local_definition": "HADSEnjoyBooksTv",
       "schema_reconstruction": [
         {
           "type": "class",
