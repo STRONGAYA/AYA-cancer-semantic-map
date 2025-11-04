@@ -1,5 +1,6 @@
 # AYA-cancer-data-semantic-map 
 <p align="center">
+<a href="https://doi.org/10.5281/zenodo.17521899"><img alt="DOI: 10.5281/zenodo.17521900 " src="https://zenodo.org/badge/DOI/10.5281/zenodo.17521900.svg"></a>
 <a href="https://opensource.org/licenses/Apache-2.0"><img alt="Licence: Apache 2.0" src="https://img.shields.io/badge/Licence-Apache%202.0-blue.svg"></a>
 <br>
 <a href="https://github.com/alex-shpak/hugo-book"><img alt="Hugo" src="https://img.shields.io/badge/Hugo-hugo book-cd007b.svg"></a>
