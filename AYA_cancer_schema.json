@@ -253,7 +253,7 @@
           },
           "black_or_caribbean_other": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "strongaya:black_caribbean_other"
           },
           "caribbean": {
             "local_term": null,
@@ -7654,11 +7654,11 @@
           },
           "yes_psychology": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "strongaya:referred_psychology"
           },
           "yes_psychiatry": {
             "local_term": null,
-            "target_class": "TODO"
+            "target_class": "strongaya:referred_psychiatry"
           },
           "missing_or_unspecified": {
             "local_term": null,
@@ -7865,7 +7865,7 @@
     "organ_function_creatinine": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
-      "class": "TODO",
+      "class": "ncit:C143391",
       "local_definition": null,
       "schema_reconstruction": [
         {
