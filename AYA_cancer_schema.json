@@ -19,7 +19,7 @@
           "type": "class",
           "placement": "before",
           "predicate": "sio:SIO_000233",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -62,8 +62,8 @@
         {
           "type": "class",
           "placement": "before",
-          "predicate": "sio:SIO_000233",
-          "class": "ncit:C142529",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         },
