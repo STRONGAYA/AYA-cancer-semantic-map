@@ -139,7 +139,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         },
@@ -177,7 +177,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -228,7 +228,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -303,7 +303,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -406,7 +406,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -465,7 +465,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -508,7 +508,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -555,7 +555,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2028,7 +2028,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2078,7 +2078,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2128,7 +2128,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2178,7 +2178,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2228,7 +2228,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2282,7 +2282,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2336,7 +2336,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2398,7 +2398,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2448,7 +2448,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2498,7 +2498,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2548,7 +2548,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2598,7 +2598,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2656,7 +2656,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2714,7 +2714,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2772,7 +2772,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2830,7 +2830,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2884,7 +2884,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2938,7 +2938,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -2992,7 +2992,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3046,7 +3046,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3104,7 +3104,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3162,7 +3162,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3216,7 +3216,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3274,7 +3274,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3328,7 +3328,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3382,7 +3382,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3436,7 +3436,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3490,7 +3490,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3544,7 +3544,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3598,7 +3598,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3652,7 +3652,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3706,7 +3706,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3760,7 +3760,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3814,7 +3814,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3868,7 +3868,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3922,7 +3922,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -3976,7 +3976,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4030,7 +4030,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4084,7 +4084,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4138,7 +4138,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4192,7 +4192,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4250,7 +4250,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4308,7 +4308,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4366,7 +4366,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4424,7 +4424,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4482,7 +4482,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4536,7 +4536,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4590,7 +4590,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4644,7 +4644,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4698,7 +4698,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4752,7 +4752,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4806,7 +4806,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4860,7 +4860,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4914,7 +4914,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -4968,7 +4968,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5022,7 +5022,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5076,7 +5076,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5130,7 +5130,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5184,7 +5184,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5238,7 +5238,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5292,7 +5292,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5346,7 +5346,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5400,7 +5400,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5454,7 +5454,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5508,7 +5508,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5562,7 +5562,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5616,7 +5616,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5670,7 +5670,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5724,7 +5724,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5778,7 +5778,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5832,7 +5832,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5886,7 +5886,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5940,7 +5940,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -5994,7 +5994,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6060,7 +6060,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6126,7 +6126,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6164,7 +6164,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6202,7 +6202,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6240,7 +6240,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6278,7 +6278,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6316,7 +6316,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6354,7 +6354,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6392,7 +6392,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6430,7 +6430,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6468,7 +6468,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6506,7 +6506,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6544,7 +6544,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6582,7 +6582,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6620,7 +6620,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6658,7 +6658,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6696,7 +6696,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6750,7 +6750,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6804,7 +6804,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6858,7 +6858,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6912,7 +6912,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -6966,7 +6966,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7020,7 +7020,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7074,7 +7074,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7128,7 +7128,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7182,7 +7182,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7236,7 +7236,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7290,7 +7290,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7344,7 +7344,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7398,7 +7398,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7452,7 +7452,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
@@ -7490,7 +7490,7 @@
           "type": "class",
           "placement": "after",
           "predicate": "sio:SIO_000253",
-          "class": "ncit:C142529",
+          "class": "ncit:C177377",
           "class_label": "promClass",
           "aesthetic_label": "PROM"
         }
