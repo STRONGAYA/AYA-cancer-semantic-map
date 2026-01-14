@@ -5027,6 +5027,538 @@
         }
       }
     },
+    "eortc_qlq_aya_activity_limit_AYAAL": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayaal",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_worry_AYAWO": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayawo",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_self_esteem_AYASE": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayase",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_relationships_AYARE": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayare",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_positive_change_AYAPC": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayapc",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_restricted_food_drink_AYARFD": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayarfd",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_weight_gain_AYAWG": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayawg",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_weight_loss_AYAWL": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayawl",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_looking_after_AYALO": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayalo",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_problems_edu_work_AYAEW": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayaew",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_romantic_life_AYARO": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayaro",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_sex_life_AYASL": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayasl",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_change_residence_AYACR": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayacr",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "eortc_qlq_aya_early_menopause_gain_AYAEM": {
+      "data_type": "continuous",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:eortc_qlq_aya_ayaem",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C20200",
+          "class_label": "outcomeClass",
+          "aesthetic_label": "Outcome"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000008",
+          "class": "strongaya:qlqaya",
+          "class_label": "qlqayaClass",
+          "aesthetic_label": "EORTC QLQ-AYA"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C177377",
+          "class_label": "promClass",
+          "aesthetic_label": "PROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
     "eortc_qlq_c30_q1": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
