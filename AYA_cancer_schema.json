@@ -1426,6 +1426,97 @@
         }
       }
     },
+    "overall_stage": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000059",
+      "class": "strongaya:overall_stage",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C185253",
+          "node_label": "icd10codes",
+          "aesthetic_label": "ICD"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "laterality": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C25185",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C185253",
+          "node_label": "icd10codes",
+          "aesthetic_label": "ICD"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "unilateral": {
+            "local_term": null,
+            "target_class": "ncit:C28012"
+          },
+          "bilateral": {
+            "local_term": null,
+            "target_class": "ncit:C13332"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
     "tumour_topography_or_location_icd_10": {
       "data_type": "standardised",
       "predicate": "sio:SIO_000059",
@@ -1516,7 +1607,97 @@
         }
       }
     },
-    "t_stage": {
+    "tumour_topography_or_location_icd_0": {
+      "data_type": "standardised",
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C160903",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C37978",
+          "node_label": "icdocodes",
+          "aesthetic_label": "ICD-O"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "tumour_morphology_icd_0": {
+      "data_type": "standardised",
+      "predicate": "sio:SIO_000059",
+      "class": "ncit:C176985",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        },
+        {
+          "type": "node",
+          "predicate": "sio:SIO_000233",
+          "class": "ncit:C37978",
+          "node_label": "icdocodes",
+          "aesthetic_label": "ICD-O"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "clinical_t_stage": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25728",
@@ -1578,7 +1759,7 @@
         }
       }
     },
-    "n_stage": {
+    "clinical_n_stage": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25580",
@@ -1636,7 +1817,7 @@
         }
       }
     },
-    "m_stage": {
+    "clinical_m_stage": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
       "class": "ncit:C25727",
@@ -1674,6 +1855,394 @@
           "1": {
             "local_term": null,
             "target_class": "ncit:C48700"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "pathological_t_stage": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:path_t_stage",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "x": {
+            "local_term": null,
+            "target_class": "ncit:C48737"
+          },
+          "0": {
+            "local_term": null,
+            "target_class": "ncit:C48719"
+          },
+          "1": {
+            "local_term": null,
+            "target_class": "ncit:C48720"
+          },
+          "2": {
+            "local_term": null,
+            "target_class": "ncit:C48724"
+          },
+          "3": {
+            "local_term": null,
+            "target_class": "ncit:C48728"
+          },
+          "4": {
+            "local_term": null,
+            "target_class": "ncit:C48732"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "pathological_n_stage": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:path_n_stage",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "x": {
+            "local_term": null,
+            "target_class": "ncit:C48718"
+          },
+          "0": {
+            "local_term": null,
+            "target_class": "ncit:C48705"
+          },
+          "1": {
+            "local_term": null,
+            "target_class": "ncit:C48706"
+          },
+          "2": {
+            "local_term": null,
+            "target_class": "ncit:C48786"
+          },
+          "3": {
+            "local_term": null,
+            "target_class": "ncit:C48714"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "pathological_m_stage": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:path_m_stage",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "0": {
+            "local_term": null,
+            "target_class": "ncit:C48699"
+          },
+          "1": {
+            "local_term": null,
+            "target_class": "ncit:C48700"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "tumour_size": {
+      "data_type": "numerical",
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C120284",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "lymph_nodes_examined": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:lymph_nodes_examined",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "distant_metastases": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C18206",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C3262",
+          "class_label": "neoplasmClass",
+          "aesthetic_label": "Neoplasm"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142453",
+          "class_label": "hcpromClass",
+          "aesthetic_label": "HCPROM"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "non_tumour_directed_treatment": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "strongaya:non_tumour_directed_treatment",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "no": {
+            "local_term": null,
+            "target_class": "ncit:C49487"
+          },
+          "yes": {
+            "local_term": null,
+            "target_class": "ncit:C49488"
+          },
+          "missing_or_unspecified": {
+            "local_term": null,
+            "target_class": "ncit:C54031"
+          }
+        }
+      }
+    },
+    "treatment_intent": {
+      "data_type": "categorical",
+      "predicate": "sio:SIO_000008",
+      "class": "ncit:C210652",
+      "local_definition": null,
+      "schema_reconstruction": [
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000255",
+          "class": "ncit:C18772",
+          "class_label": "medicalClass",
+          "aesthetic_label": "Medical_characteristics"
+        },
+        {
+          "type": "class",
+          "predicate": "sio:SIO_000235",
+          "class": "ncit:C25218",
+          "class_label": "treatmentClass",
+          "aesthetic_label": "Treatment"
+        },
+        {
+          "type": "class",
+          "placement": "after",
+          "predicate": "sio:SIO_000253",
+          "class": "ncit:C142529",
+          "class_label": "ehrClass",
+          "aesthetic_label": "EHR"
+        }
+      ],
+      "value_mapping": {
+        "terms": {
+          "curative": {
+            "local_term": null,
+            "target_class": "ncit:C185614"
+          },
+          "palliative": {
+            "local_term": null,
+            "target_class": "ncit:C15292"
           },
           "missing_or_unspecified": {
             "local_term": null,
