@@ -6642,7 +6642,7 @@
     "eortc_qlq_c30_q21": {
       "data_type": "categorical",
       "predicate": "sio:SIO_000008",
-      "class": "ncit:C104302",
+      "class": "strongaya:eortc_qlq_c30_q21",
       "local_definition": null,
       "schema_reconstruction": [
         {
