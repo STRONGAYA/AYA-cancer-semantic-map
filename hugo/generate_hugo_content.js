@@ -120,38 +120,35 @@ Object.keys(variableInfo).forEach(async (variable) => {
     const schemaReconstruction = variableData.schemaReconstruction || [];
     let classDirs = [];
 
-    for (const reconstruction of schemaReconstruction) {
-        if (reconstruction['@type'] === 'schema:ClassNode' && !reconstruction.placement) {
-            const classLabels = schemaReconstruction
-                .filter(rec => rec['@type'] === 'schema:ClassNode' && !rec.placement)
-                .map(rec => rec.aestheticLabel);
+    // Filter ClassNodes without placement once, then process directory chain
+    const classNodes = schemaReconstruction.filter(rec => rec['@type'] === 'schema:ClassNode' && !rec.placement);
+    const classLabels = classNodes.map(rec => rec.aestheticLabel);
 
-            for (const [index, label] of classLabels.entries()) {
-                let dirName = label;
-                if (uppercaseFolders.some(str => dirName.includes(str))) {
-                    dirName = dirName.toUpperCase();
-                }
-                const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
-
-                // Create the directory if it does not exist
-                if (!fs.existsSync(classDir)) {
-                    fs.mkdirSync(classDir, {recursive: true});
-                }
-
-                // Fetch the class details
-                const classDetails = await getClassDetails(reconstruction.class, apiKey);
-
-                let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${reconstruction.class}*.  \n`;
-                if (classDetails.preferredName === 'No preferred name available' && classDetails.definition === 'No definition available') {
-                    indexContent += `This shortcode is custom and does not appear in standard vocabularies.\n`;
-                } else {
-                    indexContent += `In standard vocabularies this shortcode refers to "*${classDetails.preferredName}*" and is defined as "*${classDetails.definition}*"\n`;
-                }
-                fs.writeFileSync(path.join(classDir, '_index.md'), indexContent);
-
-                classDirs.push(classDir);
-            }
+    for (const [index, classNode] of classNodes.entries()) {
+        const label = classNode.aestheticLabel;
+        let dirName = label;
+        if (uppercaseFolders.some(str => dirName.includes(str))) {
+            dirName = dirName.toUpperCase();
         }
+        const classDir = path.join(__dirname, 'content', 'AYA-cancer-data-semantic-map', 'Semantic Mapping', ...classLabels.slice(0, index).concat(dirName));
+
+        // Create the directory if it does not exist
+        if (!fs.existsSync(classDir)) {
+            fs.mkdirSync(classDir, {recursive: true});
+        }
+
+        // Fetch the class details
+        const classDetails = await getClassDetails(classNode.class, apiKey);
+
+        let indexContent = `---\nbookCollapseSection: true\nweight: 20\n---\n# ${label}\n The concept we in STRONG AYA refer to as "_${label}_" is identifiable through shortcode *${classNode.class}*.  \n`;
+        if (classDetails.preferredName === 'No preferred name available' && classDetails.definition === 'No definition available') {
+            indexContent += `This shortcode is custom and does not appear in standard vocabularies.\n`;
+        } else {
+            indexContent += `In standard vocabularies this shortcode refers to "*${classDetails.preferredName}*" and is defined as "*${classDetails.definition}*"\n`;
+        }
+        fs.writeFileSync(path.join(classDir, '_index.md'), indexContent);
+
+        classDirs.push(classDir);
     }
 
     // Add node type information to the content
