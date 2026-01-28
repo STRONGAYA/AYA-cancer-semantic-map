@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/MaastrichtU-CDS/Flyover/refs/heads/main/triplifier/data_descriptor/schemas/mapping_schema.json",
   "@context": {
     "@vocab": "https://github.com/MaastrichtU-CDS/Flyover/",
     "sio": "http://semanticscience.org/resource/",
@@ -48,7 +49,7 @@
       "@type": "@id"
     }
   },
-  "@id": "TODO",
+  "@id": "https://raw.githubusercontent.com/STRONGAYA/AYA-cancer-semantic-map/refs/heads/main/AYA_cancer_schema.jsonld",
   "@type": "mapping:DataMapping",
   "name": "STRONG AYA semantic mapping",
   "description": "STRONG AYA semantic mapping for retrospective and prospective data collection",
