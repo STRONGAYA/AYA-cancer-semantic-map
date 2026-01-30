@@ -9348,5 +9348,358 @@
       }
     }
   },
-  "databases": {}
+  "databases": {
+    "CLB_retrospective_data": {
+      "@id": "mapping:database/CLB_retrospective_data",
+      "@type": "mapping:Database",
+      "name": "CLB_retrospective_data",
+      "description": "CLB electronic health record retrospective export, collated 30 June 2025",
+      "locale": "fr_FR",
+      "tables": {
+        "tbl_20250630_STRONGAYA_Export_Patients": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_patients/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Patients",
+          "description": "Base patient information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "biological_sex": {
+              "mapsTo": "schema:variable/biological_sex",
+              "localColumn": "SEXE",
+              "localMappings": {
+                "male": [
+                  "1"
+                ],
+                "female": [
+                  "2"
+                ]
+              }
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_Tumeurs": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_tumeurs/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Tumeurs",
+          "description": "Base tumour information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "age_at_initial_diagnosis": {
+              "mapsTo": "schema:variable/age_at_initial_diagnosis",
+              "localColumn": "AGE_DIAG_1"
+            },
+            "year_of_initial_diagnosis": {
+              "mapsTo": "schema:variable/year_of_initial_diagnosis",
+              "localColumn": "ANNEE_DIAG_1"
+            },
+            "tumour_topography_or_location_icd_o": {
+              "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
+              "localColumn": "SIEGECLB"
+            },
+            "tumour_morphology_icd_o": {
+              "mapsTo": "schema:variable/tumour_morphology_icd_o",
+              "localColumn": "CODE_CIMO"
+            },
+            "laterality": {
+              "mapsTo": "schema:variable/laterality",
+              "localColumn": "COTELES"
+            },
+            "clinical_t_stage": {
+              "mapsTo": "schema:variable/clinical_t_stage",
+              "localColumn": "cT",
+              "localMappings": {
+                "0": [
+                  "T0"
+                ],
+                "1": [
+                  "T1c",
+                  "T1",
+                  "T1a",
+                  "T1b2",
+                  "T1b1",
+                  "TIS",
+                  "T1b",
+                  "T1a2",
+                  "Tis"
+                ],
+                "2": [
+                  "T2",
+                  "T2b",
+                  "T2a"
+                ],
+                "3": [
+                  "T3",
+                  "T3c",
+                  "T3a",
+                  "T3b"
+                ],
+                "4": [
+                  "T4",
+                  "T4d",
+                  "T4b",
+                  "T4a"
+                ],
+                "x": [
+                  "TX",
+                  "Tx"
+                ]
+              }
+            },
+            "clinical_n_stage": {
+              "mapsTo": "schema:variable/clinical_n_stage",
+              "localColumn": "cN",
+              "localMappings": {
+                "0": [
+                  "N0"
+                ],
+                "1": [
+                  "N1",
+                  "N1a",
+                  "N1b"
+                ],
+                "2": [
+                  "N2",
+                  "N2b",
+                  "N2c",
+                  "N2a"
+                ],
+                "3": [
+                  "N3",
+                  "N3c"
+                ],
+                "x": [
+                  "Nx",
+                  "NX",
+                  "Nxx"
+                ]
+              }
+            },
+            "clinical_m_stage": {
+              "mapsTo": "schema:variable/clinical_m_stage",
+              "localColumn": "cM",
+              "localMappings": {
+                "0": [
+                  "M0"
+                ],
+                "1": [
+                  "M3",
+                  "M1",
+                  "M5",
+                  "M9",
+                  "M1a",
+                  "M4",
+                  "M8",
+                  "M2",
+                  "M1c",
+                  "M1b"
+                ],
+                "missing_or_unspecified": [
+                  "MX",
+                  "Mx"
+                ]
+              }
+            },
+            "pathological_t_stage": {
+              "mapsTo": "schema:variable/pathological_t_stage",
+              "localColumn": "pT",
+              "localMappings": {
+                "0": [
+                  "pT0"
+                ],
+                "1": [
+                  "pT1",
+                  "pT1a",
+                  "pTIS",
+                  "pT1c",
+                  "pT1a2",
+                  "pT1b",
+                  "pT1B",
+                  "pTis"
+                ],
+                "2": [
+                  "pT2"
+                ],
+                "3": [
+                  "pT3",
+                  "pT3c",
+                  "pT3a",
+                  "pT3b"
+                ],
+                "4": [
+                  "pT4a",
+                  "pT4"
+                ],
+                "x": [
+                  "pTx",
+                  "pTX"
+                ]
+              }
+            },
+            "pathological_n_stage": {
+              "mapsTo": "schema:variable/pathological_n_stage",
+              "localColumn": "pN",
+              "localMappings": {
+                "0": [
+                  "pN0"
+                ],
+                "1": [
+                  "pN1a",
+                  "pN1",
+                  "pN1mi",
+                  "pN1b"
+                ],
+                "2": [
+                  "pN2",
+                  "pN2a",
+                  "pN2b"
+                ],
+                "3": [
+                  "pN3"
+                ],
+                "x": [
+                  "pNx",
+                  "pNX"
+                ]
+              }
+            },
+            "pathological_m_stage": {
+              "mapsTo": "schema:variable/pathological_m_stage",
+              "localColumn": "pM",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "pMX"
+                ]
+              }
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_EvolutionsTumorales": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_evolutionstumorales/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_EvolutionsTumorales",
+          "description": "Tumour progression information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_Stades": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_stades/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Stades",
+          "description": "Tumour staging information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "overall_stage": {
+              "mapsTo": "schema:variable/overall_stage",
+              "localColumn": "STADE_VALUE"
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_Metastases": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_metastases/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Metastases",
+          "description": "Metastates information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "tumour_topography_or_location_icd_o": {
+              "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
+              "localColumn": "CODE_CIMO3"
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_Chirurgie": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_chirurgie/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Chirurgie",
+          "description": "Surgical treatment information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "time_ehrprom_recording": {
+              "mapsTo": "schema:variable/time_ehrprom_recording",
+              "localColumn": "DELTA_CH_DIAG1"
+            },
+            "surgery": {
+              "mapsTo": "schema:variable/surgery",
+              "localColumn": "A_RECU_CHIR",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ]
+              }
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_Treatments": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_treatments/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Treatments",
+          "description": "Intravenous (chemotherapy or other) treatment information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "chemotherapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "A_RECU_TRAITEMENT",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ]
+              }
+            }
+          }
+        },
+        "tbl_20250630_STRONGAYA_Export_Radiotherapie": {
+          "@id": "mapping:table/tbl_20250630_strongaya_export_radiotherapie/data",
+          "@type": "mapping:Table",
+          "sourceFile": "tbl_20250630_STRONGAYA_Export_Radiotherapie",
+          "description": "Radiotherapy treatment information",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "IPPR"
+            },
+            "radiotherapy": {
+              "mapsTo": "schema:variable/radiotherapy",
+              "localColumn": "A_RECU_RXT",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
