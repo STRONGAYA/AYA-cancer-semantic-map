@@ -9357,7 +9357,7 @@
       "locale": "en_GB",
       "tables": {
         "YSRCCYP_STRONGAYA20251023": {
-          "@id": "mapping:table/YSRCCYP_Retrospective_data/YSRCCYP_STRONGAYA20251023",
+          "@id": "mapping:table/YSRCCYP_STRONGAYA20251023",
           "@type": "mapping:Table",
           "sourceFile": "YSRCCYP_STRONGAYA20251023",
           "description": "Main Registry table and backbone for research datasets",
@@ -9434,7 +9434,7 @@
           }
         },
         "GERMCELL_STRONG_AYA20251113": {
-          "@id": "mapping:table/YSRCCYP_Retrospective_data/GERMCELL_STRONG_AYA20251113",
+          "@id": "mapping:table/GERMCELL_STRONG_AYA20251113",
           "@type": "mapping:Table",
           "sourceFile": "GERMCELL_STRONG_AYA20251113",
           "description": "GERM-CELL study (DOI: 10.1111/ecc.13264) data extract",
@@ -9450,7 +9450,7 @@
           }
         },
         "StarsWave1_STRONG_AYA20251113": {
-          "@id": "mapping:table/YSRCCYP_Retrospective_data/StarsWave1_STRONG_AYA20251113",
+          "@id": "mapping:table/StarsWave1_STRONG_AYA20251113",
           "@type": "mapping:Table",
           "sourceFile": "StarsWave1_STRONG_AYA20251113",
           "description": "Stars wave 1 study (DOI: 10.3390/cancers16071332) data extract",
@@ -9816,7 +9816,7 @@
           }
         },
         "StarsWave2_STRONG_AYA20251113": {
-          "@id": "mapping:table/YSRCCYP_Retrospective_data/StarsWave2_STRONG_AYA20251113",
+          "@id": "mapping:table/StarsWave2_STRONG_AYA20251113",
           "@type": "mapping:Table",
           "sourceFile": "StarsWave2_STRONG_AYA20251113",
           "description": "Stars wave 2 study (DOI: 10.3390/cancers16071332) data extract",
