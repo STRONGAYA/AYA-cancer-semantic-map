@@ -9357,7 +9357,7 @@
       "locale": "fr_FR",
       "tables": {
         "tbl_20250630_STRONGAYA_Export_Patients": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_patients/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_patients",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Patients",
           "description": "Base patient information",
@@ -9381,7 +9381,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_Tumeurs": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_tumeurs/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_tumeurs",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Tumeurs",
           "description": "Base tumour information",
@@ -9580,7 +9580,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_EvolutionsTumorales": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_evolutionstumorales/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_evolutionstumorales",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_EvolutionsTumorales",
           "description": "Tumour progression information",
@@ -9592,7 +9592,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_Stades": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_stades/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_stades",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Stades",
           "description": "Tumour staging information",
@@ -9608,7 +9608,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_Metastases": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_metastases/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_metastases",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Metastases",
           "description": "Metastates information",
@@ -9624,7 +9624,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_Chirurgie": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_chirurgie/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_chirurgie",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Chirurgie",
           "description": "Surgical treatment information",
@@ -9652,7 +9652,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_Treatments": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_treatments/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_treatments",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Treatments",
           "description": "Intravenous (chemotherapy or other) treatment information",
@@ -9676,7 +9676,7 @@
           }
         },
         "tbl_20250630_STRONGAYA_Export_Radiotherapie": {
-          "@id": "mapping:table/tbl_20250630_strongaya_export_radiotherapie/data",
+          "@id": "mapping:table/tbl_20250630_strongaya_export_radiotherapie",
           "@type": "mapping:Table",
           "sourceFile": "tbl_20250630_STRONGAYA_Export_Radiotherapie",
           "description": "Radiotherapy treatment information",
