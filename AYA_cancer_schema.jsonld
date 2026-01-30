@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/MaastrichtU-CDS/Flyover/refs/heads/main/triplifier/data_descriptor/schemas/mapping_schema.json",
   "@context": {
     "@vocab": "https://github.com/MaastrichtU-CDS/Flyover/",
     "sio": "http://semanticscience.org/resource/",
@@ -7,51 +8,12 @@
     "roo": "http://www.cancerdata.org/roo/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "schema/",
-    "mapping": "mapping/",
-    "variables": {
-      "@id": "schema:hasVariable",
-      "@container": "@index"
-    },
-    "schemaReconstruction": {
-      "@id": "schema:hasSchemaReconstruction",
-      "@container": "@list"
-    },
-    "valueMapping": {
-      "@id": "schema:hasValueMapping"
-    },
-    "terms": {
-      "@id": "schema:hasTerms",
-      "@container": "@index"
-    },
-    "targetClass": {
-      "@id": "schema:mapsToClass",
-      "@type": "@id"
-    },
-    "databases": {
-      "@id": "mapping:hasDatabase",
-      "@container": "@index"
-    },
-    "tables": {
-      "@id": "mapping:hasTable",
-      "@container": "@index"
-    },
-    "columns": {
-      "@id": "mapping:hasColumn",
-      "@container": "@index"
-    },
-    "localMappings": {
-      "@id": "mapping:hasLocalMappings",
-      "@container": "@index"
-    },
-    "mapsTo": {
-      "@id": "mapping:mapsToVariable",
-      "@type": "@id"
-    }
+    "mapping": "mapping/"
   },
-  "@id": "TODO",
+  "@id": "https://raw.githubusercontent.com/STRONGAYA/AYA-cancer-semantic-map/refs/heads/main/AYA_cancer_schema.jsonld",
   "@type": "mapping:DataMapping",
   "name": "STRONG AYA semantic mapping",
-  "description": "STRONG AYA semantic mapping for retrospective and prospective data collection",
+  "description": "STRONG AYA semantic mapping for retrospective and prospective data collection; for more information https://strongaya.eu",
   "version": "1.0.0",
   "created": "2026-01-14",
   "endpoint": "http://localhost:7200/repositories/userRepo/statements",
