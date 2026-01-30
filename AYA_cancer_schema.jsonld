@@ -9348,5 +9348,840 @@
       }
     }
   },
-  "databases": {}
+  "databases": {
+    "YSRCCYP_retrospective_data": {
+      "@id": "mapping:database/YSRCCYP_Retrospective_data",
+      "@type": "mapping:Database",
+      "name": "YSRCCYP_retrospective_data",
+      "description": "YSRCCYP-registry retrospective data extract, collated on 13th November 2025",
+      "locale": "en_GB",
+      "tables": {
+        "YSRCCYP_STRONGAYA20251023": {
+          "@id": "mapping:table/YSRCCYP_Retrospective_data/YSRCCYP_STRONGAYA20251023",
+          "@type": "mapping:Table",
+          "sourceFile": "YSRCCYP_STRONGAYA20251023",
+          "description": "Main Registry table and backbone for research datasets",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "PatientID"
+            },
+            "age_at_initial_diagnosis": {
+              "mapsTo": "schema:variable/age_at_initial_diagnosis",
+              "localColumn": "AgeAtDiagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "year_of_initial_diagnosis": {
+              "mapsTo": "schema:variable/year_of_initial_diagnosis",
+              "localColumn": "YearOfDiagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "biological_sex": {
+              "mapsTo": "schema:variable/biological_sex",
+              "localColumn": "GenderAtDiagnosis",
+              "localMappings": {
+                "male": [
+                  "1"
+                ],
+                "female": [
+                  "2"
+                ],
+                "intersex": [
+                  "9"
+                ],
+                "missing_or_unspecified": [
+                  "X"
+                ]
+              }
+            },
+            "tumour_topography_or_location_icd_o": {
+              "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
+              "localColumn": "ICD03Topography"
+            },
+            "tumour_morphology_icd_o": {
+              "mapsTo": "schema:variable/tumour_morphology_icd_o",
+              "localColumn": "ICD03Morphology"
+            },
+            "survival_status": {
+              "mapsTo": "schema:variable/survival_status",
+              "localColumn": "VitalStatus",
+              "localMappings": {
+                "alive": [
+                  "0"
+                ],
+                "declared_deceased": [
+                  "1"
+                ]
+              }
+            },
+            "survival_event_time": {
+              "mapsTo": "schema:variable/survival_event_time",
+              "localColumn": "SurvivalDays",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            }
+          }
+        },
+        "GERMCELL_STRONG_AYA20251113": {
+          "@id": "mapping:table/YSRCCYP_Retrospective_data/GERMCELL_STRONG_AYA20251113",
+          "@type": "mapping:Table",
+          "sourceFile": "GERMCELL_STRONG_AYA20251113",
+          "description": "GERM-CELL study (DOI: 10.1111/ecc.13264) data extract",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "PatientID"
+            },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "DaysSinceDiagnosis"
+            }
+          }
+        },
+        "StarsWave1_STRONG_AYA20251113": {
+          "@id": "mapping:table/YSRCCYP_Retrospective_data/StarsWave1_STRONG_AYA20251113",
+          "@type": "mapping:Table",
+          "sourceFile": "StarsWave1_STRONG_AYA20251113",
+          "description": "Stars wave 1 study (DOI: 10.3390/cancers16071332) data extract",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "PatientID"
+            },
+            "gender": {
+              "mapsTo": "schema:variable/gender",
+              "localColumn": "GenderPPM",
+              "localMappings": {
+                "male": [
+                  "M"
+                ],
+                "female": [
+                  "F"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "ethnicity": {
+              "mapsTo": "schema:variable/ethnicity",
+              "localColumn": "EthnicityPPM",
+              "localMappings": {
+                "white": [
+                  "White - British",
+                  "White - Any other White background"
+                ],
+                "asian": [
+                  "Bangladeshi",
+                  "Pakistani"
+                ],
+                "mixed_race": [
+                  "White and Asian"
+                ],
+                "prefer_not_to_say": [
+                  "Not given"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "DaysSinceDiagnosis"
+            },
+            "hads_q1": {
+              "mapsTo": "schema:variable/hads_q1",
+              "localColumn": "HADSFeelTenseQ1Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_time_to_time": [
+                  "1"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_most_of_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q2": {
+              "mapsTo": "schema:variable/hads_q2",
+              "localColumn": "HADSEnjoySameThingsQ2Score",
+              "localMappings": {
+                "score_0_definitely": [
+                  "0"
+                ],
+                "score_1_not_much": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_hardly": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q3": {
+              "mapsTo": "schema:variable/hads_q3",
+              "localColumn": "HADSFrightenedFeelingQ3Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_a_little": [
+                  "1"
+                ],
+                "score_2_yes_not_badly": [
+                  "2"
+                ],
+                "score_3_very_and_badly": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q4": {
+              "mapsTo": "schema:variable/hads_q4",
+              "localColumn": "HADSLaughingOftenQ4Score",
+              "localMappings": {
+                "score_0_as_much_as_i_could": [
+                  "0"
+                ],
+                "score_1_not_much": [
+                  "1"
+                ],
+                "score_2_definitely_not_much": [
+                  "2"
+                ],
+                "score_3_not_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q5": {
+              "mapsTo": "schema:variable/hads_q5",
+              "localColumn": "HADSWorryingThoughtsQ5Score",
+              "localMappings": {
+                "score_0_only_occasionally": [
+                  "0"
+                ],
+                "score_1_time_to_time": [
+                  "1"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_great_deal_of_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q6": {
+              "mapsTo": "schema:variable/hads_q6",
+              "localColumn": "HADSFeelCheerfulQ6Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_often": [
+                  "1"
+                ],
+                "score_2_sometimes": [
+                  "2"
+                ],
+                "score_3_most_times": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q7": {
+              "mapsTo": "schema:variable/hads_q7",
+              "localColumn": "HADSEaseRelaxedQ7Score",
+              "localMappings": {
+                "score_0_definitely": [
+                  "0"
+                ],
+                "score_1_usually": [
+                  "1"
+                ],
+                "score_2_not_often": [
+                  "2"
+                ],
+                "score_3_not_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q8": {
+              "mapsTo": "schema:variable/hads_q8",
+              "localColumn": "HADSFeelSlowedDownQ8Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_somtimes": [
+                  "1"
+                ],
+                "score_2_very_often": [
+                  "2"
+                ],
+                "score_3_nearly_all_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q9": {
+              "mapsTo": "schema:variable/hads_q9",
+              "localColumn": "HADSFrightenedFeelingInStomachQ9Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_occasionally": [
+                  "1"
+                ],
+                "score_2_quite_often": [
+                  "2"
+                ],
+                "score_3_very_often": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q10": {
+              "mapsTo": "schema:variable/hads_q10",
+              "localColumn": "HADSInterestInAppearenceQ10Score",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "0"
+                ],
+                "score_1_not_as_much": [
+                  "1"
+                ],
+                "score_2_not_as_much_as_should": [
+                  "2"
+                ],
+                "score_3_definitely": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q11": {
+              "mapsTo": "schema:variable/hads_q11",
+              "localColumn": "HADSFeelingRestlessQ11Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_very_much": [
+                  "1"
+                ],
+                "score_2_quite_a_lot": [
+                  "2"
+                ],
+                "score_3_very_much_indeed": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q12": {
+              "mapsTo": "schema:variable/hads_q12",
+              "localColumn": "HADSLookFwdWithEnjoymentThingsQ12Score",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "0"
+                ],
+                "score_1_rather_less": [
+                  "1"
+                ],
+                "score_2_definitely_less": [
+                  "2"
+                ],
+                "score_3_hardly_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q13": {
+              "mapsTo": "schema:variable/hads_q13",
+              "localColumn": "HADSPanicFeelingQ13Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_very_often": [
+                  "1"
+                ],
+                "score_2_quite_often": [
+                  "2"
+                ],
+                "score_3_very_often": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q14": {
+              "mapsTo": "schema:variable/hads_q14",
+              "localColumn": "HADSEnjoyBooksTvQ14Score",
+              "localMappings": {
+                "score_0_often": [
+                  "0"
+                ],
+                "score_1_sometimes": [
+                  "1"
+                ],
+                "score_2_not_often": [
+                  "2"
+                ],
+                "score_3_very_seldom": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_anxiety": {
+              "mapsTo": "schema:variable/hads_anxiety",
+              "localColumn": "HADSAnxiety",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_depression": {
+              "mapsTo": "schema:variable/hads_depression",
+              "localColumn": "HADSDepression",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            }
+          }
+        },
+        "StarsWave2_STRONG_AYA20251113": {
+          "@id": "mapping:table/YSRCCYP_Retrospective_data/StarsWave2_STRONG_AYA20251113",
+          "@type": "mapping:Table",
+          "sourceFile": "StarsWave2_STRONG_AYA20251113",
+          "description": "Stars wave 2 study (DOI: 10.3390/cancers16071332) data extract",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "PatientID"
+            },
+            "gender": {
+              "mapsTo": "schema:variable/gender",
+              "localColumn": "GenderPPM",
+              "localMappings": {
+                "male": [
+                  "M"
+                ],
+                "female": [
+                  "F"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "ethnicity": {
+              "mapsTo": "schema:variable/ethnicity",
+              "localColumn": "EthnicityPPM",
+              "localMappings": {
+                "white": [
+                  "White - British",
+                  "White - Any other White background"
+                ],
+                "asian": [
+                  "Bangladeshi",
+                  "Pakistani"
+                ],
+                "mixed_race": [
+                  "White and Asian"
+                ],
+                "prefer_not_to_say": [
+                  "Not given"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "DaysSinceDiagnosis"
+            },
+            "hads_q1": {
+              "mapsTo": "schema:variable/hads_q1",
+              "localColumn": "HADSFeelTenseQ1Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_time_to_time": [
+                  "1"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_most_of_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q2": {
+              "mapsTo": "schema:variable/hads_q2",
+              "localColumn": "HADSEnjoySameThingsQ2Score",
+              "localMappings": {
+                "score_0_definitely": [
+                  "0"
+                ],
+                "score_1_not_much": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_hardly": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q3": {
+              "mapsTo": "schema:variable/hads_q3",
+              "localColumn": "HADSFrightenedFeelingQ3Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_a_little": [
+                  "1"
+                ],
+                "score_2_yes_not_badly": [
+                  "2"
+                ],
+                "score_3_very_and_badly": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q4": {
+              "mapsTo": "schema:variable/hads_q4",
+              "localColumn": "HADSLaughingOftenQ4Score",
+              "localMappings": {
+                "score_0_as_much_as_i_could": [
+                  "0"
+                ],
+                "score_1_not_much": [
+                  "1"
+                ],
+                "score_2_definitely_not_much": [
+                  "2"
+                ],
+                "score_3_not_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q5": {
+              "mapsTo": "schema:variable/hads_q5",
+              "localColumn": "HADSWorryingThoughtsQ5Score",
+              "localMappings": {
+                "score_0_only_occasionally": [
+                  "0"
+                ],
+                "score_1_time_to_time": [
+                  "1"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_great_deal_of_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q6": {
+              "mapsTo": "schema:variable/hads_q6",
+              "localColumn": "HADSFeelCheerfulQ6Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_often": [
+                  "1"
+                ],
+                "score_2_sometimes": [
+                  "2"
+                ],
+                "score_3_most_times": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q7": {
+              "mapsTo": "schema:variable/hads_q7",
+              "localColumn": "HADSEaseRelaxedQ7Score",
+              "localMappings": {
+                "score_0_definitely": [
+                  "0"
+                ],
+                "score_1_usually": [
+                  "1"
+                ],
+                "score_2_not_often": [
+                  "2"
+                ],
+                "score_3_not_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q8": {
+              "mapsTo": "schema:variable/hads_q8",
+              "localColumn": "HADSFeelSlowedDownQ8Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_somtimes": [
+                  "1"
+                ],
+                "score_2_very_often": [
+                  "2"
+                ],
+                "score_3_nearly_all_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q9": {
+              "mapsTo": "schema:variable/hads_q9",
+              "localColumn": "HADSFrightenedFeelingInStomachQ9Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_occasionally": [
+                  "1"
+                ],
+                "score_2_quite_often": [
+                  "2"
+                ],
+                "score_3_very_often": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q10": {
+              "mapsTo": "schema:variable/hads_q10",
+              "localColumn": "HADSInterestInAppearenceQ10Score",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "0"
+                ],
+                "score_1_not_as_much": [
+                  "1"
+                ],
+                "score_2_not_as_much_as_should": [
+                  "2"
+                ],
+                "score_3_definitely": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q11": {
+              "mapsTo": "schema:variable/hads_q11",
+              "localColumn": "HADSFeelingRestlessQ11Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_very_much": [
+                  "1"
+                ],
+                "score_2_quite_a_lot": [
+                  "2"
+                ],
+                "score_3_very_much_indeed": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q12": {
+              "mapsTo": "schema:variable/hads_q12",
+              "localColumn": "HADSLookFwdWithEnjoymentThingsQ12Score",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "0"
+                ],
+                "score_1_rather_less": [
+                  "1"
+                ],
+                "score_2_definitely_less": [
+                  "2"
+                ],
+                "score_3_hardly_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q13": {
+              "mapsTo": "schema:variable/hads_q13",
+              "localColumn": "HADSPanicFeelingQ13Score",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_very_often": [
+                  "1"
+                ],
+                "score_2_quite_often": [
+                  "2"
+                ],
+                "score_3_very_often": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_q14": {
+              "mapsTo": "schema:variable/hads_q14",
+              "localColumn": "HADSEnjoyBooksTvQ14Score",
+              "localMappings": {
+                "score_0_often": [
+                  "0"
+                ],
+                "score_1_sometimes": [
+                  "1"
+                ],
+                "score_2_not_often": [
+                  "2"
+                ],
+                "score_3_very_seldom": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_anxiety": {
+              "mapsTo": "schema:variable/hads_anxiety",
+              "localColumn": "HADSAnxiety",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            },
+            "hads_depression": {
+              "mapsTo": "schema:variable/hads_depression",
+              "localColumn": "HADSDepression",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  "NULL"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
