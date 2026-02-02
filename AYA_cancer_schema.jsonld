@@ -9530,16 +9530,20 @@
             "tumour_topography_or_location_icd_o": {
               "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
               "localColumn": "tumsoort",
-              "missing_or_unspecified": [
-                ""
-              ]
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_morphology_icd_o": {
               "mapsTo": "schema:variable/tumour_morphology_icd_o",
               "localColumn": "morf",
-              "missing_or_unspecified": [
-                ""
-              ]
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "t_stage": {
               "mapsTo": "schema:variable/t_stage",
@@ -10210,77 +10214,137 @@
             "eortc_qlq_c30_overall_qol_QL2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_overall_qol_QL2",
               "localColumn": "ql",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_physical_functioning_PF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_physical_functioning_PF2",
               "localColumn": "pf",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_role_functioning_RF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_role_functioning_RF2",
               "localColumn": "rf",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_emotional_functioning_EF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_emotional_functioning_EF",
               "localColumn": "ef",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_cognitive_functioning_CF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_cognitive_functioning_CF",
               "localColumn": "cf",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_social_functioning_SF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_social_functioning_SF",
               "localColumn": "sf",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_fatigue_FA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_fatigue_FA",
               "localColumn": "fa",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_nausea_vomiting_NV": {
               "mapsTo": "schema:variable/eortc_qlq_c30_nausea_vomiting_NV",
               "localColumn": "nv",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_pain_PA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_pain_PA",
               "localColumn": "pa",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_dyspnoea_DY": {
               "mapsTo": "schema:variable/eortc_qlq_c30_dyspnoea_DY",
               "localColumn": "dy",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_insomnia_SL": {
               "mapsTo": "schema:variable/eortc_qlq_c30_insomnia_SL",
               "localColumn": "sl",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_appetite_loss_AP": {
               "mapsTo": "schema:variable/eortc_qlq_c30_appetite_loss_AP",
               "localColumn": "ap",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_constipation_CO": {
               "mapsTo": "schema:variable/eortc_qlq_c30_constipation_CO",
               "localColumn": "co",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_diarrhoea_DI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_diarrhoea_DI",
               "localColumn": "di",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "eortc_qlq_c30_financial_difficulties_FI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_financial_difficulties_FI",
               "localColumn": "fi",
-              "localMappings": {}
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             }
           }
         }
