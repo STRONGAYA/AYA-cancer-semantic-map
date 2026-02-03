@@ -9377,7 +9377,12 @@
             },
             "time_prom_recording": {
               "mapsTo": "schema:variable/time_prom_recording",
-              "localColumn": "tijddiagn"
+              "localColumn": "tijddiagn",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "annual_income": {
               "mapsTo": "schema:variable/annual_income",
@@ -9420,6 +9425,9 @@
                   "2",
                   "4",
                   "15"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9504,16 +9512,29 @@
                 ],
                 "ISCED-7": [
                   "5"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
             "age_at_initial_diagnosis": {
               "mapsTo": "schema:variable/age_at_initial_diagnosis",
-              "localColumn": "leeft"
+              "localColumn": "leeft",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "year_of_initial_diagnosis": {
               "mapsTo": "schema:variable/year_of_initial_diagnosis",
-              "localColumn": "jaar_van_diagnose"
+              "localColumn": "jaar_van_diagnose",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "biological_sex": {
               "mapsTo": "schema:variable/biological_sex",
@@ -9524,6 +9545,9 @@
                 ],
                 "female": [
                   "2"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9578,6 +9602,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9590,6 +9617,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9602,6 +9632,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9614,6 +9647,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9626,6 +9662,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9638,6 +9677,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9650,6 +9692,9 @@
                 ],
                 "yes": [
                   "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9668,6 +9713,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9686,6 +9734,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9704,6 +9755,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9722,6 +9776,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9740,6 +9797,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9758,6 +9818,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9776,6 +9839,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9794,6 +9860,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9812,6 +9881,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9830,6 +9902,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9848,6 +9923,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9866,6 +9944,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9884,6 +9965,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9902,6 +9986,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9920,6 +10007,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9938,6 +10028,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9956,6 +10049,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9974,6 +10070,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9992,6 +10091,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10010,6 +10112,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10028,6 +10133,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10046,6 +10154,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10064,6 +10175,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10082,6 +10196,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10100,6 +10217,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10118,6 +10238,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10136,6 +10259,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10154,6 +10280,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10181,6 +10310,9 @@
                 ],
                 "score_7_excellent": [
                   "7"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10208,6 +10340,9 @@
                 ],
                 "score_7_excellent": [
                   "7"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
