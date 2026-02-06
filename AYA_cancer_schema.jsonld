@@ -9353,7 +9353,7 @@
       "@id": "mapping:database/CLB_retrospective_data",
       "@type": "mapping:Database",
       "name": "CLB_retrospective_data",
-      "description": "CLB electronic health record retrospective export, collated 30 June 2025",
+      "description": "CLB electronic health record retrospective export for 2002 till May 2025, collated 30 June 2025",
       "locale": "fr_FR",
       "tables": {
         "tbl_20250630_STRONGAYA_Export_Patients": {
