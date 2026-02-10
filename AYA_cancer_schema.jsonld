@@ -9745,6 +9745,9 @@
                 "white": [
                   "Biała (europejska lub inna)"
                 ],
+                "prefer_not_to_say": [
+                  "Wolę nie odpowiadać"
+                ],
                 "missing_or_unspecified": [
                   ""
                 ]
