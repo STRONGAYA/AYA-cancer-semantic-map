@@ -10581,7 +10581,7 @@
             },
             "eortc_qlq_c30_overall_qol_QL2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_overall_qol_QL2",
-              "localColumn": "ql2",
+              "localColumn": "QL2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10590,7 +10590,7 @@
             },
             "eortc_qlq_c30_physical_functioning_PF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_physical_functioning_PF2",
-              "localColumn": "pf2",
+              "localColumn": "PF2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10599,7 +10599,7 @@
             },
             "eortc_qlq_c30_role_functioning_RF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_role_functioning_RF2",
-              "localColumn": "rf2",
+              "localColumn": "RF2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10608,7 +10608,7 @@
             },
             "eortc_qlq_c30_emotional_functioning_EF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_emotional_functioning_EF",
-              "localColumn": "ef",
+              "localColumn": "EF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10617,7 +10617,7 @@
             },
             "eortc_qlq_c30_cognitive_functioning_CF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_cognitive_functioning_CF",
-              "localColumn": "cf",
+              "localColumn": "CF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10626,7 +10626,7 @@
             },
             "eortc_qlq_c30_social_functioning_SF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_social_functioning_SF",
-              "localColumn": "sf",
+              "localColumn": "SF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10635,7 +10635,7 @@
             },
             "eortc_qlq_c30_fatigue_FA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_fatigue_FA",
-              "localColumn": "fa",
+              "localColumn": "FA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10644,7 +10644,7 @@
             },
             "eortc_qlq_c30_nausea_vomiting_NV": {
               "mapsTo": "schema:variable/eortc_qlq_c30_nausea_vomiting_NV",
-              "localColumn": "nv",
+              "localColumn": "NV",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10653,7 +10653,7 @@
             },
             "eortc_qlq_c30_pain_PA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_pain_PA",
-              "localColumn": "pa",
+              "localColumn": "PA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10662,7 +10662,7 @@
             },
             "eortc_qlq_c30_dyspnoea_DY": {
               "mapsTo": "schema:variable/eortc_qlq_c30_dyspnoea_DY",
-              "localColumn": "dy",
+              "localColumn": "DY",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10671,7 +10671,7 @@
             },
             "eortc_qlq_c30_insomnia_SL": {
               "mapsTo": "schema:variable/eortc_qlq_c30_insomnia_SL",
-              "localColumn": "sl",
+              "localColumn": "SL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10680,7 +10680,7 @@
             },
             "eortc_qlq_c30_appetite_loss_AP": {
               "mapsTo": "schema:variable/eortc_qlq_c30_appetite_loss_AP",
-              "localColumn": "ap",
+              "localColumn": "AP",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10689,7 +10689,7 @@
             },
             "eortc_qlq_c30_constipation_CO": {
               "mapsTo": "schema:variable/eortc_qlq_c30_constipation_CO",
-              "localColumn": "co",
+              "localColumn": "CO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10698,7 +10698,7 @@
             },
             "eortc_qlq_c30_diarrhoea_DI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_diarrhoea_DI",
-              "localColumn": "di",
+              "localColumn": "DI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10707,7 +10707,7 @@
             },
             "eortc_qlq_c30_financial_difficulties_FI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_financial_difficulties_FI",
-              "localColumn": "fi",
+              "localColumn": "FI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11280,7 +11280,7 @@
             },
             "eortc_qlq_aya_AYAAL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAAL",
-              "localColumn": "ayaal",
+              "localColumn": "AYAAL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11289,7 +11289,7 @@
             },
             "eortc_qlq_aya_AYAWO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWO",
-              "localColumn": "ayawo",
+              "localColumn": "AYAWO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11298,7 +11298,7 @@
             },
             "eortc_qlq_aya_AYASE": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYASE",
-              "localColumn": "ayase",
+              "localColumn": "AYASE",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11307,7 +11307,7 @@
             },
             "eortc_qlq_aya_AYARE": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARE",
-              "localColumn": "ayare",
+              "localColumn": "AYARE",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11316,7 +11316,7 @@
             },
             "eortc_qlq_aya_AYARFD": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARFD",
-              "localColumn": "ayarfd",
+              "localColumn": "AYARFD",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11325,7 +11325,7 @@
             },
             "eortc_qlq_aya_AYAWG": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWG",
-              "localColumn": "ayawg",
+              "localColumn": "AYAWG",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11334,7 +11334,7 @@
             },
             "eortc_qlq_aya_AYAWL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWL",
-              "localColumn": "ayawl",
+              "localColumn": "AYAWL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11343,7 +11343,7 @@
             },
             "eortc_qlq_aya_AYALO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYALO",
-              "localColumn": "ayalo",
+              "localColumn": "AYALO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11352,7 +11352,7 @@
             },
             "eortc_qlq_aya_AYAEW": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAEW",
-              "localColumn": "ayaew",
+              "localColumn": "ATAEW",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11361,7 +11361,7 @@
             },
             "eortc_qlq_aya_AYARO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARO",
-              "localColumn": "ayaro",
+              "localColumn": "AYARO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11370,7 +11370,7 @@
             },
             "eortc_qlq_aya_AYASL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYASL",
-              "localColumn": "ayasl",
+              "localColumn": "AYASL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11379,7 +11379,7 @@
             },
             "eortc_qlq_aya_AYACR": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYACR",
-              "localColumn": "ayacr",
+              "localColumn": "AYACR",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11388,7 +11388,7 @@
             },
             "eortc_qlq_aya_AYAEM": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAEM",
-              "localColumn": "ayaem",
+              "localColumn": "AYAEM",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
