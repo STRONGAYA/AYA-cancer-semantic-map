@@ -9733,7 +9733,8 @@
                 ],
                 "missing_or_unspecified": [
                   "Wolę nie odpowiadać",
-                  "Wole nie odpowiadaĆ"
+                  "Wole nie odpowiadaĆ",
+                  ""
                 ]
               }
             },
@@ -9743,6 +9744,9 @@
               "localMappings": {
                 "white": [
                   "Biała (europejska lub inna)"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9766,7 +9770,8 @@
                   "Wdowa/ wdowiec"
                 ],
                 "missing_or_unspecified": [
-                  "Wolę nie odpowiadać"
+                  "Wolę nie odpowiadać",
+                  ""
                 ]
               }
             },
@@ -9782,6 +9787,9 @@
                 ],
                 "prefer_not_to_say": [
                   "Wolę nie odpowiadać"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9800,6 +9808,9 @@
                 ],
                 "prefer_not_to_say": [
                   "Wolę nie odpowiadać"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9817,7 +9828,8 @@
                   "Nie umiem odpowiedzieć"
                 ],
                 "missing_or_unspecified": [
-                  "Nie dotyczy"
+                  "Nie dotyczy",
+                  ""
                 ]
               }
             },
@@ -9833,6 +9845,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9848,6 +9863,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9866,6 +9884,9 @@
                 ],
                 "not_required": [
                   "nie było wymagane"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9880,7 +9901,10 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9895,7 +9919,10 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9904,13 +9931,16 @@
               "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7C_dot_uk_adu_oddechowego",
               "localMappings": {
                 "no": [
-                  "nie"
+                  "Nie"
                 ],
                 "yes": [
-                  "tak"
+                  "Tak"
                 ],
                 "unable_to_answer": [
-                  "nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9919,13 +9949,16 @@
               "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7D_dot_uk_adu_moczowego",
               "localMappings": {
                 "no": [
-                  "nie"
+                  "Nie"
                 ],
                 "yes": [
-                  "tak"
+                  "Tak"
                 ],
                 "unable_to_answer": [
-                  "nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9942,6 +9975,9 @@
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć",
                   "nie dotyczy"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9958,6 +9994,9 @@
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć",
                   "nie dotyczy"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9973,6 +10012,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -9988,6 +10030,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10003,6 +10048,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10018,6 +10066,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10036,6 +10087,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10054,6 +10108,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10072,6 +10129,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10090,6 +10150,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10108,6 +10171,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10126,6 +10192,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10144,6 +10213,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10162,6 +10234,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10180,6 +10255,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10198,6 +10276,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10216,6 +10297,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10234,6 +10318,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10252,6 +10339,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10270,6 +10360,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10288,6 +10381,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10306,6 +10402,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10324,6 +10423,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10342,6 +10444,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10360,6 +10465,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10378,6 +10486,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10396,6 +10507,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10414,6 +10528,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10432,6 +10549,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10450,6 +10570,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10468,6 +10591,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10486,6 +10612,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10504,6 +10633,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10522,6 +10654,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10549,6 +10684,9 @@
                 ],
                 "score_7_excellent": [
                   "7"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10576,6 +10714,9 @@
                 ],
                 "score_7_excellent": [
                   "7"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10729,6 +10870,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10747,6 +10891,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10765,6 +10912,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10783,6 +10933,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10801,6 +10954,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10819,6 +10975,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10837,6 +10996,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10855,6 +11017,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10873,6 +11038,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10891,6 +11059,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10909,6 +11080,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10927,6 +11101,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10945,6 +11122,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10963,6 +11143,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10981,6 +11164,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -10999,6 +11185,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11017,6 +11206,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11035,6 +11227,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11053,6 +11248,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11071,6 +11269,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11091,7 +11292,8 @@
                   "4"
                 ],
                 "missing_or_unspecified": [
-                  "Nie dotyczy"
+                  "Nie dotyczy",
+                  ""
                 ]
               }
             },
@@ -11110,6 +11312,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11128,6 +11333,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11146,6 +11354,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11164,6 +11375,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11185,6 +11399,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11206,6 +11423,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11227,6 +11447,9 @@
                 ],
                 "score_4_very_much": [
                   "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11410,6 +11633,9 @@
                 ],
                 "score_3_most_of_the_time": [
                   "prawie stale"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11428,6 +11654,9 @@
                 ],
                 "score_3_hardly_at_all": [
                   "w ogóle nie"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11446,6 +11675,9 @@
                 ],
                 "score_0_not_at_all": [
                   "w ogóle nie"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11464,6 +11696,9 @@
                 ],
                 "score_3_not_at_all": [
                   "w ogóle"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11482,6 +11717,9 @@
                 ],
                 "score_0_not_at_all": [
                   "rzadko"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11500,6 +11738,9 @@
                 ],
                 "score_0_most_of_the_time": [
                   "prawie cały czas"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11518,6 +11759,9 @@
                 ],
                 "score_3_not_at_all": [
                   "w ogóle nie"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11536,6 +11780,9 @@
                 ],
                 "score_0_not_at_all": [
                   "wcale nie"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11554,6 +11801,9 @@
                 ],
                 "score_3_very_often": [
                   "bardzo często"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11572,6 +11822,9 @@
                 ],
                 "score_0_i_take_just_as_much_care_as_ever": [
                   "dbam w takim samym stopniu co zawsze"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11590,6 +11843,9 @@
                 ],
                 "score_0_not_at_all": [
                   "w ogóle nie"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11608,6 +11864,9 @@
                 ],
                 "score_3_hardly_at_all": [
                   "prawie zupełnie nie"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11626,6 +11885,9 @@
                 ],
                 "score_0_not_at_all": [
                   "wcale"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11644,6 +11906,9 @@
                 ],
                 "score_3_very_seldom": [
                   "bardzo rzadko"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11677,6 +11942,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11692,6 +11960,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11707,6 +11978,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11722,6 +11996,9 @@
                 ],
                 "unable_to_answer": [
                   "Nie umiem odpowiedzieć"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11743,6 +12020,9 @@
                 ],
                 "score_4_a_great_deal": [
                   "Bardzo"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11764,6 +12044,9 @@
                 ],
                 "score_4_a_great_deal": [
                   "Bardzo"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11785,6 +12068,9 @@
                 ],
                 "score_4_a_great_deal": [
                   "Bardzo"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11806,6 +12092,9 @@
                 ],
                 "excellent": [
                   "Doskonale"
+                ],
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             }
