@@ -2683,12 +2683,12 @@
           }
         }
       },
-      "bespoke_q7_organ_problem": {
-        "@id": "schema:variable/bespoke_q7_organ_problem",
+      "bespoke_q7a_problem_brain": {
+        "@id": "schema:variable/bespoke_q7a_problem_brain",
         "@type": "schema:CategoricalVariable",
         "dataType": "categorical",
         "predicate": "sio:SIO_000008",
-        "class": "strongaya:bespoke_q7",
+        "class": "strongaya:bespoke_q7a_problem_brain",
         "schemaReconstruction": [
           {
             "@type": "schema:ClassNode",
@@ -2715,17 +2715,14 @@
         ],
         "valueMapping": {
           "terms": {
-            "brain": {
-              "targetClass": "ncit:C12439"
+            "no": {
+              "targetClass": "ncit:C49487"
             },
-            "heart": {
-              "targetClass": "ncit:C12727"
+            "yes": {
+              "targetClass": "ncit:C49488"
             },
-            "breathing": {
-              "targetClass": "ncit:C12779"
-            },
-            "kidneys": {
-              "targetClass": "ncit:C12415"
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
             },
             "missing_or_unspecified": {
               "targetClass": "ncit:C54031"
@@ -2733,12 +2730,12 @@
           }
         }
       },
-      "bespoke_q8_hormone_treatment": {
-        "@id": "schema:variable/bespoke_q8_hormone_treatment",
+      "bespoke_q7b_problem_heart": {
+        "@id": "schema:variable/bespoke_q7b_problem_heart",
         "@type": "schema:CategoricalVariable",
         "dataType": "categorical",
         "predicate": "sio:SIO_000008",
-        "class": "strongaya:bespoke_q8a",
+        "class": "strongaya:bespoke_q7b_problem_heart",
         "schemaReconstruction": [
           {
             "@type": "schema:ClassNode",
@@ -2765,23 +2762,366 @@
         ],
         "valueMapping": {
           "terms": {
-            "oestrogen_progesterone": {
-              "targetClass": "strongaya:oestrogen_or_progrestone"
+            "no": {
+              "targetClass": "ncit:C49487"
             },
-            "testosterone": {
-              "targetClass": "ncit:C2299"
+            "yes": {
+              "targetClass": "ncit:C49488"
             },
-            "thyroid_gland": {
-              "targetClass": "ncit:C12400"
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
             },
-            "growth_hormone": {
-              "targetClass": "ncit:C2288"
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q7c_problem_breathing": {
+        "@id": "schema:variable/bespoke_q7c_problem_breathing",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q7c_problem_breathing",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
             },
-            "cortisol": {
-              "targetClass": "ncit:C2290"
+            "yes": {
+              "targetClass": "ncit:C49488"
             },
-            "other": {
-              "targetClass": "ncit:C104495"
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q7d_problem_kidneys": {
+        "@id": "schema:variable/bespoke_q7d_problem_kidneys",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q7d_problem_kidneys",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q8a_treatment_oestrogen_progesterone": {
+        "@id": "schema:variable/bespoke_q8a_treatment_oestrogen_progesterone",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q8a_treatment_oestrogen_progesterone",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q8b_treatment_testosterone": {
+        "@id": "schema:variable/bespoke_q8b_treatment_testosterone",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q8b_treatment_testosterone",
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q8c_treatment_thyroid_gland": {
+        "@id": "schema:variable/bespoke_q8c_treatment_thyroid_gland",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q8c_treatment_thyroid_gland",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q8d_treatment_growth_hormone": {
+        "@id": "schema:variable/bespoke_q8d_treatment_growth_hormone",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q8d_treatment_growth_hormone",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q8e_treatment_cortisol": {
+        "@id": "schema:variable/bespoke_q8e_treatment_cortisol",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q8e_treatment_cortisol",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
+            },
+            "missing_or_unspecified": {
+              "targetClass": "ncit:C54031"
+            }
+          }
+        }
+      },
+      "bespoke_q8f_treatment_other": {
+        "@id": "schema:variable/bespoke_q8f_treatment_other",
+        "@type": "schema:CategoricalVariable",
+        "dataType": "categorical",
+        "predicate": "sio:SIO_000008",
+        "class": "strongaya:bespoke_q8f_treatment_other",
+        "schemaReconstruction": [
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000255",
+            "class": "ncit:C20200",
+            "classLabel": "outcomeClass",
+            "aestheticLabel": "Outcome"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000008",
+            "class": "ncit:C91102",
+            "classLabel": "bespokeClass",
+            "aestheticLabel": "Bespoke Questions"
+          },
+          {
+            "@type": "schema:ClassNode",
+            "predicate": "sio:SIO_000253",
+            "class": "ncit:C177377",
+            "placement": "after",
+            "classLabel": "promClass",
+            "aestheticLabel": "PROM"
+          }
+        ],
+        "valueMapping": {
+          "terms": {
+            "no": {
+              "targetClass": "ncit:C49487"
+            },
+            "yes": {
+              "targetClass": "ncit:C49488"
+            },
+            "unable_to_answer": {
+              "targetClass": "ncit:C110959"
             },
             "missing_or_unspecified": {
               "targetClass": "ncit:C54031"
