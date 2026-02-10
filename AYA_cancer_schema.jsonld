@@ -9696,10 +9696,10 @@
       "description": "MSCI prospective datasets from various sources",
       "locale": "pl_PL",
       "tables": {
-        "MSCI_Prospective_data_PROM": {
-          "@id": "mapping:table/MSCI_Prospective_data_PROM",
+        "MSCI_dataset_1_final_numeric": {
+          "@id": "mapping:table/MSCI_dataset_1_final_numeric",
           "@type": "mapping:Table",
-          "sourceFile": "MSCI_Prospective_data_PROM",
+          "sourceFile": "MSCI_dataset_1_final_numeric",
           "description": "Redcap PROM data extract",
           "columns": {
             "identifier": {
