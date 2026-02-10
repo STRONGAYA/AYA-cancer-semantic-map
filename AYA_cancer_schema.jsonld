@@ -9869,6 +9869,158 @@
                 ]
               }
             },
+            "bespoke_q7a_problem_brain": {
+              "mapsTo": "schema:variable/bespoke_q7a_problem_brain",
+              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7A_dot_uk_adu_nerwowego",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q7b_problem_heart": {
+              "mapsTo": "schema:variable/bespoke_q7b_problem_heart",
+              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7B_dot_uk_adu_kr_enia",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q7c_problem_breathing": {
+              "mapsTo": "schema:variable/bespoke_q7c_problem_breathing",
+              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7C_dot_uk_adu_oddechowego",
+              "localMappings": {
+                "no": [
+                  "nie"
+                ],
+                "yes": [
+                  "tak"
+                ],
+                "unable_to_answer": [
+                  "nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q7d_problem_kidneys": {
+              "mapsTo": "schema:variable/bespoke_q7d_problem_kidneys",
+              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7D_dot_uk_adu_moczowego",
+              "localMappings": {
+                "no": [
+                  "nie"
+                ],
+                "yes": [
+                  "tak"
+                ],
+                "unable_to_answer": [
+                  "nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q8a_treatment_oestrogen_progesterone": {
+              "mapsTo": "schema:variable/bespoke_q8a_treatment_oestrogen_progesterone",
+              "localColumn": "col_8_dot_Czy_ze_wzgl_du_na_Pana_slash_i_nowotw_r_i_slash_lub_leczenie_mia_slash_a_Pan_slash_i_problemy_z_comma_albo_czy_obecnie_przyjmuje_Pan_slash_i_jakie_leczenie_hormonalne_w_zwi_zku_z_colon_8A_dot_Miesi_czkami_lub_wczesn_menopauz_estrogeny_slash_progesteron",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "Nie umiem odpowiedzieć",
+                  "nie dotyczy"
+                ]
+              }
+            },
+            "bespoke_q8b_treatment_testosterone": {
+              "mapsTo": "schema:variable/bespoke_q8b_treatment_testosterone",
+              "localColumn": "col_8_dot_Czy_ze_wzgl_du_na_Pana_slash_i_nowotw_r_i_slash_lub_leczenie_mia_slash_a_Pan_slash_i_problemy_z_comma_albo_czy_obecnie_przyjmuje_Pan_slash_i_jakie_leczenie_hormonalne_w_zwi_zku_z_colon_8B_dot_Testosteronem",
+              ",localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "Nie umiem odpowiedzieć",
+                  "nie dotyczy"
+                ]
+              }
+            },
+            "bespoke_q8c_treatment_thyroid_gland": {
+              "mapsTo": "schema:variable/bespoke_q8c_treatment_thyroid_gland",
+              "localColumn": "col_8C_dot_Tarczyc",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "Nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q8d_treatment_growth_hormone": {
+              "mapsTo": "schema:variable/bespoke_q8d_treatment_growth_hormone",
+              "localColumn": "col_8D_dot_Hormonem_wzrostu",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "Nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q8e_treatment_cortisol": {
+              "mapsTo": "schema:variable/bespoke_q8e_treatment_cortisol",
+              "localColumn": "col_8E_dot_Niskim_poziomem_kortyzolu",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "Nie umiem odpowiedzieć"
+                ]
+              }
+            },
+            "bespoke_q8f_treatment_other": {
+              "mapsTo": "schema:variable/bespoke_q8f_treatment_other",
+              "localColumn": "col_8F_dot_Ze_wzgl_du_na_Pana_slash_i_nowotw_r_i_slash_lub_leczenie_mia_slash_a_Pan_slash_i_problemy_z_comma_albo_obecnie_przyjmuje_Pan_slash_i_jakie_leczenie_hormonalne_w_zwi_zku_z_innymi_powodami_ni_wymienione_wcze_niej_comma_prosz_opisa_colon",
+              "localMappings": {
+                "no": [
+                  "Nie"
+                ],
+                "yes": [
+                  "Tak"
+                ],
+                "unable_to_answer": [
+                  "Nie umiem odpowiedzieć"
+                ]
+              }
+            },
             "eortc_qlq_c30_q1": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q1",
               "localColumn": "col_9_dot_Czy_ma_Pan_slash_i_k_opoty_przy_wykonywaniu_m_cz_cych_czynno_ci_comma_np_dot_przy_d_wiganiu_ci_kiej_torby_z_zakupami_lub_walizki_quest",
