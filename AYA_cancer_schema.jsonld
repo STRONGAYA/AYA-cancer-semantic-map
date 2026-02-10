@@ -10529,7 +10529,7 @@
               "mapsTo": "schema:variable/eortc_qlq_c30_q29",
               "localColumn": "Przy_nast_pnych_pytaniach_prosz_zakre_li_cyfr_od_1_do_7_comma_kt_ra_najbardziej_Pana_slash_i_dotyczy_colon_37_dot_Jak_ocenia_Pan_slash_i_og_lny_stan_swojego_zdrowia_w_ubieg_ym_tygodniu_quest",
               "localMappings": {
-                "score_1": [
+                "score_1_very_poor": [
                   "1"
                 ],
                 "score_2": [
@@ -10547,7 +10547,7 @@
                 "score_6": [
                   "6"
                 ],
-                "score_7": [
+                "score_7_excellent": [
                   "7"
                 ]
               }
@@ -10556,7 +10556,7 @@
               "mapsTo": "schema:variable/eortc_qlq_c30_q30",
               "localColumn": "Przy_nast_pnych_pytaniach_prosz_zakre_li_cyfr_od_1_do_7_comma_kt_ra_najbardziej_Pana_slash_i_dotyczy_colon_38_dot_Jak_ocenia_Pan_slash_i_og_ln_jako_swego_ycia_w_ubieg_ym_tygodniu_quest",
               "localMappings": {
-                "score_1": [
+                "score_1_very_poor": [
                   "1"
                 ],
                 "score_2": [
@@ -10574,8 +10574,143 @@
                 "score_6": [
                   "6"
                 ],
-                "score_7": [
+                "score_7_excellent": [
                   "7"
+                ]
+              }
+            },
+            "eortc_qlq_c30_overall_qol_QL2": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_overall_qol_QL2",
+              "localColumn": "ql2",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_physical_functioning_PF2": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_physical_functioning_PF2",
+              "localColumn": "pf2",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_role_functioning_RF2": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_role_functioning_RF2",
+              "localColumn": "rf2",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_emotional_functioning_EF": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_emotional_functioning_EF",
+              "localColumn": "ef",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_cognitive_functioning_CF": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_cognitive_functioning_CF",
+              "localColumn": "cf",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_social_functioning_SF": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_social_functioning_SF",
+              "localColumn": "sf",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_fatigue_FA": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_fatigue_FA",
+              "localColumn": "fa",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_nausea_vomiting_NV": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_nausea_vomiting_NV",
+              "localColumn": "nv",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_pain_PA": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_pain_PA",
+              "localColumn": "pa",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_dyspnoea_DY": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_dyspnoea_DY",
+              "localColumn": "dy",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_insomnia_SL": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_insomnia_SL",
+              "localColumn": "sl",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_appetite_loss_AP": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_appetite_loss_AP",
+              "localColumn": "ap",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_constipation_CO": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_constipation_CO",
+              "localColumn": "co",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_diarrhoea_DI": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_diarrhoea_DI",
+              "localColumn": "di",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_financial_difficulties_FI": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_financial_difficulties_FI",
+              "localColumn": "fi",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
@@ -11143,6 +11278,123 @@
                 ]
               }
             },
+            "eortc_qlq_aya_AYAAL": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYAAL",
+              "localColumn": "ayaal",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYAWO": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYAWO",
+              "localColumn": "ayawo",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYASE": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYASE",
+              "localColumn": "ayase",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYARE": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYARE",
+              "localColumn": "ayare",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYARFD": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYARFD",
+              "localColumn": "ayarfd",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYAWG": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYAWG",
+              "localColumn": "ayawg",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYAWL": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYAWL",
+              "localColumn": "ayawl",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYALO": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYALO",
+              "localColumn": "ayalo",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYAEW": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYAEW",
+              "localColumn": "ayaew",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYARO": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYARO",
+              "localColumn": "ayaro",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYASL": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYASL",
+              "localColumn": "ayasl",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYACR": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYACR",
+              "localColumn": "ayacr",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_AYAEM": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_AYAEM",
+              "localColumn": "ayaem",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
             "hads_q1": {
               "mapsTo": "schema:variable/hads_q1",
               "localColumn": "col_69_dot_Czuj_si_napi_ty_colon",
@@ -11392,6 +11644,24 @@
                 ],
                 "score_3_very_seldom": [
                   "bardzo rzadko"
+                ]
+              }
+            },
+            "hads_anxiety": {
+              "mapsTo": "schema:variable/hads_anxiety",
+              "localColumn": "Anxiety",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_depression": {
+              "mapsTo": "schema:variable/hads_depression",
+              "localColumn": "Depression",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
                 ]
               }
             },
