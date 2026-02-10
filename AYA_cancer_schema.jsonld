@@ -10026,16 +10026,16 @@
               "localColumn": "col_9_dot_Czy_ma_Pan_slash_i_k_opoty_przy_wykonywaniu_m_cz_cych_czynno_ci_comma_np_dot_przy_d_wiganiu_ci_kiej_torby_z_zakupami_lub_walizki_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10044,16 +10044,16 @@
               "localColumn": "col_10_dot_Czy_d_ugi_spacer_m_czy_Pana_slash_i_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10062,16 +10062,16 @@
               "localColumn": "col_11_dot_Czy_kr_tki_spacer_poza_domem_sprawia_Panu_slash_i_trudno_ci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10080,16 +10080,16 @@
               "localColumn": "col_12_dot_Czy_musi_Pan_slash_i_le_e_w_ku_lub_siedzie_w_fotelu_w_ci_gu_dnia_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10098,16 +10098,16 @@
               "localColumn": "col_13_dot_Czy_potrzebuje_Pan_slash_i_pomocy_przy_jedzeniu_comma_ubieraniu_si_comma_myciu_si_lub_korzystaniu_z_toalety_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10116,16 +10116,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_14_dot_By_slash_a_Pan_slash_i_ograniczony_slash_a_w_wykonywaniu_pracy_lub_innych_codziennych_czynno_ci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10134,16 +10134,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_15_dot_By_slash_a_Pan_slash_i_ograniczony_slash_a_w_realizowaniu_swoich_hobby_lub_innych_przyjemno_ci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10152,16 +10152,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_16_dot_Odczuwa_slash_a_Pan_slash_i_duszno_ci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10170,16 +10170,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_17_dot_Mia_slash_a_Pan_slash_i_b_le_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10188,16 +10188,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_18_dot_Potrzebowa_slash_a_Pan_slash_i_odpoczynku_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10206,16 +10206,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_19_dot_Mia_slash_a_Pan_slash_i_trudno_ci_ze_snem_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10224,16 +10224,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_20_dot_Odczuwa_slash_a_Pan_slash_i_os_abienie_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10242,16 +10242,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_21_dot_Odczuwa_slash_a_Pan_slash_i_brak_apetytu_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10260,16 +10260,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_22_dot_Odczuwa_slash_a_Pan_slash_i_nudno_ci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10278,16 +10278,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_23_dot_Wymiotowa_slash_a_Pan_slash_i_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10296,16 +10296,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_24_dot_Miewa_slash_a_Pan_slash_i_zaparcia_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10314,16 +10314,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_25_dot_Miewa_slash_a_Pan_slash_i_biegunk_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10332,16 +10332,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_26_dot_By_slash_a_Pan_slash_i_zm_czony_slash_a_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10350,16 +10350,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_27_dot_B_l_przeszkadza_Panu_slash_i_w_codziennych_zaj_ciach_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10368,16 +10368,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_28_dot_Mia_slash_a_Pan_slash_i_trudno_ci_w_skupianiu_si_np_dot_przy_czytaniu_gazety_lub_ogl_daniu_telewizji_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10386,16 +10386,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_29_dot_Czu_slash_a_si_Pan_slash_i_spi_ty_slash_a_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10404,16 +10404,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_30_dot_Martwi_slash_a_si_Pan_slash_i_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10422,16 +10422,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_31_dot_Czu_slash_a_si_Pan_slash_i_rozdra_niony_slash_a_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10440,16 +10440,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_32_dot_Czu_slash_a_si_Pan_slash_i_przygn_biony_slash_a_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10458,16 +10458,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_33_dot_Mia_slash_a_Pan_slash_i_trudno_ci_w_zapami_tywaniu_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10476,16 +10476,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_34_dot_Stan_Pana_slash_i_zdrowia_lub_leczenie_zak_ca_y_Pana_slash_i_ycie_rodzinne_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10494,16 +10494,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_35_dot_Stan_Pana_slash_i_zdrowia_lub_leczenie_przeszkadza_y_w_Pana_slash_i_yciu_towarzyskim_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10512,16 +10512,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_colon_36_dot_Stan_Pana_slash_i_zdrowia_lub_leczenie_powodowa_y_k_opoty_finansowe_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10719,16 +10719,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_39_dot_Brakowa_o_Ci_energii_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10737,16 +10737,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_40_dot_Mia_e_slash_a_problemy_z_poruszaniem_si_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10755,16 +10755,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_41_dot_Odczuwa_e_slash_a_znudzenie_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10773,16 +10773,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_42_dot_Mia_e_slash_a_problemy_z_robieniem_plan_w_na_przysz_o_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10791,16 +10791,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_43_dot_Odczuwa_e_slash_a_ograniczenie_co_do_rodzaj_w_jedzenia_i_napoj_w_comma_kt_re_mo_esz_spo_ywa_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10809,16 +10809,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_44_dot_Obserwowa_e_slash_a_si_uwa_nie_pod_k_tem_jakichkolwiek_nowych_objaw_w_choroby_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10827,16 +10827,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_45_dot_Martwi_e_slash_a_si_mo_liwo_ci_z_apania_infekcji_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10845,16 +10845,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_46_dot_Martwi_e_slash_a_si_comma_e_b_dziesz_musia_slash_a_przyjmowa_leki_do_ko_ca_ycia_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10863,16 +10863,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_47_dot_Martwi_e_slash_a_si_o_swoje_zdrowie_w_przysz_o_ci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10881,16 +10881,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_48_dot_Martwi_e_slash_a_si_mierci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10899,16 +10899,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_49_dot_Martwi_e_slash_a_si_czy_b_dziesz_w_stanie_zosta_rodzicem_lub_mie_wi_cej_dzieci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10917,16 +10917,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_50_dot_Martwi_e_slash_a_si_mo_liwo_ci_odziedziczenia_nowotworu_przez_kolejne_pokolenie_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10935,16 +10935,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_51_dot_Brakowa_o_Ci_pewno_ci_siebie_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10953,16 +10953,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_52_dot_Odczuwa_e_slash_a_utrat_kontroli_nad_swoim_yciem_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10971,16 +10971,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_53_dot_Martwi_e_slash_a_si_zmianami_w_swoim_wygl_dzie_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -10989,16 +10989,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_54_dot_Czu_e_slash_a_si_odizolowany_slash_a_od_bliskich_Ci_os_b_np_dot_rodziny_comma_przyjaci_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11007,16 +11007,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_55_dot_Mia_e_slash_a_problemy_z_tym_comma_e_ludzie_traktuj_Ci_inaczej_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11025,16 +11025,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_56_dot_Martwi_e_slash_a_si_comma_e_jeste_zale_ny_slash_a_od_innych_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11043,16 +11043,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_57_dot_Przybieranie_na_wadze_by_o_dla_Ciebie_problemem_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11061,16 +11061,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_58_dot_Utrata_wagi_by_a_dla_Ciebie_problemem_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11079,16 +11079,16 @@
               "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_59_dot_Mia_e_slash_a_trudno_ci_zwi_zane_z_opiek_nad_innymi_np_dot_dzie_mi_comma_rodzicami_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ],
                 "missing_or_unspecified": [
                   "Nie dotyczy"
@@ -11100,16 +11100,16 @@
               "localColumn": "col_60_dot_Sta_e_slash_a_si_silniejszy_slash_a_psychicznie_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11118,16 +11118,16 @@
               "localColumn": "col_61_dot_Czu_e_slash_a_si_bardziej_zmotywowany_slash_a_do_osi_gania_cel_w_osobistych_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11136,16 +11136,16 @@
               "localColumn": "col_62_dot_Czu_e_slash_a_si_bardziej_zmotywowany_slash_a_by_y_pe_ni_ycia_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11154,16 +11154,16 @@
               "localColumn": "col_63_dot_By_e_slash_a_w_stanie_odr_ni_w_yciu_rzeczy_wa_ne_od_niewa_nych_quest",
               "localMappings": {
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11175,16 +11175,16 @@
                   "Nie dotyczy"
                 ],
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11196,16 +11196,16 @@
                   "Nie dotyczy"
                 ],
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11217,16 +11217,16 @@
                   "Nie dotyczy"
                 ],
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ]
               }
             },
@@ -11238,16 +11238,16 @@
                   "Nie dotyczy"
                 ],
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11262,16 +11262,16 @@
                   "Nie dotyczy"
                 ],
                 "score_1_not_at_all": [
-                  "Wcale (1)"
+                  "1"
                 ],
                 "score_2_a_little": [
-                  "Trochę (2)"
+                  "2"
                 ],
                 "score_3_quite_a_bit": [
-                  "Znacznie (3)"
+                  "3"
                 ],
                 "score_4_very_much": [
-                  "Bardzo (4)"
+                  "4"
                 ],
                 "missing_or_unspecified": [
                   ""
