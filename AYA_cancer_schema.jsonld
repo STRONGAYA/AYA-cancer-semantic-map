@@ -9696,10 +9696,10 @@
       "description": "MSCI prospective datasets from various sources",
       "locale": "pl_PL",
       "tables": {
-        "MSCI_Prospective_data_PROM_renamed_scored": {
-          "@id": "mapping:table/MSCI_Prospective_data_PROM_renamed_scored",
+        "MSCI_dataset_1_final_renamed_scored": {
+          "@id": "mapping:table/MSCI_dataset_1_final_renamed_scored",
           "@type": "mapping:Table",
-          "sourceFile": "MSCI_Prospective_data_PROM_renamed_scored",
+          "sourceFile": "MSCI_dataset_1_final_renamed_scored",
           "description": "Redcap PROM data extract",
           "columns": {
             "identifier": {
