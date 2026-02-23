@@ -9696,15 +9696,15 @@
       "description": "MSCI prospective datasets from various sources",
       "locale": "pl_PL",
       "tables": {
-        "MSCI_dataset_1_final_numeric": {
-          "@id": "mapping:table/MSCI_dataset_1_final_numeric",
+        "MSCI_Prospective_data_PROM_renamed_scored": {
+          "@id": "mapping:table/MSCI_Prospective_data_PROM_renamed_scored",
           "@type": "mapping:Table",
-          "sourceFile": "MSCI_dataset_1_final_numeric",
+          "sourceFile": "MSCI_Prospective_data_PROM_renamed_scored",
           "description": "Redcap PROM data extract",
           "columns": {
             "identifier": {
               "mapsTo": "schema:variable/identifier",
-              "localColumn": "Uprzejmie_prosimy_o_wpisanie_numeru_PID_osoby_badanej_dot"
+              "localColumn": "nie_numeru_PID_osoby_badanej_dot"
             },
             "administered_prom_language": {
               "mapsTo": "schema:variable/administered_prom_language",
@@ -9717,36 +9717,36 @@
             },
             "gender": {
               "mapsTo": "schema:variable/gender",
-              "localColumn": "col_1_dot_Jaka_jest_Pani_slash_Pana_p_e_quest",
+              "localColumn": "col_1_Na_jaki_typ_nowotworu_PaniPa_5",
               "localMappings": {
                 "male": [
-                  "Mężczyzna"
+                  "Mezczyzna"
                 ],
                 "female": [
                   "Kobieta"
                 ],
                 "transgender": [
-                  "Osoba transpłciowa"
+                  "Osoba transplciowa"
                 ],
                 "non-binary": [
                   "Osoba niebinarna"
                 ],
                 "missing_or_unspecified": [
-                  "Wolę nie odpowiadać",
-                  "Wole nie odpowiadaĆ",
+                  "Wole nie odpowiadac",
+                  "Wole nie odpowiadac",
                   ""
                 ]
               }
             },
             "ethnicity": {
               "mapsTo": "schema:variable/ethnicity",
-              "localColumn": "col_2_dot_Kt_ra_z_poni_szych_opcji_najlepiej_opisuje_Pani_slash_Pana_pochodzenie_etniczne_quest",
+              "localColumn": "col_2_Ktora_z_ponizszych_opcji_najle",
               "localMappings": {
                 "white": [
-                  "Biała (europejska lub inna)"
+                  "Biala (europejska lub inna)"
                 ],
                 "prefer_not_to_say": [
-                  "Wolę nie odpowiadać"
+                  "Wole nie odpowiadac"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9755,16 +9755,16 @@
             },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
-              "localColumn": "col_4_dot_Jaki_jest_Pani_slash_Pana_stan_cywilny_quest",
+              "localColumn": "col_4_Jaki_jest_Pani_Pana_stan_cywil",
               "localMappings": {
                 "single": [
                   "Panna/ Kawaler"
                 ],
                 "in_relationship": [
-                  "W związku nieformalnym"
+                  "W zwiazku nieformalnym"
                 ],
                 "married": [
-                  "Zamężna/ żonaty"
+                  "Zamezna/ zonaty"
                 ],
                 "divorced": [
                   "Rozwiedziona/rozwiedziony"
@@ -9773,14 +9773,14 @@
                   "Wdowa/ wdowiec"
                 ],
                 "missing_or_unspecified": [
-                  "Wolę nie odpowiadać",
+                  "Wole nie odpowiadac",
                   ""
                 ]
               }
             },
             "identify_disabled": {
               "mapsTo": "schema:variable/identify_disabled",
-              "localColumn": "col_5_dot_Czy_uznaje_Pani_slash_Pan_siebie_jako_osob_niepe_nosprawn_slash_z_niepe_nosprawno_ci_quest",
+              "localColumn": "col_5_Czy_leczenie_onkologiczne_mial",
               "localMappings": {
                 "yes": [
                   "Tak"
@@ -9789,7 +9789,7 @@
                   "Nie"
                 ],
                 "prefer_not_to_say": [
-                  "Wolę nie odpowiadać"
+                  "Wole nie odpowiadac"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9798,7 +9798,7 @@
             },
             "registered_disabled": {
               "mapsTo": "schema:variable/registered_disabled",
-              "localColumn": "col_6_dot_Czy_posiada_Pani_slash_Pan_orzeczenie_o_niepe_nosprawno_ci_quest",
+              "localColumn": "col_6_Czy_posiada_Pani_Pan_orzeczeni",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9810,7 +9810,7 @@
                   "Nie wiem"
                 ],
                 "prefer_not_to_say": [
-                  "Wolę nie odpowiadać"
+                  "Wole nie odpowiadac"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9819,16 +9819,16 @@
             },
             "bespoke_q3_prognosis_perception": {
               "mapsTo": "schema:variable/bespoke_q3_prognosis_perception",
-              "localColumn": "col_3_dot_Zgodnie_z_Pani_slash_Pana_wiedz_comma_jaka_jest_prognoza_leczenia_quest",
+              "localColumn": "col_3_Ktora_z_ponizszych_opcji_na_11",
               "localMappings": {
                 "good": [
                   "Dobra"
                 ],
                 "poor": [
-                  "Zła"
+                  "Zla"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   "Nie dotyczy",
@@ -9838,7 +9838,7 @@
             },
             "bespoke_q4_cancer_recurrence": {
               "mapsTo": "schema:variable/bespoke_q4_cancer_recurrence",
-              "localColumn": "col_4_dot_Czy_kiedykolwiek_dosz_o_do_nawrotu_Pani_slash_Pana_choroby_nowotworowej_quest",
+              "localColumn": "col_4_Jaki_jest_Pani_Pana_stan_cywil",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9847,7 +9847,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9856,7 +9856,7 @@
             },
             "bespoke_q5_fertility_affected": {
               "mapsTo": "schema:variable/bespoke_q5_fertility_affected",
-              "localColumn": "col_5_dot_Czy_leczenie_onkologiczne_mia_o_wp_yw_na_Pani_slash_Pana_p_odno_quest",
+              "localColumn": "col_5_Czy_leczenie_onkologiczne_mial",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9865,7 +9865,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9874,7 +9874,7 @@
             },
             "bespoke_q6_fertility_preservation_offered": {
               "mapsTo": "schema:variable/bespoke_q6_fertility_preservation_offered",
-              "localColumn": "col_6_dot_Czy_zaproponowano_Pani_slash_Panu_mo_liwo_zabezpieczenia_p_odno_ci_quest",
+              "localColumn": "col_6_Czy_posiada_Pani_Pan_orzeczeni",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9886,7 +9886,7 @@
                   "nie pamietam"
                 ],
                 "not_required": [
-                  "nie było wymagane"
+                  "nie bylo wymagane"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9895,7 +9895,7 @@
             },
             "bespoke_q7a_problem_brain": {
               "mapsTo": "schema:variable/bespoke_q7a_problem_brain",
-              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7A_dot_uk_adu_nerwowego",
+              "localColumn": "col_7_Od_momentu_rozpoznania_wystepu",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9904,7 +9904,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9913,7 +9913,7 @@
             },
             "bespoke_q7b_problem_heart": {
               "mapsTo": "schema:variable/bespoke_q7b_problem_heart",
-              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7B_dot_uk_adu_kr_enia",
+              "localColumn": "col_7_Od_momentu_rozpoznania_wyste_1",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9922,7 +9922,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9931,7 +9931,7 @@
             },
             "bespoke_q7c_problem_breathing": {
               "mapsTo": "schema:variable/bespoke_q7c_problem_breathing",
-              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7C_dot_uk_adu_oddechowego",
+              "localColumn": "col_7_Od_momentu_rozpoznania_wyste_2",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9940,7 +9940,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9949,7 +9949,7 @@
             },
             "bespoke_q7d_problem_kidneys": {
               "mapsTo": "schema:variable/bespoke_q7d_problem_kidneys",
-              "localColumn": "col_7_dot_Od_momentu_rozpoznania_wyst_puj_cego_u_Pana_slash_Pani_nowotworu_comma_czy_kiedykolwiek_us_ysza_slash_a_Pan_slash_Pani_od_lekarza_lub_innego_pracownika_ochrony_zdrowia_comma_e_ma_lub_mia_slash_a_Pan_slash_Pani_problem_z_funkcj_colon_7D_dot_uk_adu_moczowego",
+              "localColumn": "col_7_Od_momentu_rozpoznania_wyste_3",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9958,7 +9958,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9967,7 +9967,7 @@
             },
             "bespoke_q8a_treatment_oestrogen_progesterone": {
               "mapsTo": "schema:variable/bespoke_q8a_treatment_oestrogen_progesterone",
-              "localColumn": "col_8_dot_Czy_ze_wzgl_du_na_Pana_slash_i_nowotw_r_i_slash_lub_leczenie_mia_slash_a_Pan_slash_i_problemy_z_comma_albo_czy_obecnie_przyjmuje_Pan_slash_i_jakie_leczenie_hormonalne_w_zwi_zku_z_colon_8A_dot_Miesi_czkami_lub_wczesn_menopauz_estrogeny_slash_progesteron",
+              "localColumn": "col_8_Czy_ze_wzgledu_na_Panai_nowotw",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -9976,7 +9976,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć",
+                  "Nie umiem odpowiedziec",
                   "nie dotyczy"
                 ],
                 "missing_or_unspecified": [
@@ -9986,7 +9986,7 @@
             },
             "bespoke_q8b_treatment_testosterone": {
               "mapsTo": "schema:variable/bespoke_q8b_treatment_testosterone",
-              "localColumn": "col_8_dot_Czy_ze_wzgl_du_na_Pana_slash_i_nowotw_r_i_slash_lub_leczenie_mia_slash_a_Pan_slash_i_problemy_z_comma_albo_czy_obecnie_przyjmuje_Pan_slash_i_jakie_leczenie_hormonalne_w_zwi_zku_z_colon_8B_dot_Testosteronem",
+              "localColumn": "col_8_Czy_ze_wzgledu_na_Panai_nowo_1",
               ",localMappings": {
                 "no": [
                   "Nie"
@@ -9995,7 +9995,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć",
+                  "Nie umiem odpowiedziec",
                   "nie dotyczy"
                 ],
                 "missing_or_unspecified": [
@@ -10005,7 +10005,7 @@
             },
             "bespoke_q8c_treatment_thyroid_gland": {
               "mapsTo": "schema:variable/bespoke_q8c_treatment_thyroid_gland",
-              "localColumn": "col_8C_dot_Tarczyc",
+              "localColumn": "col_8C_Tarczyca",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -10014,7 +10014,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -10023,7 +10023,7 @@
             },
             "bespoke_q8d_treatment_growth_hormone": {
               "mapsTo": "schema:variable/bespoke_q8d_treatment_growth_hormone",
-              "localColumn": "col_8D_dot_Hormonem_wzrostu",
+              "localColumn": "col_8D_Hormonem_wzrostu",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -10032,7 +10032,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -10041,7 +10041,7 @@
             },
             "bespoke_q8e_treatment_cortisol": {
               "mapsTo": "schema:variable/bespoke_q8e_treatment_cortisol",
-              "localColumn": "col_8E_dot_Niskim_poziomem_kortyzolu",
+              "localColumn": "col_8E_Niskim_poziomem_kortyzolu",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -10050,7 +10050,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -10059,7 +10059,7 @@
             },
             "bespoke_q8f_treatment_other": {
               "mapsTo": "schema:variable/bespoke_q8f_treatment_other",
-              "localColumn": "col_8F_dot_Ze_wzgl_du_na_Pana_slash_i_nowotw_r_i_slash_lub_leczenie_mia_slash_a_Pan_slash_i_problemy_z_comma_albo_obecnie_przyjmuje_Pan_slash_i_jakie_leczenie_hormonalne_w_zwi_zku_z_innymi_powodami_ni_wymienione_wcze_niej_comma_prosz_opisa_colon",
+              "localColumn": "col_8F_Ze_wzgledu_na_Panai_nowotwor",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -10068,7 +10068,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -10077,7 +10077,7 @@
             },
             "eortc_qlq_c30_q1": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q1",
-              "localColumn": "col_9_dot_Czy_ma_Pan_slash_i_k_opoty_przy_wykonywaniu_m_cz_cych_czynno_ci_comma_np_dot_przy_d_wiganiu_ci_kiej_torby_z_zakupami_lub_walizki_quest",
+              "localColumn": "col_9_Czy_ma_Pani_klopoty_przy_wykon",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10098,7 +10098,7 @@
             },
             "eortc_qlq_c30_q2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q2",
-              "localColumn": "col_10_dot_Czy_d_ugi_spacer_m_czy_Pana_slash_i_quest",
+              "localColumn": "col_10_Czy_dlugi_spacer_meczy_Panaia",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10119,7 +10119,7 @@
             },
             "eortc_qlq_c30_q3": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q3",
-              "localColumn": "col_11_dot_Czy_kr_tki_spacer_poza_domem_sprawia_Panu_slash_i_trudno_ci_quest",
+              "localColumn": "col_11_Czy_krotki_spacer_poza_domem",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10140,7 +10140,7 @@
             },
             "eortc_qlq_c30_q4": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q4",
-              "localColumn": "col_12_dot_Czy_musi_Pan_slash_i_le_e_w_ku_lub_siedzie_w_fotelu_w_ci_gu_dnia_quest",
+              "localColumn": "col_12_Czy_musi_Pani_lezec_w_lozku_l",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10161,7 +10161,7 @@
             },
             "eortc_qlq_c30_q5": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q5",
-              "localColumn": "col_13_dot_Czy_potrzebuje_Pan_slash_i_pomocy_przy_jedzeniu_comma_ubieraniu_si_comma_myciu_si_lub_korzystaniu_z_toalety_quest",
+              "localColumn": "col_13_Czy_potrzebuje_Pani_pomocy_pr",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10182,7 +10182,7 @@
             },
             "eortc_qlq_c30_q6": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q6",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_14_dot_By_slash_a_Pan_slash_i_ograniczony_slash_a_w_wykonywaniu_pracy_lub_innych_codziennych_czynno_ci_quest",
+              "localColumn": "col_14_Byla_Pani_ograniczonya_w_wyko",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10203,7 +10203,7 @@
             },
             "eortc_qlq_c30_q7": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q7",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_15_dot_By_slash_a_Pan_slash_i_ograniczony_slash_a_w_realizowaniu_swoich_hobby_lub_innych_przyjemno_ci_quest",
+              "localColumn": "col_15_Byla_Pani_ograniczonya_w_real",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10224,7 +10224,7 @@
             },
             "eortc_qlq_c30_q8": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q8",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_16_dot_Odczuwa_slash_a_Pan_slash_i_duszno_ci_quest",
+              "localColumn": "col_16_Odczuwala_Pani_dusznosci",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10245,7 +10245,7 @@
             },
             "eortc_qlq_c30_q9": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q9",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_17_dot_Mia_slash_a_Pan_slash_i_b_le_quest",
+              "localColumn": "col_17_Miala_Pani_bole",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10266,7 +10266,7 @@
             },
             "eortc_qlq_c30_q10": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q10",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_18_dot_Potrzebowa_slash_a_Pan_slash_i_odpoczynku_quest",
+              "localColumn": "col_18_Potrzebowala_Pani_odpoczynku",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10287,7 +10287,7 @@
             },
             "eortc_qlq_c30_q11": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q11",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_19_dot_Mia_slash_a_Pan_slash_i_trudno_ci_ze_snem_quest",
+              "localColumn": "col_19_Miala_Pani_trudnosci_ze_snem",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10308,7 +10308,7 @@
             },
             "eortc_qlq_c30_q12": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q12",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_20_dot_Odczuwa_slash_a_Pan_slash_i_os_abienie_quest",
+              "localColumn": "col_20_Odczuwala_Pani_oslabienie",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10329,7 +10329,7 @@
             },
             "eortc_qlq_c30_q13": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q13",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_21_dot_Odczuwa_slash_a_Pan_slash_i_brak_apetytu_quest",
+              "localColumn": "col_21_Odczuwala_Pani_brak_apetytu",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10350,7 +10350,7 @@
             },
             "eortc_qlq_c30_q14": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q14",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_22_dot_Odczuwa_slash_a_Pan_slash_i_nudno_ci_quest",
+              "localColumn": "col_22_Odczuwala_Pani_nudnosci",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10371,7 +10371,7 @@
             },
             "eortc_qlq_c30_q15": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q15",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_23_dot_Wymiotowa_slash_a_Pan_slash_i_quest",
+              "localColumn": "col_23_Wymiotowala_Pani",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10392,7 +10392,7 @@
             },
             "eortc_qlq_c30_q16": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q16",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_24_dot_Miewa_slash_a_Pan_slash_i_zaparcia_quest",
+              "localColumn": "col_24_Miewala_Pani_zaparcia",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10413,7 +10413,7 @@
             },
             "eortc_qlq_c30_q17": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q17",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_25_dot_Miewa_slash_a_Pan_slash_i_biegunk_quest",
+              "localColumn": "col_25_Miewala_Pani_biegunke",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10434,7 +10434,7 @@
             },
             "eortc_qlq_c30_q18": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q18",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_26_dot_By_slash_a_Pan_slash_i_zm_czony_slash_a_quest",
+              "localColumn": "col_26_Byla_Pani_zmeczonya",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10455,7 +10455,7 @@
             },
             "eortc_qlq_c30_q19": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q19",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_27_dot_B_l_przeszkadza_Panu_slash_i_w_codziennych_zaj_ciach_quest",
+              "localColumn": "col_27_Bol_przeszkadzal_Panui_w_codz",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10476,7 +10476,7 @@
             },
             "eortc_qlq_c30_q20": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q20",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_28_dot_Mia_slash_a_Pan_slash_i_trudno_ci_w_skupianiu_si_np_dot_przy_czytaniu_gazety_lub_ogl_daniu_telewizji_quest",
+              "localColumn": "col_28_Miala_Pani_trudnosci_w_skupia",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10497,7 +10497,7 @@
             },
             "eortc_qlq_c30_q21": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q21",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_29_dot_Czu_slash_a_si_Pan_slash_i_spi_ty_slash_a_quest",
+              "localColumn": "col_29_Czula_sie_Pani_spietya",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10518,7 +10518,7 @@
             },
             "eortc_qlq_c30_q22": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q22",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_30_dot_Martwi_slash_a_si_Pan_slash_i_quest",
+              "localColumn": "col_30_Martwila_sie_Pani",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10539,7 +10539,7 @@
             },
             "eortc_qlq_c30_q23": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q23",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_31_dot_Czu_slash_a_si_Pan_slash_i_rozdra_niony_slash_a_quest",
+              "localColumn": "col_31_Czula_sie_Pani_rozdraznionya",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10560,7 +10560,7 @@
             },
             "eortc_qlq_c30_q24": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q24",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_32_dot_Czu_slash_a_si_Pan_slash_i_przygn_biony_slash_a_quest",
+              "localColumn": "col_32_Czula_sie_Pani_przygnebionya",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10581,7 +10581,7 @@
             },
             "eortc_qlq_c30_q25": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q25",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_33_dot_Mia_slash_a_Pan_slash_i_trudno_ci_w_zapami_tywaniu_quest",
+              "localColumn": "col_33_Miala_Pani_trudnosci_w_zapami",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10602,7 +10602,7 @@
             },
             "eortc_qlq_c30_q26": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q26",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_34_dot_Stan_Pana_slash_i_zdrowia_lub_leczenie_zak_ca_y_Pana_slash_i_ycie_rodzinne_quest",
+              "localColumn": "col_34_Stan_Panai_zdrowia_lub_leczen",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10623,7 +10623,7 @@
             },
             "eortc_qlq_c30_q27": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q27",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_35_dot_Stan_Pana_slash_i_zdrowia_lub_leczenie_przeszkadza_y_w_Pana_slash_i_yciu_towarzyskim_quest",
+              "localColumn": "col_35_Stan_Panai_zdrowia_lub_leczen",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10644,7 +10644,7 @@
             },
             "eortc_qlq_c30_q28": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q28",
-              "localColumn": "Czy_w_ostatnim_tygodniu_colon_36_dot_Stan_Pana_slash_i_zdrowia_lub_leczenie_powodowa_y_k_opoty_finansowe_quest",
+              "localColumn": "col_36_Stan_Panai_zdrowia_lub_leczen",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10665,7 +10665,7 @@
             },
             "eortc_qlq_c30_q29": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q29",
-              "localColumn": "Przy_nast_pnych_pytaniach_prosz_zakre_li_cyfr_od_1_do_7_comma_kt_ra_najbardziej_Pana_slash_i_dotyczy_colon_37_dot_Jak_ocenia_Pan_slash_i_og_lny_stan_swojego_zdrowia_w_ubieg_ym_tygodniu_quest",
+              "localColumn": "col_37_Jak_ocenia_Pani_og_lny_st",
               "localMappings": {
                 "score_1_very_poor": [
                   "1"
@@ -10695,7 +10695,7 @@
             },
             "eortc_qlq_c30_q30": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q30",
-              "localColumn": "Przy_nast_pnych_pytaniach_prosz_zakre_li_cyfr_od_1_do_7_comma_kt_ra_najbardziej_Pana_slash_i_dotyczy_colon_38_dot_Jak_ocenia_Pan_slash_i_og_ln_jako_swego_ycia_w_ubieg_ym_tygodniu_quest",
+              "localColumn": "col_38_Jak_ocenia_Pani_og_ln_jak",
               "localMappings": {
                 "score_1_very_poor": [
                   "1"
@@ -10725,7 +10725,7 @@
             },
             "eortc_qlq_c30_overall_qol_QL2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_overall_qol_QL2",
-              "localColumn": "QL2",
+              "localColumn": "C30_QL2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10734,7 +10734,7 @@
             },
             "eortc_qlq_c30_physical_functioning_PF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_physical_functioning_PF2",
-              "localColumn": "PF2",
+              "localColumn": "C30_PF2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10743,7 +10743,7 @@
             },
             "eortc_qlq_c30_role_functioning_RF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_role_functioning_RF2",
-              "localColumn": "RF2",
+              "localColumn": "C30_RF2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10752,7 +10752,7 @@
             },
             "eortc_qlq_c30_emotional_functioning_EF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_emotional_functioning_EF",
-              "localColumn": "EF",
+              "localColumn": "C30_EF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10761,7 +10761,7 @@
             },
             "eortc_qlq_c30_cognitive_functioning_CF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_cognitive_functioning_CF",
-              "localColumn": "CF",
+              "localColumn": "C30_CF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10770,7 +10770,7 @@
             },
             "eortc_qlq_c30_social_functioning_SF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_social_functioning_SF",
-              "localColumn": "SF",
+              "localColumn": "C30_SF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10779,7 +10779,7 @@
             },
             "eortc_qlq_c30_fatigue_FA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_fatigue_FA",
-              "localColumn": "FA",
+              "localColumn": "C30_FA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10788,7 +10788,7 @@
             },
             "eortc_qlq_c30_nausea_vomiting_NV": {
               "mapsTo": "schema:variable/eortc_qlq_c30_nausea_vomiting_NV",
-              "localColumn": "NV",
+              "localColumn": "C30_NV",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10797,7 +10797,7 @@
             },
             "eortc_qlq_c30_pain_PA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_pain_PA",
-              "localColumn": "PA",
+              "localColumn": "C30_PA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10806,7 +10806,7 @@
             },
             "eortc_qlq_c30_dyspnoea_DY": {
               "mapsTo": "schema:variable/eortc_qlq_c30_dyspnoea_DY",
-              "localColumn": "DY",
+              "localColumn": "C30_DY",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10815,7 +10815,7 @@
             },
             "eortc_qlq_c30_insomnia_SL": {
               "mapsTo": "schema:variable/eortc_qlq_c30_insomnia_SL",
-              "localColumn": "SL",
+              "localColumn": "C30_SL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10824,7 +10824,7 @@
             },
             "eortc_qlq_c30_appetite_loss_AP": {
               "mapsTo": "schema:variable/eortc_qlq_c30_appetite_loss_AP",
-              "localColumn": "AP",
+              "localColumn": "C30_AP",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10833,7 +10833,7 @@
             },
             "eortc_qlq_c30_constipation_CO": {
               "mapsTo": "schema:variable/eortc_qlq_c30_constipation_CO",
-              "localColumn": "CO",
+              "localColumn": "C30_CO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10842,7 +10842,7 @@
             },
             "eortc_qlq_c30_diarrhoea_DI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_diarrhoea_DI",
-              "localColumn": "DI",
+              "localColumn": "C30_DI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10851,7 +10851,7 @@
             },
             "eortc_qlq_c30_financial_difficulties_FI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_financial_difficulties_FI",
-              "localColumn": "FI",
+              "localColumn": "C30_FI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10860,7 +10860,7 @@
             },
             "eortc_qlq_aya_q1": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q1",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_39_dot_Brakowa_o_Ci_energii_quest",
+              "localColumn": "col_39_Brakowalo_Ci_energii",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10881,7 +10881,7 @@
             },
             "eortc_qlq_aya_q2": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q2",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_40_dot_Mia_e_slash_a_problemy_z_poruszaniem_si_quest",
+              "localColumn": "col_40_Mialesas_problemy_z_poruszani",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10902,7 +10902,7 @@
             },
             "eortc_qlq_aya_q3": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q3",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_41_dot_Odczuwa_e_slash_a_znudzenie_quest",
+              "localColumn": "col_41_Odczuwalesas_znudzenie",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10923,7 +10923,7 @@
             },
             "eortc_qlq_aya_q4": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q4",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_42_dot_Mia_e_slash_a_problemy_z_robieniem_plan_w_na_przysz_o_quest",
+              "localColumn": "col_42_Mialesas_problemy_z_robieniem",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10944,7 +10944,7 @@
             },
             "eortc_qlq_aya_q5": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q5",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_43_dot_Odczuwa_e_slash_a_ograniczenie_co_do_rodzaj_w_jedzenia_i_napoj_w_comma_kt_re_mo_esz_spo_ywa_quest",
+              "localColumn": "col_43_Odczuwalesas_ograniczenie_co",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10965,7 +10965,7 @@
             },
             "eortc_qlq_aya_q6": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q6",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_44_dot_Obserwowa_e_slash_a_si_uwa_nie_pod_k_tem_jakichkolwiek_nowych_objaw_w_choroby_quest",
+              "localColumn": "col_44_Obserwowales_as_sie_uwaznie_p",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10986,7 +10986,7 @@
             },
             "eortc_qlq_aya_q7": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q7",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_45_dot_Martwi_e_slash_a_si_mo_liwo_ci_z_apania_infekcji_quest",
+              "localColumn": "col_45_Martwilesas_sie_mozliwoscia_z",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11007,7 +11007,7 @@
             },
             "eortc_qlq_aya_q8": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q8",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_46_dot_Martwi_e_slash_a_si_comma_e_b_dziesz_musia_slash_a_przyjmowa_leki_do_ko_ca_ycia_quest",
+              "localColumn": "col_46_Martwilesas_sie_ze_bedziesz_m",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11028,7 +11028,7 @@
             },
             "eortc_qlq_aya_q9": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q9",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_47_dot_Martwi_e_slash_a_si_o_swoje_zdrowie_w_przysz_o_ci_quest",
+              "localColumn": "col_47_Martwilesas_sie_o_swoje_zdrow",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11049,7 +11049,7 @@
             },
             "eortc_qlq_aya_q10": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q10",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_48_dot_Martwi_e_slash_a_si_mierci_quest",
+              "localColumn": "col_48_Martwilesas_sie_smiercia",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11070,7 +11070,7 @@
             },
             "eortc_qlq_aya_q11": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q11",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_49_dot_Martwi_e_slash_a_si_czy_b_dziesz_w_stanie_zosta_rodzicem_lub_mie_wi_cej_dzieci_quest",
+              "localColumn": "col_49_Martwilesas_sie_czy_bedziesz",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11091,7 +11091,7 @@
             },
             "eortc_qlq_aya_q12": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q12",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_50_dot_Martwi_e_slash_a_si_mo_liwo_ci_odziedziczenia_nowotworu_przez_kolejne_pokolenie_quest",
+              "localColumn": "col_50_Martwilesas_sie_mozliwoscia_o",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11112,7 +11112,7 @@
             },
             "eortc_qlq_aya_q13": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q13",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_51_dot_Brakowa_o_Ci_pewno_ci_siebie_quest",
+              "localColumn": "col_51_Brakowalo_Ci_pewnosci_siebie",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11133,7 +11133,7 @@
             },
             "eortc_qlq_aya_q14": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q14",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_52_dot_Odczuwa_e_slash_a_utrat_kontroli_nad_swoim_yciem_quest",
+              "localColumn": "col_52_Odczuwalesas_utrate_kontroli",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11154,7 +11154,7 @@
             },
             "eortc_qlq_aya_q15": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q15",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_53_dot_Martwi_e_slash_a_si_zmianami_w_swoim_wygl_dzie_quest",
+              "localColumn": "col_53_Martwilesas_sie_zmianami_w_sw",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11175,7 +11175,7 @@
             },
             "eortc_qlq_aya_q16": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q16",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_54_dot_Czu_e_slash_a_si_odizolowany_slash_a_od_bliskich_Ci_os_b_np_dot_rodziny_comma_przyjaci_quest",
+              "localColumn": "col_54_Czules_as_sie_odizolowanya_od",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11196,7 +11196,7 @@
             },
             "eortc_qlq_aya_q17": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q17",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_55_dot_Mia_e_slash_a_problemy_z_tym_comma_e_ludzie_traktuj_Ci_inaczej_quest",
+              "localColumn": "col_55_Miales_as_problemy_z_tym_ze_l",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11217,7 +11217,7 @@
             },
             "eortc_qlq_aya_q18": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q18",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_56_dot_Martwi_e_slash_a_si_comma_e_jeste_zale_ny_slash_a_od_innych_quest",
+              "localColumn": "col_56_Martwiles_as_sie_ze_jestes_za",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11238,7 +11238,7 @@
             },
             "eortc_qlq_aya_q19": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q19",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_57_dot_Przybieranie_na_wadze_by_o_dla_Ciebie_problemem_quest",
+              "localColumn": "col_57_Przybieranie_na_wadze_bylo_dl",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11259,7 +11259,7 @@
             },
             "eortc_qlq_aya_q20": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q20",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_58_dot_Utrata_wagi_by_a_dla_Ciebie_problemem_quest",
+              "localColumn": "col_58_Utrata_wagi_by_a_dla_Cieb",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11280,7 +11280,7 @@
             },
             "eortc_qlq_aya_q21": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q21",
-              "localColumn": "Czy_w_ostatnim_tygodniu_comma_z_powodu_choroby_lub_leczenia_colon_59_dot_Mia_e_slash_a_trudno_ci_zwi_zane_z_opiek_nad_innymi_np_dot_dzie_mi_comma_rodzicami_quest",
+              "localColumn": "col_59_Miales_as_trudnosci_zwiazane",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11302,7 +11302,7 @@
             },
             "eortc_qlq_aya_q22": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q22",
-              "localColumn": "col_60_dot_Sta_e_slash_a_si_silniejszy_slash_a_psychicznie_quest",
+              "localColumn": "col_60_Stalesas_sie_silniejszya_psyc",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11323,7 +11323,7 @@
             },
             "eortc_qlq_aya_q23": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q23",
-              "localColumn": "col_61_dot_Czu_e_slash_a_si_bardziej_zmotywowany_slash_a_do_osi_gania_cel_w_osobistych_quest",
+              "localColumn": "col_61_Czules_as_sie_bardziej_zmotyw",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11344,7 +11344,7 @@
             },
             "eortc_qlq_aya_q24": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q24",
-              "localColumn": "col_62_dot_Czu_e_slash_a_si_bardziej_zmotywowany_slash_a_by_y_pe_ni_ycia_quest",
+              "localColumn": "col_62_Czules_as_sie_bardziej_zmotyw",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11365,7 +11365,7 @@
             },
             "eortc_qlq_aya_q25": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q25",
-              "localColumn": "col_63_dot_By_e_slash_a_w_stanie_odr_ni_w_yciu_rzeczy_wa_ne_od_niewa_nych_quest",
+              "localColumn": "col_63_Byles_as_w_stanie_odroznic_w",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11386,7 +11386,7 @@
             },
             "eortc_qlq_aya_q26": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q26",
-              "localColumn": "Czy_w_ostatnich_czterech_tygodniach_comma_z_powodu_choroby_lub_leczenia_colon_64_dot_Mia_e_slash_a_problemy_z_edukacj_lub_prac_quest",
+              "localColumn": "col_64_Miales_as_problemy_z_edukacja",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11410,7 +11410,7 @@
             },
             "eortc_qlq_aya_q27": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q27",
-              "localColumn": "Czy_w_ostatnich_czterech_tygodniach_comma_z_powodu_choroby_lub_leczenia_colon_65_dot_Wyst_pi_negatywny_wp_yw_na_Twoje_ycie_uczuciowe_quest",
+              "localColumn": "col_65_Wystapil_negatywny_wplyw_na_T",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11434,7 +11434,7 @@
             },
             "eortc_qlq_aya_q28": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q28",
-              "localColumn": "Czy_w_ostatnich_czterech_tygodniach_comma_z_powodu_choroby_lub_leczenia_colon_66_dot_Wyst_pi_negatywny_wp_yw_na_Twoje_ycie_seksualne_quest",
+              "localColumn": "col_66_Wystapil_negatywny_wplyw_na_T",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11458,7 +11458,7 @@
             },
             "eortc_qlq_aya_q29": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q29",
-              "localColumn": "Czy_z_powodu_choroby_lub_leczenia_colon_67_dot_Zmiana_miejsca_zamieszkania_by_a_dla_Ciebie_problemem_quest",
+              "localColumn": "col_67_Zmiana_miejsca_zamieszkania_b",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11482,7 +11482,7 @@
             },
             "eortc_qlq_aya_q30": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q30",
-              "localColumn": "Czy_z_powodu_choroby_lub_leczenia_colon_68_dot_Wyst_pienie_wczesnej_menopauzy_by_o_dla_Ciebie_problemem_quest",
+              "localColumn": "col_68_Wystapienie_wczesnej_menopauz",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11506,7 +11506,7 @@
             },
             "eortc_qlq_aya_AYAAL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAAL",
-              "localColumn": "AYAAL",
+              "localColumn": "AYA30_AYAAL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11515,7 +11515,7 @@
             },
             "eortc_qlq_aya_AYAWO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWO",
-              "localColumn": "AYAWO",
+              "localColumn": "AYA30_AYAWO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11524,7 +11524,7 @@
             },
             "eortc_qlq_aya_AYASE": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYASE",
-              "localColumn": "AYASE",
+              "localColumn": "AYA30_AYASE",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11533,7 +11533,7 @@
             },
             "eortc_qlq_aya_AYARE": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARE",
-              "localColumn": "AYARE",
+              "localColumn": "AYA30_AYARE",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11542,7 +11542,7 @@
             },
             "eortc_qlq_aya_AYARFD": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARFD",
-              "localColumn": "AYARFD",
+              "localColumn": "AYA30_AYARFD",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11551,7 +11551,7 @@
             },
             "eortc_qlq_aya_AYAWG": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWG",
-              "localColumn": "AYAWG",
+              "localColumn": "AYA30_AYAWG",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11560,7 +11560,7 @@
             },
             "eortc_qlq_aya_AYAWL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWL",
-              "localColumn": "AYAWL",
+              "localColumn": "AYA30_AYAWL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11569,7 +11569,7 @@
             },
             "eortc_qlq_aya_AYALO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYALO",
-              "localColumn": "AYALO",
+              "localColumn": "AYA30_AYALO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11578,7 +11578,7 @@
             },
             "eortc_qlq_aya_AYAEW": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAEW",
-              "localColumn": "ATAEW",
+              "localColumn": "AYA30_AYAEW",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11587,7 +11587,7 @@
             },
             "eortc_qlq_aya_AYARO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARO",
-              "localColumn": "AYARO",
+              "localColumn": "AYA30_AYARO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11596,7 +11596,7 @@
             },
             "eortc_qlq_aya_AYASL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYASL",
-              "localColumn": "AYASL",
+              "localColumn": "AYA30_AYASL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11605,7 +11605,7 @@
             },
             "eortc_qlq_aya_AYACR": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYACR",
-              "localColumn": "AYACR",
+              "localColumn": "AYA30_AYACR",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11614,7 +11614,7 @@
             },
             "eortc_qlq_aya_AYAEM": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAEM",
-              "localColumn": "AYAEM",
+              "localColumn": "AYA30_AYAEM",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11623,19 +11623,19 @@
             },
             "hads_q1": {
               "mapsTo": "schema:variable/hads_q1",
-              "localColumn": "col_69_dot_Czuj_si_napi_ty_colon",
+              "localColumn": "col_69_Czuje_sie_napiety",
               "localMappings": {
                 "score_0_not_at_all": [
-                  "nigdy"
+                  "0"
                 ],
                 "score_1_occasionally": [
-                  "od czasu do czasu"
+                  "1"
                 ],
                 "score_2_a_lot_of_the_time": [
-                  "często"
+                  "2"
                 ],
                 "score_3_most_of_the_time": [
-                  "prawie stale"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11644,19 +11644,19 @@
             },
             "hads_q2": {
               "mapsTo": "schema:variable/hads_q2",
-              "localColumn": "col_70_dot_Rzeczy_comma_kt_re_sprawia_y_mi_przyjemno_comma_nadal_mnie_ciesz_colon",
+              "localColumn": "col_70_Rzeczy_ktore_sprawialy_mi_prz",
               "localMappings": {
                 "score_0_definitely_as_much": [
-                  "zdecydowanie tak samo"
+                  "0"
                 ],
                 "score_1_not_quite_so_much": [
-                  "nieco mniej"
+                  "1"
                 ],
                 "score_2_only_a_little": [
-                  "niewiele"
+                  "2"
                 ],
                 "score_3_hardly_at_all": [
-                  "w ogóle nie"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11665,19 +11665,19 @@
             },
             "hads_q3": {
               "mapsTo": "schema:variable/hads_q3",
-              "localColumn": "col_71_dot_Obawiam_si_comma_e_wydarzy_si_co_okropnego_colon",
+              "localColumn": "col_71_Obawiam_sie_ze_wydarzy_sie_co",
               "localMappings": {
                 "score_3_very_definitely_and_quite_badly": [
-                  "stanowczo tak i to bardzo silnie"
+                  "3"
                 ],
                 "score_2_yes_but_not_too_badly": [
-                  "tak, ale niezbyt silnie"
+                  "2"
                 ],
                 "score_1_a_little_but_it_doesnt_worry_me": [
-                  "niewiele i nie martwię się tym"
+                  "1"
                 ],
                 "score_0_not_at_all": [
-                  "w ogóle nie"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11686,19 +11686,19 @@
             },
             "hads_q4": {
               "mapsTo": "schema:variable/hads_q4",
-              "localColumn": "col_72_dot_Jestem_w_stanie_mia_si_i_dostrzega_zabawn_stron_rzeczy_colon",
+              "localColumn": "col_72_Jestem_w_stanie_smiac_sie_i_d",
               "localMappings": {
                 "score_0_as_much_as_i_always_could": [
-                  "tak jak zawsze"
+                  "0"
                 ],
                 "score_1_not_quite_so_much_now": [
-                  "nieco mniej"
+                  "1"
                 ],
                 "score_2_definitely_not_so_much_now": [
-                  "z pewnością mniej"
+                  "2"
                 ],
                 "score_3_not_at_all": [
-                  "w ogóle"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11707,19 +11707,19 @@
             },
             "hads_q5": {
               "mapsTo": "schema:variable/hads_q5",
-              "localColumn": "col_73_dot_Martwi_si_colon",
+              "localColumn": "col_73_Martwie_sie",
               "localMappings": {
                 "score_3_a_great_deal_of_the_time": [
-                  "prawie cały czas"
+                  "3"
                 ],
                 "score_2_a_lot_of_the_time": [
-                  "często"
+                  "2"
                 ],
                 "score_1_from_time_to_time_but_not_too_often": [
-                  "od czasu do czasu"
+                  "1"
                 ],
                 "score_0_not_at_all": [
-                  "rzadko"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11728,19 +11728,19 @@
             },
             "hads_q6": {
               "mapsTo": "schema:variable/hads_q6",
-              "localColumn": "col_74_dot_Jestem_pogodny_colon",
+              "localColumn": "col_74_Jestem_pogodny",
               "localMappings": {
                 "score_3_not_at_all": [
-                  "nigdy"
+                  "3"
                 ],
                 "score_2_not_often": [
-                  "rzadko"
+                  "2"
                 ],
                 "score_1_sometimes": [
-                  "czasami"
+                  "1"
                 ],
                 "score_0_most_of_the_time": [
-                  "prawie cały czas"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11749,19 +11749,19 @@
             },
             "hads_q7": {
               "mapsTo": "schema:variable/hads_q7",
-              "localColumn": "col_75_dot_Jestem_w_stanie_odpr_y_si_colon",
+              "localColumn": "col_75_Jestem_w_stanie_odprezyc_sie",
               "localMappings": {
                 "score_0_definitely": [
-                  "zdecydowanie tak"
+                  "0"
                 ],
                 "score_1_usually": [
-                  "zazwyczaj tak"
+                  "1"
                 ],
                 "score_2_not_often": [
-                  "niezbyt często"
+                  "2"
                 ],
                 "score_3_not_at_all": [
-                  "w ogóle nie"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11770,19 +11770,19 @@
             },
             "hads_q8": {
               "mapsTo": "schema:variable/hads_q8",
-              "localColumn": "col_76_dot_Czuj_si_w_quote_quote_psychicznym_do_ku_quote_quote_colon",
+              "localColumn": "col_76_Czuje_sie_w_psychicznym_dolku",
               "localMappings": {
                 "score_3_most_of_the_time": [
-                  "prawie stale"
+                  "3"
                 ],
                 "score_2_quite_often": [
-                  "bardzo często"
+                  "2"
                 ],
                 "score_1_sometimes": [
-                  "czasami"
+                  "1"
                 ],
                 "score_0_not_at_all": [
-                  "wcale nie"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11791,19 +11791,19 @@
             },
             "hads_q9": {
               "mapsTo": "schema:variable/hads_q9",
-              "localColumn": "col_77_dot_Bywa_comma_e_prze_ywam_l_k_do_tego_stopnia_comma_e_czuj_dr_enie_w_o_dku_colon",
+              "localColumn": "col_77_Bywa_ze_przezywam_lek_do_tego",
               "localMappings": {
                 "score_0_not_at_all": [
-                  "nigdy"
+                  "0"
                 ],
                 "score_1_occasionally": [
-                  "rzadko"
+                  "1"
                 ],
                 "score_2_quite_often": [
-                  "dość często"
+                  "2"
                 ],
                 "score_3_very_often": [
-                  "bardzo często"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11812,19 +11812,19 @@
             },
             "hads_q10": {
               "mapsTo": "schema:variable/hads_q10",
-              "localColumn": "col_78_dot_Straci_em_zainteresowanie_swoim_wygl_dem_colon",
+              "localColumn": "col_78_Stracilem_zainteresowanie_swo",
               "localMappings": {
                 "score_3_definitely": [
-                  "zdecydowanie tak"
+                  "3"
                 ],
                 "score_2_i_dont_take_as_much_care_as_i_should": [
-                  "nie dbam tak, jak powinienem"
+                  "2"
                 ],
                 "score_1_i_may_not_take_quite_as_much_care": [
-                  "dbam nieco mniej"
+                  "1"
                 ],
                 "score_0_i_take_just_as_much_care_as_ever": [
-                  "dbam w takim samym stopniu co zawsze"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11833,19 +11833,19 @@
             },
             "hads_q11": {
               "mapsTo": "schema:variable/hads_q11",
-              "localColumn": "col_79_dot_Czuje_si_comma_jakbym_nie_m_g_sobie_znale_sobie_miejsca_colon",
+              "localColumn": "col_79_Czuje_sie_jakbym_nie_mogl_sob",
               "localMappings": {
                 "score_3_very_much_indeed": [
-                  "rzeczywiście tak się czuję"
+                  "3"
                 ],
                 "score_2_quite_a_lot": [
-                  "w dużej mierze tak"
+                  "2"
                 ],
                 "score_1_not_very_much": [
-                  "w niewielkim stopniu"
+                  "1"
                 ],
                 "score_0_not_at_all": [
-                  "w ogóle nie"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11854,19 +11854,19 @@
             },
             "hads_q12": {
               "mapsTo": "schema:variable/hads_q12",
-              "localColumn": "col_80_dot_Spogl_dam_w_przysz_o_z_rado_ci_colon",
+              "localColumn": "col_80_Spogladam_w_przyszlosc_z_rado",
               "localMappings": {
                 "score_0_as_much_as_i_ever_did": [
-                  "w takim samym stopniu jak zawsze"
+                  "0"
                 ],
                 "score_1_rather_less_than_i_used_to": [
-                  "raczej mniej niż zwykle"
+                  "1"
                 ],
                 "score_2_definitely_less_than_i_used_to": [
-                  "z pewnością mniej"
+                  "2"
                 ],
                 "score_3_hardly_at_all": [
-                  "prawie zupełnie nie"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11875,19 +11875,19 @@
             },
             "hads_q13": {
               "mapsTo": "schema:variable/hads_q13",
-              "localColumn": "col_81_dot_Miewam_napady_panicznego_l_ku_colon",
+              "localColumn": "col_81_Miewam_napady_panicznego_leku",
               "localMappings": {
                 "score_3_very_often_indeed": [
-                  "bardzo często"
+                  "3"
                 ],
                 "score_2_quite_often": [
-                  "dość często"
+                  "2"
                 ],
                 "score_1_not_very_often": [
-                  "niezbyt często"
+                  "1"
                 ],
                 "score_0_not_at_all": [
-                  "wcale"
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11896,19 +11896,19 @@
             },
             "hads_q14": {
               "mapsTo": "schema:variable/hads_q14",
-              "localColumn": "col_82_dot_Dobra_ksi_ka_lub_program_telewizyjny_sprawia_mi_przyjemno_colon",
+              "localColumn": "col_82_Dobra_ksiazka_lub_program_tel",
               "localMappings": {
                 "score_0_often": [
-                  "często"
+                  "0"
                 ],
                 "score_1_sometimes": [
-                  "czasami"
+                  "1"
                 ],
                 "score_2_not_often": [
-                  "rzadko"
+                  "2"
                 ],
                 "score_3_very_seldom": [
-                  "bardzo rzadko"
+                  "3"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11935,7 +11935,7 @@
             },
             "bespoke_q83_mental_support_offered": {
               "mapsTo": "schema:variable/bespoke_q83_mental_support_offered",
-              "localColumn": "col_85_dot_Czy_od_momentu_rozpoznania_wyst_puj_cego_u_Pani_slash_Pana_nowotworu_comma_zaoferowano_Pani_slash_Panu_jak_form_wsparcia_psychologicznego_dedykowanego_dla_pacjent_w_onkologicznych_quest",
+              "localColumn": "col_85_Czy_od_momentu_rozpoznania_wy",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -11944,7 +11944,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11953,7 +11953,7 @@
             },
             "bespoke_q84_life_threatening_infection": {
               "mapsTo": "schema:variable/bespoke_q84_life_threatening_infection",
-              "localColumn": "col_86_dot_Od_momentu_rozpocz_cia_leczenia_onkologicznego_comma_czy_kiedykolwiek_mia_a_Pani_slash_mia_Pan_zagra_aj_c_yciu_infekcje_quest",
+              "localColumn": "col_86_Od_momentu_rozpoczecia_leczen",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -11962,7 +11962,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11971,7 +11971,7 @@
             },
             "bespoke_q85_clinical_trial_offered": {
               "mapsTo": "schema:variable/bespoke_q85_clinical_trial_offered",
-              "localColumn": "col_87_dot_Czy_zaproponowano_Pani_slash_Panu_wzi_cie_udzia_u_w_badaniu_klinicznym_quest",
+              "localColumn": "col_87_Czy_zaproponowano_Pani_Panu_w",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -11980,7 +11980,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11989,7 +11989,7 @@
             },
             "bespoke_q86_clinical_trial_participated": {
               "mapsTo": "schema:variable/bespoke_q86_clinical_trial_participated",
-              "localColumn": "col_88_dot_Je_li_tak_comma_czy_bra_a_Pani_slash_bra_Pan_udzia_w_badaniu_klinicznym_quest",
+              "localColumn": "col_88_Jesli_tak_czy_brala_Pani_bral",
               "localMappings": {
                 "no": [
                   "Nie"
@@ -11998,7 +11998,7 @@
                   "Tak"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedzieć"
+                  "Nie umiem odpowiedziec"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -12007,16 +12007,16 @@
             },
             "bespoke_q87_fear_of_recurrence": {
               "mapsTo": "schema:variable/bespoke_q87_fear_of_recurrence",
-              "localColumn": "col_86_dot_Czy_martwi_a_si_Pani_slash_martwi_si_Pan_comma_e_choroba_nawr_ci_lub_dojdzie_do_rozsiewu_quest",
+              "localColumn": "col_86_Czy_martwila_sie_Pani_martwil",
               "localMappings": {
                 "score_0_not_at_all": [
                   "Wcale"
                 ],
                 "score_1_a_little": [
-                  "Bardzo mało"
+                  "Bardzo malo"
                 ],
                 "score_2_somewhat": [
-                  "Trochę"
+                  "Troche"
                 ],
                 "score_3_a_lot": [
                   "Sporo"
@@ -12031,16 +12031,16 @@
             },
             "bespoke_q88_info_in_possession": {
               "mapsTo": "schema:variable/bespoke_q88_info_in_possession",
-              "localColumn": "col_87_dot_Posiadam_wszystkie_informacje_comma_kt_rych_potrzebuje_na_temat_mojej_choroby_nowotworowej_comma_jej_leczenia_i_mo_liwych_d_ugoterminowych_skutk_w_ubocznych",
+              "localColumn": "col_87_Posiadam_wszystkie_informacje",
               "localMappings": {
                 "score_0_not_at_all": [
                   "Wcale"
                 ],
                 "score_1_a_little_bit": [
-                  "Bardzo mało"
+                  "Bardzo malo"
                 ],
                 "score_2_somewhat": [
-                  "Trochę"
+                  "Troche"
                 ],
                 "score_3_quite_a_bit": [
                   "Sporo"
@@ -12055,16 +12055,16 @@
             },
             "bespoke_q89_info_findability": {
               "mapsTo": "schema:variable/bespoke_q89_info_findability",
-              "localColumn": "col_88_dot_Kiedy_potrzebuje_informacji_na_temat_mojej_choroby_nowotworowej_na_przyk_ad_o_efektach_leczenia_slash_d_ugoterminowych_skutkach_comma_mo_liwo_ci_nawrotu_nowotworu_itp_dot_comma_wiem_gdzie_ich_szuka_dot",
+              "localColumn": "col_88_Kiedy_potrzebuje_informacji_n",
               "localMappings": {
                 "score_0_not_at_all": [
                   "Wcale"
                 ],
                 "score_1_a_little_bit": [
-                  "Bardzo mało"
+                  "Bardzo malo"
                 ],
                 "score_2_somewhat": [
-                  "Trochę"
+                  "Troche"
                 ],
                 "score_3_quite_a_bit": [
                   "Sporo"
@@ -12079,13 +12079,13 @@
             },
             "bespoke_q90_survivorship_support": {
               "mapsTo": "schema:variable/bespoke_q90_survivorship_support",
-              "localColumn": "col_89_dot_Jak_ocenia_Pani_slash_Pan_informacje_comma_kt_re_otrzyma_a_slash_otrzyma_po_zako_czeniu_leczenia_na_temat_wsparcia_w_zakresie_prze_ycia_jak_y_z_chorob_nowotworow_i_po_jej_zako_czeniu_quest",
+              "localColumn": "col_89_Jak_ocenia_Pani_Pan_informacj",
               "localMappings": {
                 "poor": [
-                  "Słabo"
+                  "Slabo"
                 ],
                 "average": [
-                  "Przeciętnie"
+                  "Przecietnie"
                 ],
                 "good": [
                   "Dobrze"
