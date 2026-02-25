@@ -9356,162 +9356,25 @@
       "description": "NKI retrospective datasets from various sources",
       "locale": "nl_NL",
       "tables": {
-        "survaya_03062022_cos_aligned": {
-          "@id": "mapping:table/survaya_03062022_cos_aligned",
+        "X_W25_1690_Tumor_SEND": {
+          "@id": "mapping:table/X_W25_1690_Tumor_SEND",
           "@type": "mapping:Table",
-          "sourceFile": "survaya_03062022_cos_aligned",
-          "description": "SURVAYA study (DOI: 10.3390/curroncol29080428) data extract",
+          "sourceFile": "X_W25_1690_Tumor_SEND",
+          "description": "NKI EPD/EHR HiX extract: tumour data",
           "columns": {
             "identifier": {
-              "mapsTo": "schema:variable/identifier",
-              "localColumn": "Rnnummer"
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "new_id"
             },
-            "administered_prom_language": {
-              "mapsTo": "schema:variable/administered_prom_language",
-              "localColumn": "taal",
+            "biological_sex": {
+              "mapsTo": "schema:variable/biological_sex",
+              "localColumn": "Sex",
               "localMappings": {
-                "dutch": [
-                  "nl_NL"
-                ]
-              }
-            },
-            "time_prom_recording": {
-              "mapsTo": "schema:variable/time_prom_recording",
-              "localColumn": "tijddiagn",
-              "localMappings": {
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "annual_income": {
-              "mapsTo": "schema:variable/annual_income",
-              "localColumn": "alg_v13_relatief",
-              "localMappings": {
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "ethnicity": {
-              "mapsTo": "schema:variable/ethnicity",
-              "localColumn": "alg_v7",
-              "localMappings": {
-                "african": [
-                  "14"
+                "male": [
+                  "M"
                 ],
-                "arab": [
-                  "11",
-                  "13"
-                ],
-                "asian": [
-                  "6",
-                  "7",
-                  "8",
-                  "9",
-                  "10"
-                ],
-                "black": [
-                  "12"
-                ],
-                "caribbean": [
-                  "3",
-                  "5"
-                ],
-                "white": [
-                  "1"
-                ],
-                "other": [
-                  "2",
-                  "4",
-                  "15"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "occupational": {
-              "mapsTo": "schema:variable/occupational",
-              "localColumn": "fulltime",
-              "localMappings": {
-                "working_full_time": [
-                  "ja"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "occupational_part_time": {
-              "mapsTo": "schema:variable/occupational_part_time",
-              "localColumn": "parttime",
-              "localMappings": {
-                "working_part_time": [
-                  "ja"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "occupational_zzp": {
-              "mapsTo": "schema:variable/occupational_zzp",
-              "localColumn": "zzp_status",
-              "localMappings": {
-                "working_self_employed": [
-                  "ja"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "romantic_partnership_status": {
-              "mapsTo": "schema:variable/romantic_partnership_status",
-              "localColumn": "alg_v3",
-              "localMappings": {
-                "single": [
-                  "3"
-                ],
-                "in_relationship": [
-                  "2"
-                ],
-                "married": [
-                  "1"
-                ],
-                "divorced": [
-                  "4"
-                ],
-                "widowed": [
-                  "5"
-                ],
-                "other": [
-                  "6"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "educational_level": {
-              "mapsTo": "schema:variable/educational_level",
-              "localColumn": "alg_v5",
-              "localMappings": {
-                "ISCED-1": [
-                  "1"
-                ],
-                "ISCED-2": [
-                  "2"
-                ],
-                "ISCED-3": [
-                  "3"
-                ],
-                "ISCED-6": [
-                  "4"
-                ],
-                "ISCED-7": [
-                  "5"
+                "female": [
+                  "V"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9520,7 +9383,7 @@
             },
             "age_at_initial_diagnosis": {
               "mapsTo": "schema:variable/age_at_initial_diagnosis",
-              "localColumn": "leeft",
+              "localColumn": "Age_diag",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -9529,31 +9392,54 @@
             },
             "year_of_initial_diagnosis": {
               "mapsTo": "schema:variable/year_of_initial_diagnosis",
-              "localColumn": "jaar_van_diagnose",
+              "localColumn": "diag_year",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
                 ]
               }
             },
-            "biological_sex": {
-              "mapsTo": "schema:variable/biological_sex",
-              "localColumn": "alg_v1b",
+            "clinical_t_stage": {
+              "mapsTo": "schema:variable/clinical_t_stage",
+              "localColumn": "Klinische_T",
               "localMappings": {
-                "male": [
-                  "1"
-                ],
-                "female": [
-                  "2"
-                ],
                 "missing_or_unspecified": [
                   ""
                 ]
               }
             },
-            "tumour_topography_or_location_icd_o": {
-              "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
-              "localColumn": "tumsoort",
+            "clinical_n_stage": {
+              "mapsTo": "schema:variable/clinical_n_stage",
+              "localColumn": "Klinische_N",
+              "localMappings": {
+                "-": "",
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "clinical_m_stage": {
+              "mapsTo": "schema:variable/clinical_m_stage",
+              "localColumn": "Klinische_M",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "laterality": {
+              "mapsTo": "schema:variable/laterality",
+              "localColumn": "Lateral_code",
+              "localMappings": {
+                "X": "",
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "tumour_topography_or_location_icd_10": {
+              "mapsTo": "schema:variable/tumour_topography_or_location_icd_10",
+              "localColumn": "Diag_code",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -9561,146 +9447,29 @@
               }
             },
             "tumour_morphology_icd_o": {
-              "mapsTo": "schema:variable/tumour_morphology_icd_o",
-              "localColumn": "morf",
+              "mapsTo": "schema:variable/ tumour_morphology _icd_o",
+              "localColumn": "Morf_code",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
                 ]
               }
-            },
-            "t_stage": {
-              "mapsTo": "schema:variable/t_stage",
-              "localColumn": "stadium_opgeschoond",
-              "localMappings": {
-                "x": "",
-                "0": "",
-                "1": [
-                  "1"
-                ],
-                "2": [
-                  "2"
-                ],
-                "3": [
-                  "3"
-                ],
-                "4": [
-                  "4"
-                ],
-                "missing_or_unspecified": [
-                  "",
-                  "99"
-                ]
-              }
-            },
-            "chemotherapy": {
-              "mapsTo": "schema:variable/chemotherapy",
-              "localColumn": "ther_chemo",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "hormone_therapy": {
-              "mapsTo": "schema:variable/hormone_therapy",
-              "localColumn": "ther_ht",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "immunotherapy": {
-              "mapsTo": "schema:variable/immunotherapy",
-              "localColumn": "lok_chemo_immuno",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "radiotherapy": {
-              "mapsTo": "schema:variable/radiotherapy",
-              "localColumn": "ther_rt",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "stem_cell_therapy": {
-              "mapsTo": "schema:variable/stem_cell_therapy",
-              "localColumn": "ther_sct",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "surgery": {
-              "mapsTo": "schema:variable/surgery",
-              "localColumn": "ther_ch",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
-            },
-            "targeted_therapy": {
-              "mapsTo": "schema:variable/targeted_therapy",
-              "localColumn": "ther_target",
-              "localMappings": {
-                "no": [
-                  "0"
-                ],
-                "yes": [
-                  "1"
-                ],
-                "missing_or_unspecified": [
-                  ""
-                ]
-              }
+            }
+          }
+        },
+        "X_W25_2816_C30_scored_SEND": {
+          "@id": "mapping:table/X_W25_2816_C30_scored_SEND",
+          "@type": "mapping:Table",
+          "sourceFile": "X_W25_2816_C30_scored_SEND",
+          "description": "NKI EPD/EHR HiX extract: scored EORTC QLQ-C30 data",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "new_id"
             },
             "eortc_qlq_c30_q1": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q1",
-              "localColumn": "surv1",
+              "localColumn": "C30_Q1",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9721,7 +9490,7 @@
             },
             "eortc_qlq_c30_q2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q2",
-              "localColumn": "surv2",
+              "localColumn": "C30_Q2",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9742,7 +9511,7 @@
             },
             "eortc_qlq_c30_q3": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q3",
-              "localColumn": "surv3",
+              "localColumn": "C30_Q3",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9763,7 +9532,7 @@
             },
             "eortc_qlq_c30_q4": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q4",
-              "localColumn": "surv4",
+              "localColumn": "C30_Q4",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9784,7 +9553,7 @@
             },
             "eortc_qlq_c30_q5": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q5",
-              "localColumn": "surv5",
+              "localColumn": "C30_Q5",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9805,7 +9574,7 @@
             },
             "eortc_qlq_c30_q6": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q6",
-              "localColumn": "surv70",
+              "localColumn": "C30_Q6",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9826,7 +9595,7 @@
             },
             "eortc_qlq_c30_q7": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q7",
-              "localColumn": "surv71",
+              "localColumn": "C30_Q7",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9847,7 +9616,7 @@
             },
             "eortc_qlq_c30_q8": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q8",
-              "localColumn": "surv38",
+              "localColumn": "C30_Q8",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9868,7 +9637,7 @@
             },
             "eortc_qlq_c30_q9": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q9",
-              "localColumn": "surv22",
+              "localColumn": "C30_Q9",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9889,7 +9658,7 @@
             },
             "eortc_qlq_c30_q10": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q10",
-              "localColumn": "surv9",
+              "localColumn": "C30_Q10",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9910,7 +9679,7 @@
             },
             "eortc_qlq_c30_q11": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q11",
-              "localColumn": "surv17",
+              "localColumn": "C30_Q11",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9931,7 +9700,7 @@
             },
             "eortc_qlq_c30_q12": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q12",
-              "localColumn": "surv8",
+              "localColumn": "C30_Q12",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9952,7 +9721,7 @@
             },
             "eortc_qlq_c30_q13": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q13",
-              "localColumn": "surv11",
+              "localColumn": "C30_Q13",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9973,7 +9742,7 @@
             },
             "eortc_qlq_c30_q14": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q14",
-              "localColumn": "surv12",
+              "localColumn": "C30_Q14",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9994,7 +9763,7 @@
             },
             "eortc_qlq_c30_q15": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q15",
-              "localColumn": "surv13",
+              "localColumn": "C30_Q15",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10015,7 +9784,7 @@
             },
             "eortc_qlq_c30_q16": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q16",
-              "localColumn": "surv14",
+              "localColumn": "C30_Q16",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10036,7 +9805,7 @@
             },
             "eortc_qlq_c30_q17": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q17",
-              "localColumn": "surv15",
+              "localColumn": "C30_Q17",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10057,7 +9826,7 @@
             },
             "eortc_qlq_c30_q18": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q18",
-              "localColumn": "surv7",
+              "localColumn": "C30_Q18",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10078,7 +9847,7 @@
             },
             "eortc_qlq_c30_q19": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q19",
-              "localColumn": "surv72",
+              "localColumn": "C30_Q19",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10099,7 +9868,7 @@
             },
             "eortc_qlq_c30_q20": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q20",
-              "localColumn": "surv47",
+              "localColumn": "C30_Q20",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10120,7 +9889,7 @@
             },
             "eortc_qlq_c30_q21": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q21",
-              "localColumn": "surv53",
+              "localColumn": "C30_Q21",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10141,7 +9910,7 @@
             },
             "eortc_qlq_c30_q22": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q22",
-              "localColumn": "surv52",
+              "localColumn": "C30_Q22",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10162,7 +9931,7 @@
             },
             "eortc_qlq_c30_q23": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q23",
-              "localColumn": "surv57",
+              "localColumn": "C30_Q23",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10183,7 +9952,7 @@
             },
             "eortc_qlq_c30_q24": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q24",
-              "localColumn": "surv54",
+              "localColumn": "C30_Q24",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10204,7 +9973,7 @@
             },
             "eortc_qlq_c30_q25": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q25",
-              "localColumn": "surv48",
+              "localColumn": "C30_Q25",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10225,7 +9994,7 @@
             },
             "eortc_qlq_c30_q26": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q26",
-              "localColumn": "surv73",
+              "localColumn": "C30_Q26",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10246,7 +10015,7 @@
             },
             "eortc_qlq_c30_q27": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q27",
-              "localColumn": "surv74",
+              "localColumn": "C30_Q27",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10267,7 +10036,7 @@
             },
             "eortc_qlq_c30_q28": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q28",
-              "localColumn": "surv68",
+              "localColumn": "C30_Q28",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10288,7 +10057,7 @@
             },
             "eortc_qlq_c30_q29": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q29",
-              "localColumn": "surv120",
+              "localColumn": "C30_Q29",
               "localMappings": {
                 "score_1_very_poor": [
                   "1"
@@ -10318,7 +10087,7 @@
             },
             "eortc_qlq_c30_q30": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q30",
-              "localColumn": "surv121",
+              "localColumn": "C30_Q30",
               "localMappings": {
                 "score_1_very_poor": [
                   "1"
@@ -10348,7 +10117,7 @@
             },
             "eortc_qlq_c30_overall_qol_QL2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_overall_qol_QL2",
-              "localColumn": "ql",
+              "localColumn": "QL2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10357,7 +10126,7 @@
             },
             "eortc_qlq_c30_physical_functioning_PF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_physical_functioning_PF2",
-              "localColumn": "pf",
+              "localColumn": "PF2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10366,7 +10135,7 @@
             },
             "eortc_qlq_c30_role_functioning_RF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_role_functioning_RF2",
-              "localColumn": "rf",
+              "localColumn": "RF2",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10375,7 +10144,7 @@
             },
             "eortc_qlq_c30_emotional_functioning_EF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_emotional_functioning_EF",
-              "localColumn": "ef",
+              "localColumn": "EF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10384,7 +10153,7 @@
             },
             "eortc_qlq_c30_cognitive_functioning_CF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_cognitive_functioning_CF",
-              "localColumn": "cf",
+              "localColumn": "CF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10393,7 +10162,7 @@
             },
             "eortc_qlq_c30_social_functioning_SF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_social_functioning_SF",
-              "localColumn": "sf",
+              "localColumn": "SF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10402,7 +10171,7 @@
             },
             "eortc_qlq_c30_fatigue_FA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_fatigue_FA",
-              "localColumn": "fa",
+              "localColumn": "FA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10411,7 +10180,7 @@
             },
             "eortc_qlq_c30_nausea_vomiting_NV": {
               "mapsTo": "schema:variable/eortc_qlq_c30_nausea_vomiting_NV",
-              "localColumn": "nv",
+              "localColumn": "NV",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10420,7 +10189,7 @@
             },
             "eortc_qlq_c30_pain_PA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_pain_PA",
-              "localColumn": "pa",
+              "localColumn": "PA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10429,7 +10198,7 @@
             },
             "eortc_qlq_c30_dyspnoea_DY": {
               "mapsTo": "schema:variable/eortc_qlq_c30_dyspnoea_DY",
-              "localColumn": "dy",
+              "localColumn": "DY",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10438,7 +10207,7 @@
             },
             "eortc_qlq_c30_insomnia_SL": {
               "mapsTo": "schema:variable/eortc_qlq_c30_insomnia_SL",
-              "localColumn": "sl",
+              "localColumn": "SL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10447,7 +10216,7 @@
             },
             "eortc_qlq_c30_appetite_loss_AP": {
               "mapsTo": "schema:variable/eortc_qlq_c30_appetite_loss_AP",
-              "localColumn": "ap",
+              "localColumn": "AP",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10456,7 +10225,7 @@
             },
             "eortc_qlq_c30_constipation_CO": {
               "mapsTo": "schema:variable/eortc_qlq_c30_constipation_CO",
-              "localColumn": "co",
+              "localColumn": "CO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10465,7 +10234,7 @@
             },
             "eortc_qlq_c30_diarrhoea_DI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_diarrhoea_DI",
-              "localColumn": "di",
+              "localColumn": "DI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10474,8 +10243,359 @@
             },
             "eortc_qlq_c30_financial_difficulties_FI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_financial_difficulties_FI",
-              "localColumn": "fi",
+              "localColumn": "FI",
               "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "X_W25_1690_HADS_SEND": {
+          "@id": "mapping:table/X_W25_1690_HADS_SEND",
+          "@type": "mapping:Table",
+          "sourceFile": "X_W25_1690_HADS_SEND",
+          "description": "NKI EPD/EHR HiX extract: HADS data",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "new_id"
+            },
+            "hads_q1": {
+              "mapsTo": "schema:variable/hads_q1",
+              "localColumn": "HADS_Q1",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_time_to_time": [
+                  "1"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_most_of_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q2": {
+              "mapsTo": "schema:variable/hads_q2",
+              "localColumn": "HADS_Q2",
+              "localMappings": {
+                "score_0_definitely": [
+                  "0"
+                ],
+                "score_1_not_much": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_hardly": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q3": {
+              "mapsTo": "schema:variable/hads_q3",
+              "localColumn": "HADS_Q3",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_a_little": [
+                  "1"
+                ],
+                "score_2_yes_not_badly": [
+                  "2"
+                ],
+                "score_3_very_and_badly": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q4": {
+              "mapsTo": "schema:variable/hads_q4",
+              "localColumn": "HADS_Q4",
+              "localMappings": {
+                "score_0_as_much_as_i_could": [
+                  "0"
+                ],
+                "score_1_not_much": [
+                  "1"
+                ],
+                "score_2_definitely_not_much": [
+                  "2"
+                ],
+                "score_3_not_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q5": {
+              "mapsTo": "schema:variable/hads_q5",
+              "localColumn": "HADS_Q5",
+              "localMappings": {
+                "score_0_only_occasionally": [
+                  "0"
+                ],
+                "score_1_time_to_time": [
+                  "1"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_great_deal_of_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q6": {
+              "mapsTo": "schema:variable/hads_q6",
+              "localColumn": "HADS_Q6",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "3"
+                ],
+                "score_1_not_often": [
+                  "2"
+                ],
+                "score_2_sometimes": [
+                  "1"
+                ],
+                "score_3_most_times": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q7": {
+              "mapsTo": "schema:variable/hads_q7",
+              "localColumn": "HADS_Q7",
+              "localMappings": {
+                "score_0_definitely": [
+                  "0"
+                ],
+                "score_1_usually": [
+                  "1"
+                ],
+                "score_2_not_often": [
+                  "2"
+                ],
+                "score_3_not_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q8": {
+              "mapsTo": "schema:variable/hads_q8",
+              "localColumn": "HADS_Q8",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_somtimes": [
+                  "1"
+                ],
+                "score_2_very_often": [
+                  "2"
+                ],
+                "score_3_nearly_all_time": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q9": {
+              "mapsTo": "schema:variable/hads_q9",
+              "localColumn": "HADS_Q9",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_occasionally ": [
+                  "1"
+                ],
+                "score_2_quite_often": [
+                  "2"
+                ],
+                "score_3_very_often": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q10": {
+              "mapsTo": "schema:variable/hads_q10",
+              "localColumn": "HADS_Q10",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "0"
+                ],
+                "score_1_not_as_much": [
+                  "1"
+                ],
+                "score_2_not_as_much_as_should": [
+                  "2"
+                ],
+                "score_3_definitely": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q11": {
+              "mapsTo": "schema:variable/hads_q11",
+              "localColumn": "HADS_Q11",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_very_much": [
+                  "1"
+                ],
+                "score_2_quite_a_lot": [
+                  "2"
+                ],
+                "score_3_very_much_indeed": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q12": {
+              "mapsTo": "schema:variable/hads_q12",
+              "localColumn": "HADS_Q12",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "0"
+                ],
+                "score_1_rather_less": [
+                  "1"
+                ],
+                "score_2_definitely_less": [
+                  "2"
+                ],
+                "score_3_hardly_at_all": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q13": {
+              "mapsTo": "schema:variable/hads_q13",
+              "localColumn": "HADS_Q13",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "0"
+                ],
+                "score_1_not_very_often": [
+                  "1"
+                ],
+                "score_2_quite_often": [
+                  "2"
+                ],
+                "score_3_very_often": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q14": {
+              "mapsTo": "schema:variable/hads_q14",
+              "localColumn": "HADS_Q14",
+              "localMappings": {
+                "score_0_often": [
+                  "0"
+                ],
+                "score_1_sometimes": [
+                  "1"
+                ],
+                "score_2_not_often": [
+                  "2"
+                ],
+                "score_3_very_seldom": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_anxiety": {
+              "mapsTo": "schema:variable/hads_anxiety",
+              "localColumn": "Angst_score",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_depression": {
+              "mapsTo": "schema:variable/hads_depression",
+              "localColumn": "Depressie_score",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            }
+          }
+        },
+        "X_W25_1690_Trial_SEND": {
+          "@id": "mapping:table/X_W25_1690_Trial_SEND",
+          "@type": "mapping:Table",
+          "sourceFile": "X_W25_1690_Trial_SEND",
+          "description": "NKI EPD/EHR HiX extract: Trial participation data",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "new_id"
+            },
+            "bespoke_q86_clinical_trial_participated": {
+              "mapsTo": "schema:variable/bespoke_q86_clinical_trial_participated",
+              "localColumn": "trial",
+              "localMappings": {
+                "No": [
+                  "0"
+                ],
+                "Yes": [
+                  "1"
+                ],
                 "missing_or_unspecified": [
                   ""
                 ]
