@@ -9356,10 +9356,10 @@
       "description": "NKI retrospective datasets from various sources",
       "locale": "nl_NL",
       "tables": {
-        "X_W25_1690_Tumor_SEND": {
-          "@id": "mapping:table/X_W25_1690_Tumor_SEND",
+        "X_W25_1690_Tumor_SEND_copy": {
+          "@id": "mapping:table/X_W25_1690_Tumor_SEND_copy",
           "@type": "mapping:Table",
-          "sourceFile": "X_W25_1690_Tumor_SEND",
+          "sourceFile": "X_W25_1690_Tumor_SEND_copy",
           "description": "NKI EPD/EHR HiX extract: tumour data",
           "columns": {
             "identifier": {
