@@ -9399,10 +9399,60 @@
                 ]
               }
             },
+            "survival_event_time": {
+              "mapsTo": "schema:variable/survival_event_time",
+              "localColumn": "days_diag_fu",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
             "clinical_t_stage": {
               "mapsTo": "schema:variable/clinical_t_stage",
               "localColumn": "Klinische_T",
               "localMappings": {
+                "x": [
+                  "X"
+                ],
+                "0": [
+                  "0"
+                ],
+                "1": [
+                  "1",
+                  "1A",
+                  "1A1",
+                  "1A2",
+                  "1B",
+                  "1B1",
+                  "1B2",
+                  "1B3",
+                  "1C",
+                  "1C1",
+                  "1C2",
+                  "1MI",
+                  "IS",
+                  "A"
+                ],
+                "2": [
+                  "2",
+                  "2A",
+                  "2A2",
+                  "2B"
+                ],
+                "3": [
+                  "3",
+                  "3A",
+                  "3B",
+                  "3C"
+                ],
+                "4": [
+                  "4",
+                  "4A",
+                  "4B",
+                  "4C",
+                  "4D"
+                ],
                 "missing_or_unspecified": [
                   ""
                 ]
@@ -9412,9 +9462,35 @@
               "mapsTo": "schema:variable/clinical_n_stage",
               "localColumn": "Klinische_N",
               "localMappings": {
-                "-": "",
+                "x": [
+                  "X"
+                ],
+                "0": [
+                  "0",
+                  "0S"
+                ],
+                "1": [
+                  "1",
+                  "1A",
+                  "1B",
+                  "1C",
+                  "1S"
+                ],
+                "2": [
+                  "2",
+                  "2A",
+                  "2B",
+                  "2C"
+                ],
+                "3": [
+                  "3",
+                  "3A",
+                  "3B",
+                  "3C"
+                ],
                 "missing_or_unspecified": [
-                  ""
+                  "",
+                  "-"
                 ]
               }
             },
@@ -9422,6 +9498,16 @@
               "mapsTo": "schema:variable/clinical_m_stage",
               "localColumn": "Klinische_M",
               "localMappings": {
+                "0": [
+                  "0"
+                ],
+                "1": [
+                  "1",
+                  "1A",
+                  "1B",
+                  "1C",
+                  "1D"
+                ],
                 "missing_or_unspecified": [
                   ""
                 ]
@@ -9431,9 +9517,24 @@
               "mapsTo": "schema:variable/laterality",
               "localColumn": "Lateral_code",
               "localMappings": {
-                "X": "",
+                "median": [
+                  "1"
+                ],
+                "left": [
+                  "2"
+                ],
+                "right": [
+                  "3"
+                ],
+                "double": [
+                  "4"
+                ],
+                "NA": [
+                  "9"
+                ],
                 "missing_or_unspecified": [
-                  ""
+                  "",
+                  "X"
                 ]
               }
             },
@@ -9466,6 +9567,10 @@
             "identifier": {
               "mapsTo": "schema:variable/identifier ",
               "localColumn": "new_id"
+            },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "days_diag_completion"
             },
             "eortc_qlq_c30_q1": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q1",
@@ -10262,6 +10367,10 @@
               "mapsTo": "schema:variable/identifier ",
               "localColumn": "new_id"
             },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "days_diag_completion"
+            },
             "hads_q1": {
               "mapsTo": "schema:variable/hads_q1",
               "localColumn": "HADS_Q1",
@@ -10585,16 +10694,104 @@
             "identifier": {
               "mapsTo": "schema:variable/identifier ",
               "localColumn": "new_id"
+            }
+          }
+        },
+        "X_W25_1690_BPI_SEND": {
+          "@id": "mapping:table/X_W25_1690_BPI_SEND",
+          "@type": "mapping:Table",
+          "sourceFile": "X_W25_1690_BPI_SEND",
+          "description": "NKI EPD/EHR HiX extract: BPI data",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "new_id"
             },
-            "bespoke_q86_clinical_trial_participated": {
-              "mapsTo": "schema:variable/bespoke_q86_clinical_trial_participated",
-              "localColumn": "trial",
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "days_diag_completion"
+            }
+          }
+        },
+        "X_W25_1690_Therapie_SEND_NEW": {
+          "@id": "mapping:table/X_W25_1690_Therapie_SEND_NEW",
+          "@type": "mapping:Table",
+          "sourceFile": "X_W25_1690_Therapie_SEND_NEW",
+          "description": "NKI EPD/EHR HiX extract: Therapy data",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier ",
+              "localColumn": "new_id"
+            },
+            "surgery": {
+              "mapsTo": "schema:variable/surgery",
+              "localColumn": "surgery",
               "localMappings": {
-                "No": [
+                "yes": [
+                  "1"
+                ],
+                "no": [
                   "0"
                 ],
-                "Yes": [
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "chemotherapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "chemotherapy",
+              "localMappings": {
+                "yes": [
                   "1"
+                ],
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hormone_therapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "hormone_therapy",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "immunotherapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "immunotherapy",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "radiotherapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "radiotherapy",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "0"
                 ],
                 "missing_or_unspecified": [
                   ""
