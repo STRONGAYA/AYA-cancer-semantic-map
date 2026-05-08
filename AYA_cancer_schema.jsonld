@@ -10563,6 +10563,7 @@
                 ]
               }
             },
+
             "bespoke_q8a_treatment_oestrogen_progesterone": {
               "mapsTo": "schema:variable/bespoke_q8a_treatment_oestrogen_progesterone",
               "localColumn": "menopause",
@@ -11880,8 +11881,7 @@
             "eortc_qlq_aya_q28": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q28",
               "localColumn": "qlq_aya_changing_live",
-              "localMappings": {
-                "not_applicable": [
+              "localMappings": {                "not_applicable": [
                   "5"
                 ],
                 "score_1_not_at_all": [
@@ -11904,8 +11904,7 @@
             "eortc_qlq_aya_q29": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q29",
               "localColumn": "qlq_aya_menopause",
-              "localMappings": {
-                "not_applicable": [
+              "localMappings": {                "not_applicable": [
                   "5"
                 ],
                 "score_1_not_at_all": [
@@ -11928,8 +11927,7 @@
             "eortc_qlq_aya_q30": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q30",
               "localColumn": "qlq_aya_tiredness",
-              "localMappings": {
-                "not_applicable": [
+              "localMappings": {                "not_applicable": [
                   "5"
                 ],
                 "score_1_not_at_all": [
