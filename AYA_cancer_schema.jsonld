@@ -10182,6 +10182,2140 @@
           }
         }
       }
+    },
+    "YSRCCYP_prospective_data": {
+      "@id": "mapping:database/YSRCCYP_Retrospective_data",
+      "@type": "mapping:Database",
+      "name": "YSRCCYP_prospective_data",
+      "description": "YSRCCYP and LTHT prospective data",
+      "locale": "en_GB",
+      "tables": {
+        "YSRCCYP_ON_TREATMENT_PRO": {
+          "@id": "mapping:table/YSRCCYP_ON_TREATMENT_PRO",
+          "@type": "mapping:Table",
+          "sourceFile": "YSRCCYP_ON_TREATMENT_PRO",
+          "description": "On treatment patient reported outcomes",
+          "columns": {
+            "identifier": {
+              "mapsTo": "schema:variable/identifier",
+              "localColumn": "PatientID"
+            },
+            "gender": {
+              "mapsTo": "schema:variable/gender",
+              "localColumn": "gender",
+              "localMappings": {
+                "male": [
+                  "1"
+                ],
+                "female": [
+                  "2"
+                ],
+                "transgender": [
+                  "3"
+                ],
+                "non-binary": [
+                  "4"
+                ],
+                "other": [
+                  "5"
+                ],
+                "missing_or_unspecified": [
+                  "6"
+                ]
+              }
+            },
+            "ethnicity": {
+              "mapsTo": "schema:variable/ethnicity",
+              "localColumn": "ethnicity",
+              "localMappings": {
+                "african": [
+                  "4"
+                ],
+                "arab": [
+                  "8"
+                ],
+                "asian": [
+                  "3"
+                ],
+                "black": [
+                  "6"
+                ],
+                "black_or_caribbean_other": [
+                  "7"
+                ],
+                "caribbean": [
+                  "5"
+                ],
+                "mixed_race": [
+                  "2"
+                ],
+                "roma_or_nomadic": [
+                  "9"
+                ],
+                "white": [
+                  "1"
+                ],
+                "other": [
+                  "10"
+                ],
+                "prefer_not_to_say": [
+                  "11"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "occupational": {
+              "mapsTo": "schema:variable/occupational",
+              "localColumn": "occupation",
+              "localMappings": {
+                "education_active": [
+                  "4"
+                ],
+                "working_part_time": [
+                  "2"
+                ],
+                "working_self_employed": [
+                  "3"
+                ],
+                "unemployed": [
+                  "5"
+                ],
+                "unable_to_work": [
+                  "8"
+                ],
+                "other": [
+                  "9"
+                ],
+                "prefer_not_to_say": [
+                  "10"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "romantic_partnership_status": {
+              "mapsTo": "schema:variable/romantic_partnership_status",
+              "localColumn": "relationship",
+              "localMappings": {
+                "single": [
+                  "1"
+                ],
+                "in_relationship": [
+                  "2"
+                ],
+                "married": [
+                  "3"
+                ],
+                "civil_partner_by_law": [
+                  "4"
+                ],
+                "divorced": [
+                  "5"
+                ],
+                "widowed": [
+                  "6"
+                ],
+                "other": [
+                  "7"
+                ],
+                "missing_or_unspecified": [
+                  "8"
+                ]
+              }
+            },
+            "educational_level": {
+              "mapsTo": "schema:variable/educational_level",
+              "localColumn": "education",
+              "localMappings": {
+                "ISCED-0": [
+                  ""
+                ],
+                "ISCED-1": [
+                  ""
+                ],
+                "ISCED-2": [
+                  "2"
+                ],
+                "ISCED-3": [
+                  "3"
+                ],
+                "ISCED-4": [
+                  "4"
+                ],
+                "ISCED-5": [
+                  ""
+                ],
+                "ISCED-6": [
+                  "5"
+                ],
+                "ISCED-7": [
+                  "6"
+                ],
+                "ISCED-8": [
+                  "7"
+                ],
+                "missing_or_unspecified": [
+                  "9"
+                ]
+              }
+            },
+            "identify_disabled": {
+              "mapsTo": "schema:variable/identify_disabled",
+              "localColumn": "disability",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "prefer_not_to_say": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "registered_disabled": {
+              "mapsTo": "schema:variable/registered_disabled",
+              "localColumn": "disability_registered",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "prefer_not_to_say": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q2_cancer_spread": {
+              "mapsTo": "schema:variable/bespoke_q2_cancer_spread",
+              "localColumn": "cancer_spread",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q3_prognosis_perception": {
+              "mapsTo": "schema:variable/bespoke_q3_prognosis_perception",
+              "localColumn": "cancer_prognosis",
+              "localMappings": {
+                "good": [
+                  "1"
+                ],
+                "poor": [
+                  "2"
+                ],
+                "unable_to_answer": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q4_cancer_recurrence": {
+              "mapsTo": "schema:variable/bespoke_q4_cancer_recurrence",
+              "localColumn": "cancer_recurrence",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q5_fertility_affected": {
+              "mapsTo": "schema:variable/bespoke_q5_fertility_affected",
+              "localColumn": "fertility",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q6_fertility_preservation_offered": {
+              "mapsTo": "schema:variable/bespoke_q6_fertility_preservation_offered",
+              "localColumn": "fertility_preservation",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "i_dont_remember": [
+                  "3"
+                ],
+                "not_required": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q7a_problem_brain": {
+              "mapsTo": "schema:variable/bespoke_q7a_problem_brain",
+              "localColumn": "problem_with_brain",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q7b_problem_heart": {
+              "mapsTo": "schema:variable/bespoke_q7b_problem_heart",
+              "localColumn": "problem_with_heart",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q7c_problem_breathing": {
+              "mapsTo": "schema:variable/bespoke_q7c_problem_breathing",
+              "localColumn": "problem_with_breathing",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q7d_problem_kidneys": {
+              "mapsTo": "schema:variable/bespoke_q7d_problem_kidneys",
+              "localColumn": "problem_with_kidneys",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+
+            "bespoke_q8a_treatment_oestrogen_progesterone": {
+              "mapsTo": "schema:variable/bespoke_q8a_treatment_oestrogen_progesterone",
+              "localColumn": "menopause",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q8b_treatment_testosterone": {
+              "mapsTo": "schema:variable/bespoke_q8b_treatment_testosterone",
+              "localColumn": "testosterone",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q8c_treatment_thyroid_gland": {
+              "mapsTo": "schema:variable/bespoke_q8c_treatment_thyroid_gland",
+              "localColumn": "thyroid",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q8d_treatment_growth_hormone": {
+              "mapsTo": "schema:variable/bespoke_q8d_treatment_growth_hormone",
+              "localColumn": "hormone",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q8e_treatment_cortisol": {
+              "mapsTo": "schema:variable/bespoke_q8e_treatment_cortisol",
+              "localColumn": "cortisol",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q8f_treatment_other": {
+              "mapsTo": "schema:variable/bespoke_q8f_treatment_other",
+              "localColumn": "other",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q1": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q1",
+              "localColumn": "qlq_c30_activities",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q2": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q2",
+              "localColumn": "qlq_c30_long_walk",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q3": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q3",
+              "localColumn": "qlq_c30_short_walk",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q4": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q4",
+              "localColumn": "qlq_c30_bed",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q5": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q5",
+              "localColumn": "qlq_c30_assistance",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q6": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q6",
+              "localColumn": "qlq_c30_limited_activities",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q7": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q7",
+              "localColumn": "qlq_c30_hobbies",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q8": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q8",
+              "localColumn": "qlq_c30_short_breath",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q9": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q9",
+              "localColumn": "qlq_c30_pain",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q10": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q10",
+              "localColumn": "qlq_c30_rest",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q11": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q11",
+              "localColumn": "qlq_c30_sleeping",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q12": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q12",
+              "localColumn": "qlq_c30_feeling_weak",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q13": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q13",
+              "localColumn": "qlq_c30_appetite",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q14": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q14",
+              "localColumn": "qlq_c30_nausea",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q15": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q15",
+              "localColumn": "qlq_c30_vomiting",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q16": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q16",
+              "localColumn": "qlq_c30_constipation",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q17": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q17",
+              "localColumn": "qlq_c30_diarrhoea",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q18": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q18",
+              "localColumn": "qlq_c30_tired",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q19": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q19",
+              "localColumn": "qlq_c30_pain_interfere",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q20": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q20",
+              "localColumn": "qlq_c30_concentration",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q21": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q21",
+              "localColumn": "qlq_c30_feel_tense",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q22": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q22",
+              "localColumn": "qlq_c30_worry",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q23": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q23",
+              "localColumn": "qlq_c30_irritable",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q24": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q24",
+              "localColumn": "qlq_c30_depressed",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q25": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q25",
+              "localColumn": "qlq_c30_remember",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q26": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q26",
+              "localColumn": "qlq_c30_family_life",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q27": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q27",
+              "localColumn": "qlq_c30_social_activities",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q28": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q28",
+              "localColumn": "qlq_c30_financial",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q29": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q29",
+              "localColumn": "qlq_c30_overall_health",
+              "localMappings": {
+                "score_1_very_poor": [
+                  "1"
+                ],
+                "score_2": [
+                  "2"
+                ],
+                "score_3": [
+                  "3"
+                ],
+                "score_4": [
+                  "4"
+                ],
+                "score_5": [
+                  "5"
+                ],
+                "score_6": [
+                  "6"
+                ],
+                "score_7_excellent": [
+                  "7"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_c30_q30": {
+              "mapsTo": "schema:variable/eortc_qlq_c30_q30",
+              "localColumn": "qlq_c30_quality_of_life",
+              "localMappings": {
+                "score_1_very_poor": [
+                  "1"
+                ],
+                "score_2": [
+                  "2"
+                ],
+                "score_3": [
+                  "3"
+                ],
+                "score_4": [
+                  "4"
+                ],
+                "score_5": [
+                  "5"
+                ],
+                "score_6": [
+                  "6"
+                ],
+                "score_7_excellent": [
+                  "7"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q1": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q1",
+              "localColumn": "qlq_aya_energy",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q2": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q2",
+              "localColumn": "qlq_aya_mobility",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q3": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q3",
+              "localColumn": "qlq_aya_bored",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q4": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q4",
+              "localColumn": "qlq_aya_diet",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q5": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q5",
+              "localColumn": "qlq_aya_weight_gain",
+              "localMappings": {
+                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q6": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q6",
+              "localColumn": "qlq_aya_weight_loss",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q7": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q7",
+              "localColumn": "qlq_aya_future_plans",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q8": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q8",
+              "localColumn": "qlq_aya_looking_after",
+              "localMappings": {
+                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q9": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q9",
+              "localColumn": "qlq_aya_new_symptom",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q10": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q10",
+              "localColumn": "qlq_aya_infections",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q11": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q11",
+              "localColumn": "qlq_aya_medications",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q12": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q12",
+              "localColumn": "qlq_aya_future",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q13": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q13",
+              "localColumn": "qlq_aya_dying",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q14": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q14",
+              "localColumn": "qlq_aya_parent",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q15": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q15",
+              "localColumn": "qlq_aya_next_gen",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q16": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q16",
+              "localColumn": "qlq_aya_self_confidence",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q17": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q17",
+              "localColumn": "qlq_aya_apperance",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q18": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q18",
+              "localColumn": "qlq_aya_isolated",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q19": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q19",
+              "localColumn": "qlq_aya_treating_different",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q20": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q20",
+              "localColumn": "qlq_aya_dependent",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q21": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q21",
+              "localColumn": "qlq_aya_mentally_strong",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q22": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q22",
+              "localColumn": "qlq_aya_motivated",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q24": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q24",
+              "localColumn": "qlq_aya_distinquish",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q25": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q25",
+              "localColumn": "qlq_aya_problems_work",
+              "localMappings": {
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q26": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q26",
+              "localColumn": "qlq_aya_romantic_life",
+              "localMappings": {
+                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q27": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q27",
+              "localColumn": "qlq_aya_sex_life",
+              "localMappings": {
+                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q28": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q28",
+              "localColumn": "qlq_aya_changing_live",
+              "localMappings": {                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q29": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q29",
+              "localColumn": "qlq_aya_menopause",
+              "localMappings": {                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "eortc_qlq_aya_q30": {
+              "mapsTo": "schema:variable/eortc_qlq_aya_q30",
+              "localColumn": "qlq_aya_tiredness",
+              "localMappings": {                "not_applicable": [
+                  "5"
+                ],
+                "score_1_not_at_all": [
+                  "1"
+                ],
+                "score_2_a_little": [
+                  "2"
+                ],
+                "score_3_quite_a_bit": [
+                  "3"
+                ],
+                "score_4_very_much": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q1": {
+              "mapsTo": "schema:variable/hads_q1",
+              "localColumn": "anxiety_tense",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "4"
+                ],
+                "score_1_time_to_time": [
+                  "3"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_most_of_time": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q2": {
+              "mapsTo": "schema:variable/hads_q2",
+              "localColumn": "anxiety_enjoy",
+              "localMappings": {
+                "score_0_definitely": [
+                  "1"
+                ],
+                "score_1_not_much": [
+                  "2"
+                ],
+                "score_2_a_little": [
+                  "3"
+                ],
+                "score_3_hardly": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q3": {
+              "mapsTo": "schema:variable/hads_q3",
+              "localColumn": "anxiety_frightened",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "4"
+                ],
+                "score_1_a_little": [
+                  "3"
+                ],
+                "score_2_yes_not_badly": [
+                  "2"
+                ],
+                "score_3_very_and_badly": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q4": {
+              "mapsTo": "schema:variable/hads_q4",
+              "localColumn": "anxiety_laugh",
+              "localMappings": {
+                "score_0_as_much_as_i_could": [
+                  "1"
+                ],
+                "score_1_not_much": [
+                  "2"
+                ],
+                "score_2_definitely_not_much": [
+                  "3"
+                ],
+                "score_3_not_at_all": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q5": {
+              "mapsTo": "schema:variable/hads_q5",
+              "localColumn": "anxiety_worry",
+              "localMappings": {
+                "score_0_only_occasionally": [
+                  "4"
+                ],
+                "score_1_time_to_time": [
+                  "3"
+                ],
+                "score_2_a_lot_of_time": [
+                  "2"
+                ],
+                "score_3_great_deal_of_time": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q6": {
+              "mapsTo": "schema:variable/hads_q6",
+              "localColumn": "anxiety_cheerful",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "1"
+                ],
+                "score_1_not_often": [
+                  "2"
+                ],
+                "score_2_sometimes": [
+                  "3"
+                ],
+                "score_3_most_times": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q7": {
+              "mapsTo": "schema:variable/hads_q7",
+              "localColumn": "anxiety_relaxed",
+              "localMappings": {
+                "score_0_definitely": [
+                  "1"
+                ],
+                "score_1_usually": [
+                  "2"
+                ],
+                "score_2_not_often": [
+                  "3"
+                ],
+                "score_3_not_at_all": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q8": {
+              "mapsTo": "schema:variable/hads_q8",
+              "localColumn": "anxiety_slowed",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "4"
+                ],
+                "score_1_somtimes": [
+                  "3"
+                ],
+                "score_2_very_often": [
+                  "2"
+                ],
+                "score_3_nearly_all_time": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q9": {
+              "mapsTo": "schema:variable/hads_q9",
+              "localColumn": "anxiety_butterflies",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "1"
+                ],
+                "score_1_occasionally": [
+                  "2"
+                ],
+                "score_2_quite_often": [
+                  "3"
+                ],
+                "score_3_very_often": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q10": {
+              "mapsTo": "schema:variable/hads_q10",
+              "localColumn": "anxiety_appearance",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "4"
+                ],
+                "score_1_not_as_much": [
+                  "3"
+                ],
+                "score_2_not_as_much_as_should": [
+                  "2"
+                ],
+                "score_3_definitely": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q11": {
+              "mapsTo": "schema:variable/hads_q11",
+              "localColumn": "anxiety_restless",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "4"
+                ],
+                "score_1_not_very_much": [
+                  "3"
+                ],
+                "score_2_quite_a_lot": [
+                  "2"
+                ],
+                "score_3_very_much_indeed": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q12": {
+              "mapsTo": "schema:variable/hads_q12",
+              "localColumn": "anxiety_look_forward",
+              "localMappings": {
+                "score_0_as_much_as_ever": [
+                  "1"
+                ],
+                "score_1_rather_less": [
+                  "2"
+                ],
+                "score_2_definitely_less": [
+                  "3"
+                ],
+                "score_3_hardly_at_all": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q13": {
+              "mapsTo": "schema:variable/hads_q13",
+              "localColumn": "anxiety_panic",
+              "localMappings": {
+                "score_0_not_at_all": [
+                  "4"
+                ],
+                "score_1_somtimes": [
+                  "3"
+                ],
+                "score_2_very_often": [
+                  "2"
+                ],
+                "score_3_nearly_all_time": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "hads_q14": {
+              "mapsTo": "schema:variable/hads_q14",
+              "localColumn": "anxiety_enjoy_book",
+              "localMappings": {
+                "score_0_often": [
+                  "1"
+                ],
+                "score_1_sometimes": [
+                  "2"
+                ],
+                "score_2_not_often": [
+                  "3"
+                ],
+                "score_3_very_seldom": [
+                  "4"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q83_mental_support_offered": {
+              "mapsTo": "schema:variable/bespoke_q83_mental_support_offered",
+              "localColumn": "since_diagnosis",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q84_life_threatening_infection": {
+              "mapsTo": "schema:variable/bespoke_q84_life_threatening_infection",
+              "localColumn": "life_threatening",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q85_clinical_trial_offered": {
+              "mapsTo": "schema:variable/bespoke_q85_clinical_trial_offered",
+              "localColumn": "offered_opportunity",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q86_clinical_trial_participated": {
+              "mapsTo": "schema:variable/bespoke_q86_clinical_trial_participated",
+              "localColumn": "take_part_trial",
+              "localMappings": {
+                "yes": [
+                  "1"
+                ],
+                "no": [
+                  "2"
+                ],
+                "unknown": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
