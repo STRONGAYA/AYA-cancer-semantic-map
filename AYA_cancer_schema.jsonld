@@ -10656,7 +10656,7 @@
               "localColumn": "new_id"
             },
             "time_prom_recording": {
-              "mapsTo": "schema:variable/identifier",
+              "mapsTo": "schema:variable/time_prom_recording",
               "localColumn": "days_diag_completion"
             },
             "eortc_qlq_c30_q1": {
@@ -11455,7 +11455,7 @@
               "localColumn": "new_id"
             },
             "time_prom_recording": {
-              "mapsTo": "schema:variable/identifier",
+              "mapsTo": "schema:variable/time_prom_recording",
               "localColumn": "days_diag_completion"
             },
             "hads_q1": {
@@ -11795,7 +11795,7 @@
               "localColumn": "new_id"
             },
             "time_prom_recording": {
-              "mapsTo": "schema:variable/identifier",
+              "mapsTo": "schema:variable/time_prom_recording",
               "localColumn": "days_diag_completion"
             }
           }
