@@ -10625,31 +10625,6 @@
                 ]
               }
             },
-            "laterality": {
-              "mapsTo": "schema:variable/laterality",
-              "localColumn": "Lateral_code",
-              "localMappings": {
-                "median": [
-                  "1"
-                ],
-                "left": [
-                  "2"
-                ],
-                "right": [
-                  "3"
-                ],
-                "double": [
-                  "4"
-                ],
-                "NA": [
-                  "9"
-                ],
-                "missing_or_unspecified": [
-                  "",
-                  "X"
-                ]
-              }
-            },
             "tumour_topography_or_location_icd_10": {
               "mapsTo": "schema:variable/tumour_topography_or_location_icd_10",
               "localColumn": "Diag_code",
