@@ -11906,6 +11906,10 @@
               "mapsTo": "schema:variable/identifier",
               "localColumn": "RNnummer"
             },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "days_diag_completion"
+            },
             "biological_sex": {
               "mapsTo": "schema:variable/biological_sex",
               "localColumn": "sex",
@@ -13805,6 +13809,10 @@
               "mapsTo": "schema:variable/identifier",
               "localColumn": "RNnummer"
             },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "days_diag_completion_T1"
+            },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
               "localColumn": "burgerlijke_status",
@@ -14989,6 +14997,10 @@
             "identifier": {
               "mapsTo": "schema:variable/identifier",
               "localColumn": "RNnummer"
+            },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "days_diag_completion_T2"
             },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
@@ -16955,6 +16967,10 @@
               "mapsTo": "schema:variable/identifier",
               "localColumn": "RNnummer"
             },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "days_diag_completion_T3"
+            },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
               "localColumn": "burgerlijke_status",
@@ -18139,6 +18155,10 @@
             "identifier": {
               "mapsTo": "schema:variable/identifier",
               "localColumn": "RNnummer"
+            },
+            "time_prom_recording": {
+              "mapsTo": "schema:variable/time_prom_recording",
+              "localColumn": "days_diag_completion_T4"
             },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
