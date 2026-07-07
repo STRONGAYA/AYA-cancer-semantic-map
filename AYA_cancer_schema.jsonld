@@ -14,14 +14,14 @@
   "@type": "mapping:DataMapping",
   "name": "STRONG AYA semantic mapping",
   "description": "STRONG AYA semantic mapping for retrospective and prospective data collection; for more information https://strongaya.eu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "created": "2026-01-14",
   "endpoint": "http://localhost:7200/repositories/userRepo/statements",
   "schema": {
     "@id": "schema:strong-aya/v1",
     "@type": "schema:SemanticSchema",
     "name": "STRONG AYA Schema",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "STRONG AYA Schema for retrospective and prospective data collection",
     "prefixes": {
       "mesh": "http://id.nlm.nih.gov/mesh/",
@@ -1926,7 +1926,7 @@
       "tumour_size": {
         "@id": "schema:variable/tumour_size",
         "@type": "schema:CategoricalVariable",
-        "dataType": "numerical",
+        "dataType": "categorical",
         "predicate": "sio:SIO_000008",
         "class": "ncit:C120284",
         "schemaReconstruction": [
@@ -4130,6 +4130,9 @@
         ],
         "valueMapping": {
           "terms": {
+            "not_applicable": {
+              "targetClass": "ncit:C48660"
+            },
             "score_1_not_at_all": {
               "targetClass": "ncit:C91213"
             },
@@ -4180,6 +4183,9 @@
         ],
         "valueMapping": {
           "terms": {
+            "not_applicable": {
+              "targetClass": "ncit:C48660"
+            },
             "score_1_not_at_all": {
               "targetClass": "ncit:C91213"
             },
@@ -4230,6 +4236,9 @@
         ],
         "valueMapping": {
           "terms": {
+            "not_applicable": {
+              "targetClass": "ncit:C48660"
+            },
             "score_1_not_at_all": {
               "targetClass": "ncit:C91213"
             },

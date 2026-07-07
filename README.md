@@ -26,6 +26,6 @@ The JSON-LD file can be used with the annotation helper in the [Flyover tool](ht
 
 ## **How was this work funded?**
 
-This work and the associated scientific publication (https://doi.org/10.1101/2025.06.03.25328788) were predominantly
+This work and the associated scientific publication (https://doi.org/10.1200/CCI-25-00177) were predominantly
 supported by the European Union’s Horizon 2020 research and innovation programme through _The STRONG-AYA Initiative_
 (Grant agreement ID: 101057482).
