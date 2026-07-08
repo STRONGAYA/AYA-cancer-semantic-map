@@ -18597,7 +18597,7 @@
             },
             "eortc_qlq_c30_q18": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q18",
-              "localColumn": "C30_Q18_T34",
+              "localColumn": "C30_Q18_T4",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
