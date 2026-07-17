@@ -9377,36 +9377,30 @@
             },
             "gender": {
               "mapsTo": "schema:variable/gender",
-              "localColumn": "col_1_Na_jaki_typ_nowotworu_PaniPa_5",
+              "localColumn": "Sex",
               "localMappings": {
-                "male": [
-                  "Mezczyzna"
-                ],
                 "female": [
-                  "Kobieta"
+                  "K",
+                  "AO02"
                 ],
-                "transgender": [
-                  "Osoba transplciowa"
-                ],
-                "non-binary": [
-                  "Osoba niebinarna"
+                "male": [
+                  "M",
+                  "AO01"
                 ],
                 "missing_or_unspecified": [
-                  "Wole nie odpowiadac",
-                  "Wole nie odpowiadac",
                   ""
                 ]
               }
             },
             "ethnicity": {
               "mapsTo": "schema:variable/ethnicity",
-              "localColumn": "col_2_Ktora_z_ponizszych_opcji_najle",
+              "localColumn": "Race",
               "localMappings": {
                 "white": [
-                  "Biala (europejska lub inna)"
+                  "AO01"
                 ],
                 "prefer_not_to_say": [
-                  "Wole nie odpowiadac"
+                  "AO10"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9415,41 +9409,37 @@
             },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
-              "localColumn": "col_4_Jaki_jest_Pani_Pana_stan_cywil",
+              "localColumn": "G01Q41",
               "localMappings": {
                 "single": [
-                  "Panna/ Kawaler"
+                  "AO01"
                 ],
                 "in_relationship": [
-                  "W zwiazku nieformalnym"
+                  "AO02"
                 ],
                 "married": [
-                  "Zamezna/ zonaty"
+                  "AO03"
                 ],
                 "divorced": [
-                  "Rozwiedziona/rozwiedziony"
-                ],
-                "widowed": [
-                  "Wdowa/ wdowiec"
+                  "AO04"
                 ],
                 "missing_or_unspecified": [
-                  "Wole nie odpowiadac",
                   ""
                 ]
               }
             },
             "identify_disabled": {
               "mapsTo": "schema:variable/identify_disabled",
-              "localColumn": "col_5_Czy_leczenie_onkologiczne_mial",
+              "localColumn": "G01Q42",
               "localMappings": {
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "no": [
-                  "Nie"
+                  "AO02"
                 ],
                 "prefer_not_to_say": [
-                  "Wole nie odpowiadac"
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9458,19 +9448,37 @@
             },
             "registered_disabled": {
               "mapsTo": "schema:variable/registered_disabled",
-              "localColumn": "col_6_Czy_posiada_Pani_Pan_orzeczeni",
+              "localColumn": "G08Q43",
               "localMappings": {
                 "no": [
-                  "Nie"
+                  "AO02"
                 ],
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "not_known": [
-                  "Nie wiem"
+                  "AO03"
                 ],
                 "prefer_not_to_say": [
-                  "Wole nie odpowiadac"
+                  "AO04"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "bespoke_q2_cancer_spread": {
+              "mapsTo": "schema:variable/bespoke_q2_cancer_spread",
+              "localColumn": "Metastases",
+              "localMappings": {
+                "yes": [
+                  "AO01"
+                ],
+                "no": [
+                  "AO02"
+                ],
+                "unable_to_answer": [
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9479,35 +9487,34 @@
             },
             "bespoke_q3_prognosis_perception": {
               "mapsTo": "schema:variable/bespoke_q3_prognosis_perception",
-              "localColumn": "col_3_Ktora_z_ponizszych_opcji_na_11",
+              "localColumn": "Prognosis",
               "localMappings": {
                 "good": [
-                  "Dobra"
+                  "AO01"
                 ],
                 "poor": [
-                  "Zla"
+                  "AO02"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
-                  "Nie dotyczy",
                   ""
                 ]
               }
             },
             "bespoke_q4_cancer_recurrence": {
               "mapsTo": "schema:variable/bespoke_q4_cancer_recurrence",
-              "localColumn": "col_4_Jaki_jest_Pani_Pana_stan_cywil",
+              "localColumn": "Recurrence",
               "localMappings": {
                 "no": [
-                  "Nie"
+                  "AO02"
                 ],
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO05"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9516,16 +9523,16 @@
             },
             "bespoke_q5_fertility_affected": {
               "mapsTo": "schema:variable/bespoke_q5_fertility_affected",
-              "localColumn": "col_5_Czy_leczenie_onkologiczne_mial",
+              "localColumn": "Fertility",
               "localMappings": {
-                "no": [
-                  "Nie"
-                ],
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO03"
+                ],
+                "no": [
+                  "AO02"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9534,19 +9541,19 @@
             },
             "bespoke_q6_fertility_preservation_offered": {
               "mapsTo": "schema:variable/bespoke_q6_fertility_preservation_offered",
-              "localColumn": "col_6_Czy_posiada_Pani_Pan_orzeczeni",
+              "localColumn": "Fert_preservation",
               "localMappings": {
-                "no": [
-                  "Nie"
-                ],
                 "yes": [
-                  "Tak"
+                  "AO01"
+                ],
+                "no": [
+                  "AO02"
                 ],
                 "i_do_not_remember": [
-                  "nie pamietam"
+                  "AO03"
                 ],
                 "not_required": [
-                  "nie bylo wymagane"
+                  "AO04"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11595,16 +11602,16 @@
             },
             "bespoke_q83_mental_support_offered": {
               "mapsTo": "schema:variable/bespoke_q83_mental_support_offered",
-              "localColumn": "col_85_Czy_od_momentu_rozpoznania_wy",
+              "localColumn": "psychological_support",
               "localMappings": {
-                "no": [
-                  "Nie"
-                ],
                 "yes": [
-                  "Tak"
+                  "AO01"
+                ],
+                "no": [
+                  "AO02"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11613,16 +11620,16 @@
             },
             "bespoke_q84_life_threatening_infection": {
               "mapsTo": "schema:variable/bespoke_q84_life_threatening_infection",
-              "localColumn": "col_86_Od_momentu_rozpoczecia_leczen",
+              "localColumn": "infection",
               "localMappings": {
                 "no": [
-                  "Nie"
+                  "AO02"
                 ],
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11631,16 +11638,16 @@
             },
             "bespoke_q85_clinical_trial_offered": {
               "mapsTo": "schema:variable/bespoke_q85_clinical_trial_offered",
-              "localColumn": "col_87_Czy_zaproponowano_Pani_Panu_w",
+              "localColumn": "clinical_trial",
               "localMappings": {
                 "no": [
-                  "Nie"
+                  "AO02"
                 ],
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11649,16 +11656,16 @@
             },
             "bespoke_q86_clinical_trial_participated": {
               "mapsTo": "schema:variable/bespoke_q86_clinical_trial_participated",
-              "localColumn": "col_88_Jesli_tak_czy_brala_Pani_bral",
+              "localColumn": "clinical_trial_approved",
               "localMappings": {
                 "no": [
-                  "Nie"
+                  "AO02"
                 ],
                 "yes": [
-                  "Tak"
+                  "AO01"
                 ],
                 "unable_to_answer": [
-                  "Nie umiem odpowiedziec"
+                  "AO03"
                 ],
                 "missing_or_unspecified": [
                   ""
