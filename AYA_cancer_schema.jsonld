@@ -9365,24 +9365,15 @@
       "description": "MSCI prospective datasets from various sources",
       "locale": "pl_PL",
       "tables": {
-        "MSCI_dataset_1_final_renamed_scored": {
-          "@id": "mapping:table/MSCI_dataset_1_final_renamed_scored",
+        "MSCI_prospective": {
+          "@id": "mapping:table/MSCI_prospective_batch_1",
           "@type": "mapping:Table",
-          "sourceFile": "MSCI_dataset_1_final_renamed_scored",
+          "sourceFile": "MSCI_prospective_batch_1",
           "description": "Redcap PROM data extract",
           "columns": {
             "identifier": {
               "mapsTo": "schema:variable/identifier",
               "localColumn": "nie_numeru_PID_osoby_badanej_dot"
-            },
-            "administered_prom_language": {
-              "mapsTo": "schema:variable/administered_prom_language",
-              "localColumn": "language",
-              "localMappings": {
-                "polish": [
-                  "pl_PL"
-                ]
-              }
             },
             "gender": {
               "mapsTo": "schema:variable/gender",
@@ -9746,7 +9737,7 @@
             },
             "eortc_qlq_c30_q1": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q1",
-              "localColumn": "col_9_Czy_ma_Pani_klopoty_przy_wykon",
+              "localColumn": "C30_Q1",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9767,7 +9758,7 @@
             },
             "eortc_qlq_c30_q2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q2",
-              "localColumn": "col_10_Czy_dlugi_spacer_meczy_Panaia",
+              "localColumn": "C30_Q2",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9788,7 +9779,7 @@
             },
             "eortc_qlq_c30_q3": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q3",
-              "localColumn": "col_11_Czy_krotki_spacer_poza_domem",
+              "localColumn": "C30_Q3",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9809,7 +9800,7 @@
             },
             "eortc_qlq_c30_q4": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q4",
-              "localColumn": "col_12_Czy_musi_Pani_lezec_w_lozku_l",
+              "localColumn": "C30_Q4",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9830,7 +9821,7 @@
             },
             "eortc_qlq_c30_q5": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q5",
-              "localColumn": "col_13_Czy_potrzebuje_Pani_pomocy_pr",
+              "localColumn": "C30_Q5",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9851,7 +9842,7 @@
             },
             "eortc_qlq_c30_q6": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q6",
-              "localColumn": "col_14_Byla_Pani_ograniczonya_w_wyko",
+              "localColumn": "C30_Q6",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9872,7 +9863,7 @@
             },
             "eortc_qlq_c30_q7": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q7",
-              "localColumn": "col_15_Byla_Pani_ograniczonya_w_real",
+              "localColumn": "C30_Q7",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9893,7 +9884,7 @@
             },
             "eortc_qlq_c30_q8": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q8",
-              "localColumn": "col_16_Odczuwala_Pani_dusznosci",
+              "localColumn": "C30_Q8",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9914,7 +9905,7 @@
             },
             "eortc_qlq_c30_q9": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q9",
-              "localColumn": "col_17_Miala_Pani_bole",
+              "localColumn": "C30_Q9",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9935,7 +9926,7 @@
             },
             "eortc_qlq_c30_q10": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q10",
-              "localColumn": "col_18_Potrzebowala_Pani_odpoczynku",
+              "localColumn": "C30_Q10",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9956,7 +9947,7 @@
             },
             "eortc_qlq_c30_q11": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q11",
-              "localColumn": "col_19_Miala_Pani_trudnosci_ze_snem",
+              "localColumn": "C30_Q11",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9977,7 +9968,7 @@
             },
             "eortc_qlq_c30_q12": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q12",
-              "localColumn": "col_20_Odczuwala_Pani_oslabienie",
+              "localColumn": "C30_Q12",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -9998,7 +9989,7 @@
             },
             "eortc_qlq_c30_q13": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q13",
-              "localColumn": "col_21_Odczuwala_Pani_brak_apetytu",
+              "localColumn": "C30_Q13",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10019,7 +10010,7 @@
             },
             "eortc_qlq_c30_q14": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q14",
-              "localColumn": "col_22_Odczuwala_Pani_nudnosci",
+              "localColumn": "C30_Q14",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10040,7 +10031,7 @@
             },
             "eortc_qlq_c30_q15": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q15",
-              "localColumn": "col_23_Wymiotowala_Pani",
+              "localColumn": "C30_Q15",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10061,7 +10052,7 @@
             },
             "eortc_qlq_c30_q16": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q16",
-              "localColumn": "col_24_Miewala_Pani_zaparcia",
+              "localColumn": "C30_Q16",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10082,7 +10073,7 @@
             },
             "eortc_qlq_c30_q17": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q17",
-              "localColumn": "col_25_Miewala_Pani_biegunke",
+              "localColumn": "C30_Q17",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10103,7 +10094,7 @@
             },
             "eortc_qlq_c30_q18": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q18",
-              "localColumn": "col_26_Byla_Pani_zmeczonya",
+              "localColumn": "C30_Q18",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10124,7 +10115,7 @@
             },
             "eortc_qlq_c30_q19": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q19",
-              "localColumn": "col_27_Bol_przeszkadzal_Panui_w_codz",
+              "localColumn": "C30_Q19",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10145,7 +10136,7 @@
             },
             "eortc_qlq_c30_q20": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q20",
-              "localColumn": "col_28_Miala_Pani_trudnosci_w_skupia",
+              "localColumn": "C30_Q20",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10166,7 +10157,7 @@
             },
             "eortc_qlq_c30_q21": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q21",
-              "localColumn": "col_29_Czula_sie_Pani_spietya",
+              "localColumn": "C30_Q21",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10187,7 +10178,7 @@
             },
             "eortc_qlq_c30_q22": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q22",
-              "localColumn": "col_30_Martwila_sie_Pani",
+              "localColumn": "C30_Q22",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10208,7 +10199,7 @@
             },
             "eortc_qlq_c30_q23": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q23",
-              "localColumn": "col_31_Czula_sie_Pani_rozdraznionya",
+              "localColumn": "C30_Q23",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10229,7 +10220,7 @@
             },
             "eortc_qlq_c30_q24": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q24",
-              "localColumn": "col_32_Czula_sie_Pani_przygnebionya",
+              "localColumn": "C30_Q24",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10250,7 +10241,7 @@
             },
             "eortc_qlq_c30_q25": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q25",
-              "localColumn": "col_33_Miala_Pani_trudnosci_w_zapami",
+              "localColumn": "C30_Q25",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10271,7 +10262,7 @@
             },
             "eortc_qlq_c30_q26": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q26",
-              "localColumn": "col_34_Stan_Panai_zdrowia_lub_leczen",
+              "localColumn": "C30_Q26",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10292,7 +10283,7 @@
             },
             "eortc_qlq_c30_q27": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q27",
-              "localColumn": "col_35_Stan_Panai_zdrowia_lub_leczen",
+              "localColumn": "C30_Q27",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10313,7 +10304,7 @@
             },
             "eortc_qlq_c30_q28": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q28",
-              "localColumn": "col_36_Stan_Panai_zdrowia_lub_leczen",
+              "localColumn": "C30_Q28",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10334,7 +10325,7 @@
             },
             "eortc_qlq_c30_q29": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q29",
-              "localColumn": "col_37_Jak_ocenia_Pani_og_lny_st",
+              "localColumn": "C30_Q29",
               "localMappings": {
                 "score_1_very_poor": [
                   "1"
@@ -10364,7 +10355,7 @@
             },
             "eortc_qlq_c30_q30": {
               "mapsTo": "schema:variable/eortc_qlq_c30_q30",
-              "localColumn": "col_38_Jak_ocenia_Pani_og_ln_jak",
+              "localColumn": "C30_Q30",
               "localMappings": {
                 "score_1_very_poor": [
                   "1"
@@ -10394,7 +10385,7 @@
             },
             "eortc_qlq_c30_overall_qol_QL2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_overall_qol_QL2",
-              "localColumn": "C30_QL2",
+              "localColumn": "QL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10403,7 +10394,7 @@
             },
             "eortc_qlq_c30_physical_functioning_PF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_physical_functioning_PF2",
-              "localColumn": "C30_PF2",
+              "localColumn": "PF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10412,7 +10403,7 @@
             },
             "eortc_qlq_c30_role_functioning_RF2": {
               "mapsTo": "schema:variable/eortc_qlq_c30_role_functioning_RF2",
-              "localColumn": "C30_RF2",
+              "localColumn": "RF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10421,7 +10412,7 @@
             },
             "eortc_qlq_c30_emotional_functioning_EF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_emotional_functioning_EF",
-              "localColumn": "C30_EF",
+              "localColumn": "EF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10430,7 +10421,7 @@
             },
             "eortc_qlq_c30_cognitive_functioning_CF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_cognitive_functioning_CF",
-              "localColumn": "C30_CF",
+              "localColumn": "CF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10439,7 +10430,7 @@
             },
             "eortc_qlq_c30_social_functioning_SF": {
               "mapsTo": "schema:variable/eortc_qlq_c30_social_functioning_SF",
-              "localColumn": "C30_SF",
+              "localColumn": "SF",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10448,7 +10439,7 @@
             },
             "eortc_qlq_c30_fatigue_FA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_fatigue_FA",
-              "localColumn": "C30_FA",
+              "localColumn": "FA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10457,7 +10448,7 @@
             },
             "eortc_qlq_c30_nausea_vomiting_NV": {
               "mapsTo": "schema:variable/eortc_qlq_c30_nausea_vomiting_NV",
-              "localColumn": "C30_NV",
+              "localColumn": "NV",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10466,7 +10457,7 @@
             },
             "eortc_qlq_c30_pain_PA": {
               "mapsTo": "schema:variable/eortc_qlq_c30_pain_PA",
-              "localColumn": "C30_PA",
+              "localColumn": "PA",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10475,7 +10466,7 @@
             },
             "eortc_qlq_c30_dyspnoea_DY": {
               "mapsTo": "schema:variable/eortc_qlq_c30_dyspnoea_DY",
-              "localColumn": "C30_DY",
+              "localColumn": "DY",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10484,7 +10475,7 @@
             },
             "eortc_qlq_c30_insomnia_SL": {
               "mapsTo": "schema:variable/eortc_qlq_c30_insomnia_SL",
-              "localColumn": "C30_SL",
+              "localColumn": "SL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10493,7 +10484,7 @@
             },
             "eortc_qlq_c30_appetite_loss_AP": {
               "mapsTo": "schema:variable/eortc_qlq_c30_appetite_loss_AP",
-              "localColumn": "C30_AP",
+              "localColumn": "AP",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10502,7 +10493,7 @@
             },
             "eortc_qlq_c30_constipation_CO": {
               "mapsTo": "schema:variable/eortc_qlq_c30_constipation_CO",
-              "localColumn": "C30_CO",
+              "localColumn": "CO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10511,7 +10502,7 @@
             },
             "eortc_qlq_c30_diarrhoea_DI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_diarrhoea_DI",
-              "localColumn": "C30_DI",
+              "localColumn": "DI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10520,7 +10511,7 @@
             },
             "eortc_qlq_c30_financial_difficulties_FI": {
               "mapsTo": "schema:variable/eortc_qlq_c30_financial_difficulties_FI",
-              "localColumn": "C30_FI",
+              "localColumn": "FI",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -10529,7 +10520,7 @@
             },
             "eortc_qlq_aya_q1": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q1",
-              "localColumn": "col_39_Brakowalo_Ci_energii",
+              "localColumn": "AYA_Q1",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10550,7 +10541,7 @@
             },
             "eortc_qlq_aya_q2": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q2",
-              "localColumn": "col_40_Mialesas_problemy_z_poruszani",
+              "localColumn": "AYA_Q2",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10571,7 +10562,7 @@
             },
             "eortc_qlq_aya_q3": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q3",
-              "localColumn": "col_41_Odczuwalesas_znudzenie",
+              "localColumn": "AYA_Q3",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10592,7 +10583,7 @@
             },
             "eortc_qlq_aya_q4": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q4",
-              "localColumn": "col_42_Mialesas_problemy_z_robieniem",
+              "localColumn": "AYA_Q4",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10613,7 +10604,7 @@
             },
             "eortc_qlq_aya_q5": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q5",
-              "localColumn": "col_43_Odczuwalesas_ograniczenie_co",
+              "localColumn": "AYA_Q5",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10634,7 +10625,7 @@
             },
             "eortc_qlq_aya_q6": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q6",
-              "localColumn": "col_44_Obserwowales_as_sie_uwaznie_p",
+              "localColumn": "AYA_Q6",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10655,7 +10646,7 @@
             },
             "eortc_qlq_aya_q7": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q7",
-              "localColumn": "col_45_Martwilesas_sie_mozliwoscia_z",
+              "localColumn": "AYA_Q7",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10676,7 +10667,7 @@
             },
             "eortc_qlq_aya_q8": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q8",
-              "localColumn": "col_46_Martwilesas_sie_ze_bedziesz_m",
+              "localColumn": "AYA_Q8",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10697,7 +10688,7 @@
             },
             "eortc_qlq_aya_q9": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q9",
-              "localColumn": "col_47_Martwilesas_sie_o_swoje_zdrow",
+              "localColumn": "AYA_Q9",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10718,7 +10709,7 @@
             },
             "eortc_qlq_aya_q10": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q10",
-              "localColumn": "col_48_Martwilesas_sie_smiercia",
+              "localColumn": "AYA_Q10",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10739,7 +10730,7 @@
             },
             "eortc_qlq_aya_q11": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q11",
-              "localColumn": "col_49_Martwilesas_sie_czy_bedziesz",
+              "localColumn": "AYA_Q11",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10760,7 +10751,7 @@
             },
             "eortc_qlq_aya_q12": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q12",
-              "localColumn": "col_50_Martwilesas_sie_mozliwoscia_o",
+              "localColumn": "AYA_Q12",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10781,7 +10772,7 @@
             },
             "eortc_qlq_aya_q13": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q13",
-              "localColumn": "col_51_Brakowalo_Ci_pewnosci_siebie",
+              "localColumn": "AYA_Q13",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10802,7 +10793,7 @@
             },
             "eortc_qlq_aya_q14": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q14",
-              "localColumn": "col_52_Odczuwalesas_utrate_kontroli",
+              "localColumn": "AYA_Q14",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10823,7 +10814,7 @@
             },
             "eortc_qlq_aya_q15": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q15",
-              "localColumn": "col_53_Martwilesas_sie_zmianami_w_sw",
+              "localColumn": "AYA_Q15",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10844,7 +10835,7 @@
             },
             "eortc_qlq_aya_q16": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q16",
-              "localColumn": "col_54_Czules_as_sie_odizolowanya_od",
+              "localColumn": "AYA_Q16",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10865,7 +10856,7 @@
             },
             "eortc_qlq_aya_q17": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q17",
-              "localColumn": "col_55_Miales_as_problemy_z_tym_ze_l",
+              "localColumn": "AYA_Q17",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10886,7 +10877,7 @@
             },
             "eortc_qlq_aya_q18": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q18",
-              "localColumn": "col_56_Martwiles_as_sie_ze_jestes_za",
+              "localColumn": "AYA_Q18",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10907,7 +10898,7 @@
             },
             "eortc_qlq_aya_q19": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q19",
-              "localColumn": "col_57_Przybieranie_na_wadze_bylo_dl",
+              "localColumn": "AYA_Q19",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10928,7 +10919,7 @@
             },
             "eortc_qlq_aya_q20": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q20",
-              "localColumn": "col_58_Utrata_wagi_by_a_dla_Cieb",
+              "localColumn": "AYA_Q20",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10949,7 +10940,7 @@
             },
             "eortc_qlq_aya_q21": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q21",
-              "localColumn": "col_59_Miales_as_trudnosci_zwiazane",
+              "localColumn": "AYA_Q21",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10971,7 +10962,7 @@
             },
             "eortc_qlq_aya_q22": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q22",
-              "localColumn": "col_60_Stalesas_sie_silniejszya_psyc",
+              "localColumn": "AYA_Q22",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -10992,7 +10983,7 @@
             },
             "eortc_qlq_aya_q23": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q23",
-              "localColumn": "col_61_Czules_as_sie_bardziej_zmotyw",
+              "localColumn": "AYA_Q23",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11013,7 +11004,7 @@
             },
             "eortc_qlq_aya_q24": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q24",
-              "localColumn": "col_62_Czules_as_sie_bardziej_zmotyw",
+              "localColumn": "AYA_Q24",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11034,7 +11025,7 @@
             },
             "eortc_qlq_aya_q25": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q25",
-              "localColumn": "col_63_Byles_as_w_stanie_odroznic_w",
+              "localColumn": "AYA_Q25",
               "localMappings": {
                 "score_1_not_at_all": [
                   "1"
@@ -11055,7 +11046,7 @@
             },
             "eortc_qlq_aya_q26": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q26",
-              "localColumn": "col_64_Miales_as_problemy_z_edukacja",
+              "localColumn": "AYA_Q26",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11079,7 +11070,7 @@
             },
             "eortc_qlq_aya_q27": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q27",
-              "localColumn": "col_65_Wystapil_negatywny_wplyw_na_T",
+              "localColumn": "AYA_Q27",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11103,7 +11094,7 @@
             },
             "eortc_qlq_aya_q28": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q28",
-              "localColumn": "col_66_Wystapil_negatywny_wplyw_na_T",
+              "localColumn": "AYA_Q28",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11127,7 +11118,7 @@
             },
             "eortc_qlq_aya_q29": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q29",
-              "localColumn": "col_67_Zmiana_miejsca_zamieszkania_b",
+              "localColumn": "AYA_Q29",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11151,7 +11142,7 @@
             },
             "eortc_qlq_aya_q30": {
               "mapsTo": "schema:variable/eortc_qlq_aya_q30",
-              "localColumn": "col_68_Wystapienie_wczesnej_menopauz",
+              "localColumn": "AYA_Q30",
               "localMappings": {
                 "not_applicable": [
                   "Nie dotyczy"
@@ -11175,7 +11166,7 @@
             },
             "eortc_qlq_aya_AYAAL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAAL",
-              "localColumn": "AYA30_AYAAL",
+              "localColumn": "AYAAL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11184,7 +11175,7 @@
             },
             "eortc_qlq_aya_AYAWO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWO",
-              "localColumn": "AYA30_AYAWO",
+              "localColumn": "AYAWO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11193,7 +11184,7 @@
             },
             "eortc_qlq_aya_AYASE": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYASE",
-              "localColumn": "AYA30_AYASE",
+              "localColumn": "AYASE",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11202,7 +11193,7 @@
             },
             "eortc_qlq_aya_AYARE": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARE",
-              "localColumn": "AYA30_AYARE",
+              "localColumn": "AYARE",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11211,7 +11202,7 @@
             },
             "eortc_qlq_aya_AYARFD": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARFD",
-              "localColumn": "AYA30_AYARFD",
+              "localColumn": "AYARFD",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11220,7 +11211,7 @@
             },
             "eortc_qlq_aya_AYAWG": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWG",
-              "localColumn": "AYA30_AYAWG",
+              "localColumn": "AYAWG",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11229,7 +11220,7 @@
             },
             "eortc_qlq_aya_AYAWL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAWL",
-              "localColumn": "AYA30_AYAWL",
+              "localColumn": "AYAWL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11238,7 +11229,7 @@
             },
             "eortc_qlq_aya_AYALO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYALO",
-              "localColumn": "AYA30_AYALO",
+              "localColumn": "AYALO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11247,7 +11238,7 @@
             },
             "eortc_qlq_aya_AYAEW": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAEW",
-              "localColumn": "AYA30_AYAEW",
+              "localColumn": "AYAEW",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11256,7 +11247,7 @@
             },
             "eortc_qlq_aya_AYARO": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYARO",
-              "localColumn": "AYA30_AYARO",
+              "localColumn": "AYARO",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11265,7 +11256,7 @@
             },
             "eortc_qlq_aya_AYASL": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYASL",
-              "localColumn": "AYA30_AYASL",
+              "localColumn": "AYASL",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11274,7 +11265,7 @@
             },
             "eortc_qlq_aya_AYACR": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYACR",
-              "localColumn": "AYA30_AYACR",
+              "localColumn": "AYACR",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11283,7 +11274,7 @@
             },
             "eortc_qlq_aya_AYAEM": {
               "mapsTo": "schema:variable/eortc_qlq_aya_AYAEM",
-              "localColumn": "AYA30_AYAEM",
+              "localColumn": "AYAEM",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11292,7 +11283,7 @@
             },
             "hads_q1": {
               "mapsTo": "schema:variable/hads_q1",
-              "localColumn": "col_69_Czuje_sie_napiety",
+              "localColumn": "HADS_Q1",
               "localMappings": {
                 "score_0_not_at_all": [
                   "0"
@@ -11313,7 +11304,7 @@
             },
             "hads_q2": {
               "mapsTo": "schema:variable/hads_q2",
-              "localColumn": "col_70_Rzeczy_ktore_sprawialy_mi_prz",
+              "localColumn": "HADS_Q2",
               "localMappings": {
                 "score_0_definitely_as_much": [
                   "0"
@@ -11334,7 +11325,7 @@
             },
             "hads_q3": {
               "mapsTo": "schema:variable/hads_q3",
-              "localColumn": "col_71_Obawiam_sie_ze_wydarzy_sie_co",
+              "localColumn": "HADS_Q3",
               "localMappings": {
                 "score_3_very_definitely_and_quite_badly": [
                   "3"
@@ -11355,7 +11346,7 @@
             },
             "hads_q4": {
               "mapsTo": "schema:variable/hads_q4",
-              "localColumn": "col_72_Jestem_w_stanie_smiac_sie_i_d",
+              "localColumn": "HADS_Q4",
               "localMappings": {
                 "score_0_as_much_as_i_always_could": [
                   "0"
@@ -11376,7 +11367,7 @@
             },
             "hads_q5": {
               "mapsTo": "schema:variable/hads_q5",
-              "localColumn": "col_73_Martwie_sie",
+              "localColumn": "HADS_Q5",
               "localMappings": {
                 "score_3_a_great_deal_of_the_time": [
                   "3"
@@ -11397,7 +11388,7 @@
             },
             "hads_q6": {
               "mapsTo": "schema:variable/hads_q6",
-              "localColumn": "col_74_Jestem_pogodny",
+              "localColumn": "HADS_Q6",
               "localMappings": {
                 "score_3_not_at_all": [
                   "3"
@@ -11418,7 +11409,7 @@
             },
             "hads_q7": {
               "mapsTo": "schema:variable/hads_q7",
-              "localColumn": "col_75_Jestem_w_stanie_odprezyc_sie",
+              "localColumn": "HADS_Q7",
               "localMappings": {
                 "score_0_definitely": [
                   "0"
@@ -11439,7 +11430,7 @@
             },
             "hads_q8": {
               "mapsTo": "schema:variable/hads_q8",
-              "localColumn": "col_76_Czuje_sie_w_psychicznym_dolku",
+              "localColumn": "HADS_Q8",
               "localMappings": {
                 "score_3_most_of_the_time": [
                   "3"
@@ -11460,7 +11451,7 @@
             },
             "hads_q9": {
               "mapsTo": "schema:variable/hads_q9",
-              "localColumn": "col_77_Bywa_ze_przezywam_lek_do_tego",
+              "localColumn": "HADS_Q9",
               "localMappings": {
                 "score_0_not_at_all": [
                   "0"
@@ -11481,7 +11472,7 @@
             },
             "hads_q10": {
               "mapsTo": "schema:variable/hads_q10",
-              "localColumn": "col_78_Stracilem_zainteresowanie_swo",
+              "localColumn": "HADS_Q10",
               "localMappings": {
                 "score_3_definitely": [
                   "3"
@@ -11502,7 +11493,7 @@
             },
             "hads_q11": {
               "mapsTo": "schema:variable/hads_q11",
-              "localColumn": "col_79_Czuje_sie_jakbym_nie_mogl_sob",
+              "localColumn": "HADS_Q11",
               "localMappings": {
                 "score_3_very_much_indeed": [
                   "3"
@@ -11523,7 +11514,7 @@
             },
             "hads_q12": {
               "mapsTo": "schema:variable/hads_q12",
-              "localColumn": "col_80_Spogladam_w_przyszlosc_z_rado",
+              "localColumn": "HADS_Q12",
               "localMappings": {
                 "score_0_as_much_as_i_ever_did": [
                   "0"
@@ -11544,7 +11535,7 @@
             },
             "hads_q13": {
               "mapsTo": "schema:variable/hads_q13",
-              "localColumn": "col_81_Miewam_napady_panicznego_leku",
+              "localColumn": "HADS_Q13",
               "localMappings": {
                 "score_3_very_often_indeed": [
                   "3"
@@ -11565,7 +11556,7 @@
             },
             "hads_q14": {
               "mapsTo": "schema:variable/hads_q14",
-              "localColumn": "col_82_Dobra_ksiazka_lub_program_tel",
+              "localColumn": "HADS_Q14",
               "localMappings": {
                 "score_0_often": [
                   "0"
@@ -11586,7 +11577,7 @@
             },
             "hads_anxiety": {
               "mapsTo": "schema:variable/hads_anxiety",
-              "localColumn": "Anxiety",
+              "localColumn": "HADS_A",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
@@ -11595,7 +11586,7 @@
             },
             "hads_depression": {
               "mapsTo": "schema:variable/hads_depression",
-              "localColumn": "Depression",
+              "localColumn": "HADS_D",
               "localMappings": {
                 "missing_or_unspecified": [
                   ""
