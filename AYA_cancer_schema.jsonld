@@ -9357,5 +9357,175 @@
       }
     }
   },
-  "databases": {}
+  "databases": {
+    "STRONGAYA_Flyover_DATA_LABELS_2026_08_13_1756": {
+      "@id": "mapping:database/STRONGAYA_Flyover_DATA_LABELS_2026_08_13_1756",
+      "@type": "mapping:Database",
+      "name": "STRONGAYA_Flyover_DATA_LABELS_2026_08_13_1756",
+      "description": "INT Redcap export",
+      "locale": "it_IT",
+      "tables": {
+        "data": {
+          "@id": "mapping:table/STRONGAYA_Flyover_DATA_LABELS_2026_08_13_1756/data",
+          "@type": "mapping:Table",
+          "sourceFile": "STRONGAYA_Flyover_DATA_LABELS_2026_08_13_1756",
+          "description": "",
+          "columns": {
+            "age_at_initial_diagnosis": {
+              "mapsTo": "schema:variable/age_at_initial_diagnosis",
+              "localColumn": "age_at_initial_diagnosis"
+            },
+            "cancer_progression_event_time": {
+              "mapsTo": "schema:variable/cancer_progression_event_time",
+              "localColumn": "col_1st_cancer_progression_event_time"
+            },
+            "cancer_progression_follow_ups": {
+              "mapsTo": "schema:variable/cancer_progression_follow_ups",
+              "localColumn": "cancer_progression_follow_ups"
+            },
+            "chemotherapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "chemotherapy"
+            },
+            "comorb_aids": {
+              "mapsTo": "schema:variable/comorb_aids",
+              "localColumn": "comorb_aids"
+            },
+            "comorb_chf": {
+              "mapsTo": "schema:variable/comorb_chf",
+              "localColumn": "comorb_chf"
+            },
+            "comorb_ctd": {
+              "mapsTo": "schema:variable/comorb_ctd",
+              "localColumn": "comorb_ctd"
+            },
+            "comorb_cva_tia": {
+              "mapsTo": "schema:variable/comorb_cva_tia",
+              "localColumn": "comorb_cva_tia"
+            },
+            "comorb_dementia": {
+              "mapsTo": "schema:variable/comorb_dementia",
+              "localColumn": "comorb_dementia"
+            },
+            "comorb_dm": {
+              "mapsTo": "schema:variable/comorb_dm",
+              "localColumn": "comorb_dm"
+            },
+            "comorb_hemiplegia": {
+              "mapsTo": "schema:variable/comorb_hemiplegia",
+              "localColumn": "comorb_hemiplegia"
+            },
+            "comorb_kidney": {
+              "mapsTo": "schema:variable/comorb_kidney",
+              "localColumn": "comorb_kidney"
+            },
+            "comorb_leukemia": {
+              "mapsTo": "schema:variable/comorb_leukemia",
+              "localColumn": "comorb_leukemia"
+            },
+            "comorb_liver": {
+              "mapsTo": "schema:variable/comorb_liver",
+              "localColumn": "comorb_liver"
+            },
+            "comorb_lung": {
+              "mapsTo": "schema:variable/comorb_lung",
+              "localColumn": "comorb_lung"
+            },
+            "comorb_mi": {
+              "mapsTo": "schema:variable/comorb_mi",
+              "localColumn": "comorb_mi"
+            },
+            "comorb_pad": {
+              "mapsTo": "schema:variable/comorb_pad",
+              "localColumn": "comorb_pad"
+            },
+            "comorb_pud": {
+              "mapsTo": "schema:variable/comorb_pud",
+              "localColumn": "comorb_pud"
+            },
+            "comorb_solid_tumour": {
+              "mapsTo": "schema:variable/comorb_solid_tumour",
+              "localColumn": "comorb_solid_tumour"
+            },
+            "distant_metastases": {
+              "mapsTo": "schema:variable/distant_metastases",
+              "localColumn": "distant_metastases"
+            },
+            "hormone_therapy": {
+              "mapsTo": "schema:variable/hormone_therapy",
+              "localColumn": "hormone_therapy"
+            },
+            "immunotherapy": {
+              "mapsTo": "schema:variable/immunotherapy",
+              "localColumn": "immunotherapy"
+            },
+            "lymph_nodes_examined": {
+              "mapsTo": "schema:variable/lymph_nodes_examined",
+              "localColumn": "Regional_node_metastases"
+            },
+            "overall_stage": {
+              "mapsTo": "schema:variable/overall_stage",
+              "localColumn": "Stage_at_diagnosis_before_any_treatment"
+            },
+            "radiotherapy": {
+              "mapsTo": "schema:variable/radiotherapy",
+              "localColumn": "radiotherapy"
+            },
+            "surgery": {
+              "mapsTo": "schema:variable/surgery",
+              "localColumn": "surgery"
+            },
+            "survival_event_time": {
+              "mapsTo": "schema:variable/survival_event_time",
+              "localColumn": "Days_from_diagnosis_to_Date_of_last_contact"
+            },
+            "survival_status": {
+              "mapsTo": "schema:variable/survival_status",
+              "localColumn": "survival_status"
+            },
+            "targeted_therapy": {
+              "mapsTo": "schema:variable/targeted_therapy",
+              "localColumn": "targeted_therapy"
+            },
+            "treatment_intent": {
+              "mapsTo": "schema:variable/treatment_intent",
+              "localColumn": "treatment_intent"
+            },
+            "tumour_size": {
+              "mapsTo": "schema:variable/tumour_size",
+              "localColumn": "Tumor_size_The_longest_diameter_semicolon_longest_dimension_between_pre_operatory_imaging_and_pathological_specimen_dot"
+            },
+            "year_of_initial_diagnosis": {
+              "mapsTo": "schema:variable/year_of_initial_diagnosis",
+              "localColumn": "Date_of_first_diagnosis"
+            },
+            "ethnicity": {
+              "mapsTo": "schema:variable/ethnicity",
+              "localColumn": "Ethnicity"
+            },
+            "educational_level": {
+              "mapsTo": "schema:variable/educational_level",
+              "localColumn": "Education_ISCED_classification"
+            },
+            "biological_sex": {
+              "mapsTo": "schema:variable/biological_sex",
+              "localColumn": "Gender"
+            },
+            "romantic_partnership_status": {
+              "mapsTo": "schema:variable/romantic_partnership_status",
+              "localColumn": "Marital_status"
+            },
+            "tumour_topography_or_location_icd_o": {
+              "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
+              "localColumn": "Tumor_site"
+            },
+            "tumour_morphology_icd_10": {
+              "mapsTo": "schema:variable/tumour_morphology_icd_10",
+              "localColumn": "Histotype_WHO_2020"
+            }
+          }
+        }
+      }
+    }
+  }
 }
