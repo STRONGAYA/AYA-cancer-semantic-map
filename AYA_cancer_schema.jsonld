@@ -9478,7 +9478,8 @@
                   "AO02"
                 ],
                 "unable_to_answer": [
-                  "AO03"
+                  "AO03",
+                  "AO05"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9496,7 +9497,8 @@
                   "AO02"
                 ],
                 "unable_to_answer": [
-                  "AO03"
+                  "AO03",
+                  "AO05"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -9529,7 +9531,8 @@
                   "AO01"
                 ],
                 "unable_to_answer": [
-                  "AO03"
+                  "AO03",
+                  "AO05"
                 ],
                 "no": [
                   "AO02"
@@ -10921,6 +10924,9 @@
                 ],
                 "missing_or_unspecified": [
                   ""
+                ],
+                "not_applicable": [
+                  "N/A"
                 ]
               }
             },
@@ -10942,6 +10948,9 @@
                 ],
                 "missing_or_unspecified": [
                   ""
+                ],
+                "not_applicable": [
+                  "N/A"
                 ]
               }
             },
@@ -10964,6 +10973,10 @@
                 "missing_or_unspecified": [
                   "Nie dotyczy",
                   ""
+                ],
+                "not_applicable": [
+                  "N/A",
+                  "Nie dotyczy"
                 ]
               }
             },
@@ -11647,7 +11660,8 @@
                   "AO01"
                 ],
                 "unable_to_answer": [
-                  "AO03"
+                  "AO03",
+                  "AO05"
                 ],
                 "missing_or_unspecified": [
                   ""
@@ -11762,6 +11776,122 @@
                 ],
                 "excellent": [
                   "Doskonale"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "immunotherapy": {
+              "mapsTo": "schema:variable/immunotherapy",
+              "localColumn": "Immunotherapy",
+              "localMappings": {
+                "no": [
+                  "no"
+                ],
+                "yes": [
+                  "yes"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "radiotherapy": {
+              "mapsTo": "schema:variable/radiotherapy",
+              "localColumn": "Radiotherapy",
+              "localMappings": {
+                "no": [
+                  "no"
+                ],
+                "yes": [
+                  "yes"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "surgery": {
+              "mapsTo": "schema:variable/surgery",
+              "localColumn": "Surgery",
+              "localMappings": {
+                "no": [
+                  "no"
+                ],
+                "yes": [
+                  "yes"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "chemotherapy": {
+              "mapsTo": "schema:variable/chemotherapy",
+              "localColumn": "Chemotherapy",
+              "localMappings": {
+                "no": [
+                  "no"
+                ],
+                "yes": [
+                  "yes"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "year_of_initial_diagnosis": {
+              "mapsTo": "schema:variable/year_of_initial_diagnosis",
+              "localColumn": "Year_of_initial_diagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "educational_level": {
+              "mapsTo": "schema:variable/educational_level",
+              "localColumn": "Educational_level",
+              "localMappings": {
+                "ISCED-3": [
+                  "srednie"
+                ],
+                "ISCED-5": [
+                  "Wyzsze"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "occupational": {
+              "mapsTo": "schema:variable/occupational",
+              "localColumn": "Occupational",
+              "localMappings": {
+                "unemployed": [
+                  "unemployed"
+                ],
+                "working_full_time": [
+                  "Tak"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
+            },
+            "biological_sex": {
+              "mapsTo": "schema:variable/biological_sex",
+              "localColumn": "Biological_sex",
+              "localMappings": {
+                "male": [
+                  "M",
+                  "AO01"
+                ],
+                "female": [
+                  "K",
+                  "AO02"
                 ],
                 "missing_or_unspecified": [
                   ""
