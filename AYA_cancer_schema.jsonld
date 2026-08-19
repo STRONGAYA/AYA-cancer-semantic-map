@@ -9268,8 +9268,17 @@
             "declared_deceased": {
               "targetClass": "ncit:C99799"
             },
+            "dead": {
+              "targetClass": "ncit:C99799"
+            },
             "presumed_deceased": {
               "targetClass": "ncit:C99798"
+            },
+            "outliers": {
+              "targetClass": "ncit:C54031"
+            },
+            "na": {
+              "targetClass": "ncit:C48660"
             },
             "missing_or_unspecified": {
               "targetClass": "ncit:C54031"
