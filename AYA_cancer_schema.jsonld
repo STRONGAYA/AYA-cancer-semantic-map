@@ -9373,155 +9373,450 @@
           "columns": {
             "age_at_initial_diagnosis": {
               "mapsTo": "schema:variable/age_at_initial_diagnosis",
-              "localColumn": "age_at_initial_diagnosis"
+              "localColumn": "age_at_initial_diagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "cancer_progression_event_time": {
               "mapsTo": "schema:variable/cancer_progression_event_time",
-              "localColumn": "col_1st_cancer_progression_event_time"
+              "localColumn": "col_1st_cancer_progression_event_time",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "cancer_progression_follow_ups": {
               "mapsTo": "schema:variable/cancer_progression_follow_ups",
-              "localColumn": "cancer_progression_follow_ups"
+              "localColumn": "cancer_progression_follow_ups",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "chemotherapy": {
               "mapsTo": "schema:variable/chemotherapy",
-              "localColumn": "chemotherapy"
+              "localColumn": "chemotherapy",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_aids": {
               "mapsTo": "schema:variable/comorb_aids",
-              "localColumn": "comorb_aids"
+              "localColumn": "comorb_aids",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_chf": {
               "mapsTo": "schema:variable/comorb_chf",
-              "localColumn": "comorb_chf"
+              "localColumn": "comorb_chf",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_ctd": {
               "mapsTo": "schema:variable/comorb_ctd",
-              "localColumn": "comorb_ctd"
+              "localColumn": "comorb_ctd",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_cva_tia": {
               "mapsTo": "schema:variable/comorb_cva_tia",
-              "localColumn": "comorb_cva_tia"
+              "localColumn": "comorb_cva_tia",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_dementia": {
               "mapsTo": "schema:variable/comorb_dementia",
-              "localColumn": "comorb_dementia"
+              "localColumn": "comorb_dementia",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_dm": {
               "mapsTo": "schema:variable/comorb_dm",
-              "localColumn": "comorb_dm"
+              "localColumn": "comorb_dm",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_hemiplegia": {
               "mapsTo": "schema:variable/comorb_hemiplegia",
-              "localColumn": "comorb_hemiplegia"
+              "localColumn": "comorb_hemiplegia",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_kidney": {
               "mapsTo": "schema:variable/comorb_kidney",
-              "localColumn": "comorb_kidney"
+              "localColumn": "comorb_kidney",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_leukemia": {
               "mapsTo": "schema:variable/comorb_leukemia",
-              "localColumn": "comorb_leukemia"
+              "localColumn": "comorb_leukemia",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_liver": {
               "mapsTo": "schema:variable/comorb_liver",
-              "localColumn": "comorb_liver"
+              "localColumn": "comorb_liver",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_lung": {
               "mapsTo": "schema:variable/comorb_lung",
-              "localColumn": "comorb_lung"
+              "localColumn": "comorb_lung",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_mi": {
               "mapsTo": "schema:variable/comorb_mi",
-              "localColumn": "comorb_mi"
+              "localColumn": "comorb_mi",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_pad": {
               "mapsTo": "schema:variable/comorb_pad",
-              "localColumn": "comorb_pad"
+              "localColumn": "comorb_pad",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_pud": {
               "mapsTo": "schema:variable/comorb_pud",
-              "localColumn": "comorb_pud"
+              "localColumn": "comorb_pud",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "comorb_solid_tumour": {
               "mapsTo": "schema:variable/comorb_solid_tumour",
-              "localColumn": "comorb_solid_tumour"
+              "localColumn": "comorb_solid_tumour",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "distant_metastases": {
               "mapsTo": "schema:variable/distant_metastases",
-              "localColumn": "distant_metastases"
+              "localColumn": "distant_metastases",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "hormone_therapy": {
               "mapsTo": "schema:variable/hormone_therapy",
-              "localColumn": "hormone_therapy"
+              "localColumn": "hormone_therapy",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "immunotherapy": {
               "mapsTo": "schema:variable/immunotherapy",
-              "localColumn": "immunotherapy"
+              "localColumn": "immunotherapy",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "lymph_nodes_examined": {
               "mapsTo": "schema:variable/lymph_nodes_examined",
-              "localColumn": "Regional_node_metastases"
+              "localColumn": "Regional_node_metastases",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "overall_stage": {
               "mapsTo": "schema:variable/overall_stage",
-              "localColumn": "Stage_at_diagnosis_before_any_treatment"
+              "localColumn": "Stage_at_diagnosis_before_any_treatment",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "radiotherapy": {
               "mapsTo": "schema:variable/radiotherapy",
-              "localColumn": "radiotherapy"
+              "localColumn": "radiotherapy",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "surgery": {
               "mapsTo": "schema:variable/surgery",
-              "localColumn": "surgery"
+              "localColumn": "surgery",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "survival_event_time": {
               "mapsTo": "schema:variable/survival_event_time",
-              "localColumn": "Days_from_diagnosis_to_Date_of_last_contact"
+              "localColumn": "Days_from_diagnosis_to_Date_of_last_contact",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "survival_status": {
               "mapsTo": "schema:variable/survival_status",
-              "localColumn": "survival_status"
+              "localColumn": "survival_status",
+              "localMappings": {
+                "alive": [
+                  "1"
+                ],
+                "declared_deceased": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "targeted_therapy": {
               "mapsTo": "schema:variable/targeted_therapy",
-              "localColumn": "targeted_therapy"
+              "localColumn": "targeted_therapy",
+              "localMappings": {
+                "no": [
+                  "0"
+                ],
+                "yes": [
+                  "1"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "treatment_intent": {
               "mapsTo": "schema:variable/treatment_intent",
-              "localColumn": "treatment_intent"
+              "localColumn": "treatment_intent",
+              "localMappings": {
+                "curative": [
+                  "1"
+                ],
+                "palliative": [
+                  "2"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_size": {
               "mapsTo": "schema:variable/tumour_size",
-              "localColumn": "Tumor_size_The_longest_diameter_semicolon_longest_dimension_between_pre_operatory_imaging_and_pathological_specimen_dot"
+              "localColumn": "Tumor_size_The_longest_diameter_semicolon_longest_dimension_between_pre_operatory_imaging_and_pathological_specimen_dot",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "year_of_initial_diagnosis": {
               "mapsTo": "schema:variable/year_of_initial_diagnosis",
-              "localColumn": "Date_of_first_diagnosis"
+              "localColumn": "Date_of_first_diagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "ethnicity": {
               "mapsTo": "schema:variable/ethnicity",
-              "localColumn": "Ethnicity"
+              "localColumn": "Ethnicity",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "educational_level": {
               "mapsTo": "schema:variable/educational_level",
-              "localColumn": "Education_ISCED_classification"
+              "localColumn": "Education_ISCED_classification",
+              "localMappings": {
+                "ISCED-4": [
+                  "University (ISCED 4-6)"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "biological_sex": {
               "mapsTo": "schema:variable/biological_sex",
-              "localColumn": "Gender"
+              "localColumn": "Gender",
+              "localMappings": {
+                "male": [
+                  "Male"
+                ],
+                "female": [
+                  "Female"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
-              "localColumn": "Marital_status"
+              "localColumn": "Marital_status",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_topography_or_location_icd_o": {
               "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
-              "localColumn": "Tumor_site"
+              "localColumn": "Tumor_site",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_morphology_icd_10": {
               "mapsTo": "schema:variable/tumour_morphology_icd_10",
-              "localColumn": "Histotype_WHO_2020"
+              "localColumn": "Histotype_WHO_2020",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             }
           }
         }
