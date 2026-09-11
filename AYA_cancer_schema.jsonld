@@ -9664,7 +9664,18 @@
             },
             "survival_status": {
               "mapsTo": "schema:variable/survival_status",
-              "localColumn": "survival_status"
+              "localColumn": "survival_status",
+              "localMappings": {
+                "alive": [
+                  "1"
+                ],
+                "declared_deceased": [
+                  "3"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "targeted_therapy": {
               "mapsTo": "schema:variable/targeted_therapy",
@@ -9683,7 +9694,18 @@
             },
             "treatment_intent": {
               "mapsTo": "schema:variable/treatment_intent",
-              "localColumn": "treatment_intent"
+              "localColumn": "treatment_intent",
+              "localMappings": {
+                "curative": [
+                  "1"
+                ],
+                "palliative": [
+                  "2"
+                ],
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_size": {
               "mapsTo": "schema:variable/tumour_size",
