@@ -9373,15 +9373,30 @@
           "columns": {
             "age_at_initial_diagnosis": {
               "mapsTo": "schema:variable/age_at_initial_diagnosis",
-              "localColumn": "age_at_initial_diagnosis"
+              "localColumn": "age_at_initial_diagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "cancer_progression_event_time": {
               "mapsTo": "schema:variable/cancer_progression_event_time",
-              "localColumn": "col_1st_cancer_progression_event_time"
+              "localColumn": "col_1st_cancer_progression_event_time",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "cancer_progression_follow_ups": {
               "mapsTo": "schema:variable/cancer_progression_follow_ups",
-              "localColumn": "cancer_progression_follow_ups"
+              "localColumn": "cancer_progression_follow_ups",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "chemotherapy": {
               "mapsTo": "schema:variable/chemotherapy",
@@ -9622,11 +9637,21 @@
             },
             "lymph_nodes_examined": {
               "mapsTo": "schema:variable/lymph_nodes_examined",
-              "localColumn": "Regional_node_metastases"
+              "localColumn": "Regional_node_metastases",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "overall_stage": {
               "mapsTo": "schema:variable/overall_stage",
-              "localColumn": "Stage_at_diagnosis_before_any_treatment"
+              "localColumn": "Stage_at_diagnosis_before_any_treatment",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "radiotherapy": {
               "mapsTo": "schema:variable/radiotherapy",
@@ -9660,7 +9685,12 @@
             },
             "survival_event_time": {
               "mapsTo": "schema:variable/survival_event_time",
-              "localColumn": "Days_from_diagnosis_to_Date_of_last_contact"
+              "localColumn": "Days_from_diagnosis_to_Date_of_last_contact",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "survival_status": {
               "mapsTo": "schema:variable/survival_status",
@@ -9709,35 +9739,75 @@
             },
             "tumour_size": {
               "mapsTo": "schema:variable/tumour_size",
-              "localColumn": "Tumor_size_The_longest_diameter_semicolon_longest_dimension_between_pre_operatory_imaging_and_pathological_specimen_dot"
+              "localColumn": "Tumor_size_The_longest_diameter_semicolon_longest_dimension_between_pre_operatory_imaging_and_pathological_specimen_dot",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "year_of_initial_diagnosis": {
               "mapsTo": "schema:variable/year_of_initial_diagnosis",
-              "localColumn": "Date_of_first_diagnosis"
+              "localColumn": "Date_of_first_diagnosis",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "ethnicity": {
               "mapsTo": "schema:variable/ethnicity",
-              "localColumn": "Ethnicity"
+              "localColumn": "Ethnicity",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "educational_level": {
               "mapsTo": "schema:variable/educational_level",
-              "localColumn": "Education_ISCED_classification"
+              "localColumn": "Education_ISCED_classification",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "biological_sex": {
               "mapsTo": "schema:variable/biological_sex",
-              "localColumn": "Gender"
+              "localColumn": "Gender",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "romantic_partnership_status": {
               "mapsTo": "schema:variable/romantic_partnership_status",
-              "localColumn": "Marital_status"
+              "localColumn": "Marital_status",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_topography_or_location_icd_o": {
               "mapsTo": "schema:variable/tumour_topography_or_location_icd_o",
-              "localColumn": "Tumor_site"
+              "localColumn": "Tumor_site",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             },
             "tumour_morphology_icd_10": {
               "mapsTo": "schema:variable/tumour_morphology_icd_10",
-              "localColumn": "Histotype_WHO_2020"
+              "localColumn": "Histotype_WHO_2020",
+              "localMappings": {
+                "missing_or_unspecified": [
+                  ""
+                ]
+              }
             }
           }
         }
