@@ -9768,6 +9768,9 @@
               "mapsTo": "schema:variable/educational_level",
               "localColumn": "Education_ISCED_classification",
               "localMappings": {
+                "ISCED-4": [
+                  "University (ISCED 4-6)"
+                ],
                 "missing_or_unspecified": [
                   ""
                 ]
@@ -9777,6 +9780,12 @@
               "mapsTo": "schema:variable/biological_sex",
               "localColumn": "Gender",
               "localMappings": {
+                "male": [
+                  "Male"
+                ],
+                "female": [
+                  "Female"
+                ],
                 "missing_or_unspecified": [
                   ""
                 ]
