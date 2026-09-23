@@ -9465,54 +9465,48 @@
                 ]
               }
             },
-            "pathological_t_stage": {
-              "mapsTo": "schema:variable/pathological_t_stage",
+            "clinical_t_stage": {
+              "mapsTo": "schema:variable/clinical_t_stage",
               "localColumn": "t",
               "localMappings": {
                 "x": [
-                  "TX",
-                  "x"
+                  "TX"
                 ],
                 "0": [
                   "T0",
-                  "Tis",
-                  "0"
+                  "Tis"
                 ],
                 "1": [
                   "T1",
                   "T1a",
                   "T1b",
                   "T1c",
-                  "T1mi",
-                  "1"
+                  "T1mi"
                 ],
                 "2": [
                   "T2",
                   "T2a",
-                  "T2b",
-                  "2"
+                  "T2b"
                 ],
                 "3": [
                   "T3",
                   "T3a",
                   "T3b",
-                  "T3c",
-                  "3"
+                  "T3c"
                 ],
                 "4": [
                   "T4",
                   "T4a",
                   "T4b",
-                  "T4d",
-                  "4"
+                  "T4d"
                 ],
                 "missing_or_unspecified": [
                   ""
                 ]
               }
             },
-            "pathological_n_stage": {
-              "mapsTo": "schema:variable/pathological_n_stage",
+            "clinical_n_stage": {
+              "mapsTo": "schema:variable/clinical_n_stage",
               "localColumn": "n",
               "localMappings": {
                 "x": [
@@ -9545,8 +9539,8 @@
                 ]
               }
             },
-            "pathological_m_stage": {
-              "mapsTo": "schema:variable/pathological_m_stage",
+            "clinical_m_stage": {
+              "mapsTo": "schema:variable/clinical_m_stage",
               "localColumn": "m",
               "localMappings": {
                 "0": [
